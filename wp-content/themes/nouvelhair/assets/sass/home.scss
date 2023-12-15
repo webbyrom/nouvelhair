@@ -1,0 +1,388 @@
+/*********
+home-post
+***/
+.title-news {
+    height: 50px;
+    //z-index: auto;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    // background: transparent;
+}
+
+.Nvh-news {
+    background-image: $bgarchlierre;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    //opacity: 0.5;
+}
+
+// présentation image et texte
+.Nvh-cadre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+
+    //justify-content: space-around;
+    .Nvh-col-prez-img {
+        width: 33%;
+    }
+
+    .Nvh-col-prez-text {
+        width: 40%;
+        border: 1px solid $TextPrezbord;
+        padding: 1rem;
+        border-radius: 5px;
+        position: relative;
+        box-shadow: 5px 10px 20px $PrezBoxShadow;
+        background-color: white;
+       // background-image: $PrezbgLinear;
+        animation: moveRight $deplacement-duree 2 alternate;
+        
+        .text-prez {
+            margin-bottom: 4rem;
+            //padding: 1rem;
+            .Nvh-textqsj{
+               // border-left: 1px solid darkcyan;
+                padding: 2rem;
+                
+            }
+            p{
+                line-height: 2.2rem;
+            }
+            p::first-line{
+                padding-left: 30px;
+                
+            }
+            p::first-letter{
+                color: rgb(14, 14, 14);
+                font-size: xx-large;
+                background-image: $PrezbgLinear;
+              //  background-color: rgb(174, 198, 221);
+                padding: 2px 12px;
+                border: 1px solid rgb(105, 102, 102);
+                border-start-start-radius: 20px;
+                border-end-end-radius:20px;
+                letter-spacing: 2px;
+                
+            }
+
+        }
+
+            /* Style de base pour le bouton */
+        .Nvh-btn-qsj {
+            padding: 10px 20px;
+            border: 1px solid lightslategray;
+            transition: background-color 0.8s ease-in-out, border 0.8s ease-in-out;
+            
+            /* Style pour le texte à l'intérieur du bouton */
+            .Nvh-button-salon {
+                color: darkviolet;
+                transition: color 0.8s ease-in-out;
+            }
+
+            /* Style lorsque le curseur survole le bouton */
+            &:hover {
+                background-color: rgba(40, 14, 144, 0.4);
+                border: 1px solid rgb(80, 78, 78);
+
+                /* Style du texte lorsque le bouton est survolé */
+                .Nvh-button-salon {
+                    color: white;
+                }
+            }
+            /* Style du texte lorsque le lien a été visité */
+            .Nvh-button-salon:visited {
+            color: black; /* Changez cette couleur selon vos préférences */
+            }
+        }
+
+    }
+    // Définition de l'animation SCSS
+    @keyframes moveRight {
+        0% {
+            transform: translateY(0);
+        }
+
+       50% {
+            transform: translateY($deplacement-distance);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+}
+
+// photo de présentation arrondie
+.circle-container {
+    display: inline-block;
+}
+
+// Styles du cercle
+.circle-img {
+    left: 4rem;
+    width: 23rem;
+    height: 23rem;
+    border-radius: 50%; // Forme de cercle
+    overflow: hidden; // Cacher le contenu débordant (l'image)
+    transition: transform 2s; // Transition pour l'effet de zoom
+    box-shadow: 3px 5px 10px $circleImgBs;
+
+    img {
+        width: 100%;
+        object-fit: cover; // Redimensionner l'image tout en maintenant son ratio
+        filter: sepia(20%);
+    }
+
+    // Effet de zoom au survol
+    &:hover {
+        transform: scale(1.2); // Agrandir l'image au survol
+    }
+}
+
+/******
+button filter
+*/
+.filter-button {
+    //width: 120px !important;
+    line-height: 1rem !important;
+    background-color: $bgfilter;
+    border: none;
+    color: $filterFont;
+    margin-right: 5px;
+    margin-bottom: 3rem;
+    height: 2rem;
+    border-radius: 5px;
+    transition:
+        color 0.7s,
+        background-color 0.7s ease-in-out;
+
+    &:hover,
+    :focus {
+        background-color: $bgFilterh;
+        color: $filterFh;
+        border: 1px solid $borderFilterH;
+    }
+}
+
+.Nvh-filter {
+    height: 2rem;
+    margin-bottom: 6rem;
+    padding-top: 6rem;
+
+    .active {
+        background-color: $filterActbg;
+        color: $fontActcolor;
+        border: 1px solid $boderActFilter;
+    }
+}
+
+.filtered-articles.loading {
+    position: relative;
+    height: 530px;
+}
+
+.filtered-articles.loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 4px solid $spinnerBorder;
+    border-top-color: $spinnertopB;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.Nvh-home {
+    display: flex;
+    flex-direction: column;
+
+    .Nvh-presentation {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Nvh-bubble {
+        position: absolute;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        z-index: -1;
+        box-shadow: 0px 2px 5px $BubleBs;
+        animation: floating  10s infinite ease-in-out;
+    }
+
+    @keyframes floating {
+
+        0%,
+        100% {
+            transform: translateY(O);
+        }
+
+        50% {
+            transform: translateY(-10px);
+            transform: translateX(2px);
+        }
+    }
+
+    #Nvh_bubble1 {
+        top: 30rem;
+        left: 15rem;
+    }
+
+    #Nvh_bubble2 {
+        top: 45rem;
+        left: 20rem;
+    }
+
+    #Nvh_bubble3 {
+        top: 55rem;
+        right: 30rem;
+    }
+
+    .Nvh-all-cat {
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    //card home page
+    .Nvh-post-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .card {
+            transition:
+                opacity 1s,
+                height 0.4s ease-in-out;
+        }
+
+        .card.hidden {
+            opacity: 0;
+            height: 0;
+        }
+
+        .Nvh-card-home {
+            transition:
+                transform 0.4s,
+                box-shadow 0.4s ease-in-out;
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+            padding-bottom: 1rem;
+
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: 10px 5px 10px $cardbshadow;
+            }
+
+            .Nvh-image-container-card {
+                position: relative;
+                overflow: hidden;
+            }
+
+            img {
+                width: 22rem;
+                height: 15rem;
+                transition: transform 0.6s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+
+            .card-body {
+                background-color: floralwhite;;
+               // background-color: $cardbgtext;
+               // opacity: 0.7;
+
+                .card-title a {
+                    color: $colorlinkT;
+                }
+            }
+
+            .Nvh-post-text {
+                overflow: hidden;
+                background-color: $colrBgcard !important;
+                margin-top: 1rem;
+                padding: 0px 20px;
+                margin-bottom: 1rem;
+                transition:
+                    transform 0.8s,
+                    box-shadow 0.5s ease-in-out,
+                    background-color 0.6s ease-out;
+                p{
+                    background-color: none;
+                    transition: background-color 0.8s ease-in-out,
+                    box-shadow 0.8s ease-in-out;
+                    &:hover{
+                        background-color: rgb(232, 219, 219);
+                        box-shadow: 2px 6px 20px lightgray;
+                        padding: 10px 10px;
+                        border-radius: 1rem;
+
+                    }
+                }
+                &:hover {
+                    transform: translateY(-18px);
+                    box-shadow: 1px 2px 11px $bstextcard;
+
+                }
+            }
+
+            a.btn-Nvh-color {
+                display: inline-block;
+                padding: 10px 20px;
+                border: 1px solid $btnbordercolor;
+                border-radius: 10px;
+                position: relative;
+                /* Ajouter une position relative pour contrôler le contenu positionné à l'intérieur */
+                color: $btnfontcolor;
+                /* Couleur du texte par défaut */
+                text-decoration: none;
+                overflow: hidden;
+
+                /* Masquer le contenu débordant du bouton */
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-image: $btnhoveffect;
+                    transform: scaleX(0);
+                    transform-origin: left;
+                    transition: transform 1.6s;
+                    z-index: -1;
+                }
+
+                &:hover::before {
+                    transform: scale(1);
+
+                }
+            }
+        }
+    }
+
+}

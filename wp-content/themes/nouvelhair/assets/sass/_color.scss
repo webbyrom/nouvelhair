@@ -1,0 +1,125 @@
+/**********
+file vars colors css
+*****/
+//variables de déplacement du texte de présentation
+$deplacement-distance: 50px;
+$deplacement-duree: 4s;
+// variables icon burger menu rsponsive
+$menu-icon-bg: #052b23;
+$menu-icon-color: #FFF;
+$tempo-icon: 0.5s;
+
+// color vars 
+// color NavBar
+ $nav-link: black;
+ $nav-linkH: lightgreen;
+ $Navstickybg: white;
+ $NavBshadow: white;
+
+// color background linear underlining
+ $UnderLineFirst: #ccf2ff;
+ $UnderLineSec: #1ac6ff;
+ $UnderLineThi: #33ffad;
+ $UnderLineFour: #66c2ff;
+
+//box-shadow slider home-page
+ $Nvhsliderbs:gray;
+// trait sous le titre
+$Nvhtrtitle: linear-gradient(to left, $UnderLineFirst, $UnderLineSec, $UnderLineThi, $UnderLineFour);
+// image de fond du circle au niveau de la présentation
+$NvhimgNews: url(http://localhost/Nouvelhair/wp-content/uploads/2023/10/Bglierrefloute.png);
+
+// Bordure texte de présentation et linear gradient du background du texte
+$TextPrezbord: lightgray;
+$PrezBoxShadow: gray;
+$PrezbgLinear: linear-gradient(295deg, rgb(166, 247, 208) 50%, white 77%);
+
+// box-shadow image ronde de la présentation
+$circleImgBs: gray;
+
+// couleur des filtres de la page accueil
+$bgfilter: #71a6d1e6;
+$filterFont: white;
+$filterFh:#71a6d1e6; 
+$bgFilterh: white;
+$borderFilterH: #71a6d1e6;
+    // couleur des filtres actif
+$filterActbg: white;
+$fontActcolor: #71a6d1e6;
+$boderActFilter: #71a6d1e6;
+    // spinner pour les filtres
+$spinnerBorder :#6babad;
+$spinnertopB: #4c657a;
+
+// box-shadow pour créer l'effet bulle
+$BubleBs:rgba(0, 0, 0, 0.2);
+
+//box-shadow des cartes des articles
+$cardbshadow:grey;
+    //couleurs background du titre des cartes
+$cardbgTitle: #b7eac2;
+    // couleurs liens des titres
+$colorlinkT: black;
+    // couleur background du texte
+$colrBgcard: #fcfbfb;
+    //box-shadow du texte 
+$bstextcard: lightgrey;
+    //couleur bordure du bouton
+$btnbordercolor: lightseagreen;
+    // couleur de la police du bouton
+$btnfontcolor: black;
+    // effet du bouton au hover
+$btnhoveffect: linear-gradient(45deg,white 0%, lightblue 100%);
+// couleur background texte des cartes
+$cardbgtext: rgb(84 164 229 / 90%);
+//page 404, couleur de la police du titre
+$fontcolrtitle: white;
+
+// single-post
+    //box-shadow image
+$sinpobs: black;
+    //background single-text
+$sintexbg: linear-gradient(295deg, rgb(166, 247, 208) 50%, white 77%);
+    //bordure du texte
+$singpotextbd: lightblue ;
+    //box-shadow du texte
+$bstextsingp: black;
+
+//single-price background
+$Pricebg: lightcyan;
+// archive texte impair
+$sintimpbg: linear-gradient(295deg, rgba(113, 166, 209, 0.9019607843) 50%, white 77%);
+//archive texte pairs
+$siintpbg:linear-gradient(295deg, rgb(166, 247, 208) 50%, white 77%);
+//page archive(tous les articles)
+$bgarchlierre: url(http://localhost/Nouvelhair/wp-content/uploads/2023/10/Bglierrefloute.png);
+//Footer couleur
+$bordfootclr: lightgray;
+$footlinbg: linear-gradient(295deg, rgb(166, 247, 208) 50%, white 77%);
+
+//background flip coiffure enfant
+$bgcoupeKid : url(https://nouvelhair.web-byrom.com/wp-content/uploads/2023/08/AdobeStock_243552930_Preview.jpeg);
+// background-color  texte coté massage
+$bgcm : linear-gradient(295deg, rgba(127, 183, 229, 0.902) 50%, white 77%);
+$bgcmCont: ghostwhite;
+//$bgcmCont: linear-gradient(-295deg, white -5%, ghostwhite 77%);acienne couleur 
+// background-color single-ayurvediqe
+$bgayurSing:linear-gradient(350deg, rgba(127, 183, 229, 0.902) 50%, white 77%);
+$bordayurSing:1px solid lightgray;
+// font-color single-ayurv
+$SingAyurtext: #363535;
+//background-color accordion ayurvedique
+$backgayurAccor: linear-gradient(350deg, rgba(127, 183, 229, 0.902) 50%, white 77%);
+// color font accordion 
+$AyurFontcolor: rgb(28 143 133); 
+//background-color button plus d'infos
+$bgplusInfo: linear-gradient(295deg, rgba(127, 183, 229, 0.902) 50%, white 77%); 
+$bgplushover: linear-gradient(295deg,white 50%, rgba(127, 183, 229, 0.902) 77%);
+// police du site
+$Greatv : "Great Vibes";
+$dancings: "Dancing Script";
+$Tillareg : "Tillana";
+$Tillamed : "Tillana-Medium";
+$Tillanbol : "Tillana-Bold";
+$TillanSb: "Tillana-SemiBold";
+$TillanExtb: "Tillana-ExtraBold";

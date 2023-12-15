@@ -1,0 +1,156 @@
+/* scss de la page contact*/
+// page contact/infos
+.page-template-contact {
+    .Nvh-secondary-content {
+        background-image: $bgarchlierre;
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative;
+        background-position: center;
+        z-index: 0;
+    }
+
+    h2 {
+        padding-top: 0;
+    }
+
+    .Nvh-contact-hours {
+        left: -1000px;
+        position: relative;
+        padding: 2rem;
+        width: 30rem;
+        background-color: rgb(255, 255, 255);
+        opacity: 0;
+        transition: left 2s, opacity 3s, background-color 2s, box-shadow 6s;
+        margin-bottom: 4rem;
+        border: 1px solid lightgrey;
+        overflow-x: hidden;
+    }
+
+    //pour centrer les horaires 
+    .Nvh-contact-horaires {
+        margin: auto;
+        position: relative;
+        left: -2rem;
+    }
+
+    .Nvh-move {
+        left: 0;
+        z-index: 1;
+        opacity: 1;
+        background-color: lightcyan;
+        border-radius: 10px;
+        box-shadow: 5px 10px 20px gray;
+
+    }
+
+    .Nvh-contact-conges {
+        position: relative;
+        padding: 2rem;
+        width: 30rem;
+        margin-bottom: 4rem;
+        opacity: 0;
+        transition: opacity 4s, background-color 3s, border-radius 2s, box-shadow 4s;
+    }
+
+    .Nvh-move-conge {
+        position: relative;
+        background-color: rgb(170, 219, 235);
+        opacity: 1;
+        border-radius: 10px;
+        border: 1px solid lightgray;
+        box-shadow: 5px 10px 20px gray;
+    }
+
+    .Nvh-contact-info {
+        right: -1000px;
+        font-size: larger;
+        position: relative;
+        overflow-x: hidden;
+        padding: 2rem;
+        width: 30rem;
+        //background-color:rgb(255,255,255);
+        opacity: 0;
+        transition: right 2s, opacity 3s, background-color 2s, box-shadow 6s;
+        margin-bottom: 4rem;
+        border: 1px solid lightgrey;
+
+        .Nvh-contact-tel {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+
+            .Nvh-tel-contact {
+                //display: contents;
+                line-height: 2.5rem;
+                color: chocolate;
+                transition: font-size 0.4s ease-in-out;
+
+                //font-style: oblique;
+                &:hover {
+                    font-size: larger;
+                }
+
+                .dashicons-phone {
+                    font-size: x-large;
+                    position: relative;
+                    transform: rotate(114deg);
+
+                    &:before {
+                        line-height: 1rem;
+                    }
+                }
+            }
+        }
+        .Nvh-info-adress{
+            cursor: pointer;
+            color: darkmagenta;
+        }
+
+        #Nvh_maps_container {
+            display: none;
+            position: fixed;
+            top: 30%;
+            left: 35%;
+            transform: translate(-35%, -30%);
+            z-index: 999; /* Assurez-vous que le conteneur modal est au-dessus du contenu */
+
+            #map {
+                width: 480px;
+                height: 480px;
+                position: absolute;
+                border: 1px solid #ccc;
+                border-radius: 1rem;
+                box-shadow: 4px 15px 35px black;
+               
+            }
+            .Nvh-maps-close {
+                position: absolute;
+                display: block;
+                bottom: 0;
+                border-radius: 1rem;
+                padding: 5px 10px;
+                border: 1px solid darkmagenta;
+                margin-bottom: 4px;
+                transition: color .4s ease-in-out, border .4s ease-in-out, background-color .4s ease-in-out;
+                &:hover {
+                    color: darkmagenta;
+                    border: 1px solid darkgray;
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+            }
+        }
+    }
+
+    .Nvh-move-info {
+        right: 0;
+        z-index: 1;
+        opacity: 1;
+        background-color: lightcyan;
+        border-radius: 10px;
+        box-shadow: 5px 10px 20px gray;
+    }
+}

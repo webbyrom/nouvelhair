@@ -1,0 +1,85 @@
+/***
+Style de la partie admin 
+
+*/
+.Nvh-admin-form-vide {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(21, 128, 128);
+    font-family: inherit;
+    font-weight: 600;
+}
+.Nvh-admin-form-vide h1 {
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+}
+.Nvh-admin-form-vide form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.Nvh-admin-form-vide form input {
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+}
+.Nvh-admin-form-vide form input:focus {
+    box-shadow: 10px 10px 20px black;
+    border: 2px solid #fbb59c;
+    outline: 1px solid white;
+}
+.Nvh-admin-form-vide form input.button-primary{
+    background: chocolate;
+    border: 1px solid white;
+}
+.Nvh-admin-form-vide form input.button-primary:hover{
+    color: chocolate;
+    background: white;
+    border: 1px solid chocolate;
+}
+.Nvh-admin-form-vide form label {
+    color: rgb(0, 0,0);
+    font-size: 15px;
+
+}
+.Nvh-admin-form-vide table {
+    text-align: justify;
+}
+.Nvh-admin-form-vide table thead {
+    background-color: #aec2c7;
+}
+.Nvh-admin-form-vide table thead tr th {
+    font-size: larger;
+    font-weight: 600!important;
+
+}
+.Nvh-admin-form-vide table thead tr th {
+    border: 1px solid grey;
+    text-align: center;
+}
+.Nvh-admin-form-vide table tbody tr td {
+    border: 1px solid grey;
+    text-align: center;
+}
+.Nvh-admin-form-vide table tbody tr:hover {
+    background-color: chocolate;
+    color: white;
+}
+.Nvh-admin-form-vide table tbody tr td:hover{
+    /*background-color: chocolate;*/
+    color: white;
+}
+.Nvh-admin-form-vide table tbody tr td a {
+    width: 150px;
+}
+.Nvh-admin-form-vide table tbody tr td a:hover {
+    color: white;
+    font-size: larger;
+   
+    
+}

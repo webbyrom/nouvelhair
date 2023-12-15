@@ -1,0 +1,156 @@
+/*******************
+Page Côté massage
+*/
+.page-template-page-cote-massage {
+    .Nvh-ayur-massage {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background-color: $bgcmCont;
+        padding: 1rem;
+        border-radius: 1rem;
+
+        .Nvh-type-massage {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            // overflow: hidden;
+            position: relative;
+
+            .Nvh-ayr-texte {
+                width: 50%;
+                //opacity: 0;
+                background-image: $bgcm ;
+                border: 1px solid lightcyan;
+                padding: 1rem;
+                border-radius: 1rem;
+                box-shadow: 10px 5px 20px grey;
+                transition: box-shadow .8s ease-in-out;
+
+                &:hover {
+                    box-shadow: none;
+                }
+            }
+
+            .Nvh-ayur-image {
+                width: 350px;
+                border-radius: 1rem;
+
+                .Nvh-img-ayur {
+                    border-radius: 1rem;
+                    filter: grayscale(1);
+                    transition: filter .8s ease-in-out, box-shadow .8s ease-in-out;
+
+                    &:hover {
+                        filter: none;
+                        box-shadow: 10px 5px 30px black;
+                    }
+                }
+            }
+        }
+    }
+//partie accordion des massages Ayurvediques
+    .Nvh-ayurv-type {
+        box-shadow: 4px 0px 30px black;
+        padding: 0;
+
+        .accordion {
+            .Nvh-anchor{
+                position: relative;
+                top: -200px;
+            }
+            .Nvh-accordion-item {
+                // border-top: none;
+                position: relative;
+                z-index: 1;
+                .Nvh-title-ayur {
+                    padding: 0;
+                }
+                .Nvh-button-accordion-ayurv {
+                    font-size: xx-large;
+                    box-shadow: none;
+                    padding-left: 3rem;
+                    text-align: justify;
+                    transition: background-image 1s ease-in-out color 0.8s ease-in-out;
+
+                    &:hover {
+                        color: darkviolet;
+                    }
+                }
+
+                .accordion-button:not(.collapsed) {
+                    background-image: $backgayurAccor;
+                    color: $AyurFontcolor;
+                    font-weight: 700;
+
+                }
+
+
+                .accordion-body {
+                    display: inline-flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    justify-content: center;
+                    align-items: center;
+
+                    .Nvh-ayur-accor {
+                        display: flex;
+                        width: 20rem;
+                        margin-left: 0;
+                        margin-right: 2rem;
+
+                        .Img-Ayur-cm {
+                            width: 20rem;
+                            border-radius: 1rem;
+                        }
+                    }
+
+                    .Nvh-ayurlist-descr {
+                        width: 50rem;
+                        background-color: lavenderblush;
+                        border-radius: 1rem;
+                        font-size: x-large;
+                        line-height: 2rem;
+                        padding: 2rem;
+
+                        .Nvh-ayur-tarif {
+                            display: flex;
+
+                            span {
+                                font-size: x-large;
+                                font-weight: 500;
+                            }
+                        }
+
+                        .Nvh-ayurv-vp {
+                            width: auto;
+                            margin-top: 1rem;
+
+                            .Nvh-button-inf {
+                                background-color: rgba(48, 116, 234, 0.486);
+                                border: 1px solid white;
+                                position: relative;
+                                transition: background-color .6s ease-in-out, border .6s ease-in-out, color .6s ease-in-out;
+
+                                // overflow: hidden;
+                                /* Masquer le contenu débordant du bouton */
+                                &:hover {
+                                    background-color: ghostwhite;
+                                    border: 1px solid rgba(48, 116, 234, 0.486);
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+    }
+
+}

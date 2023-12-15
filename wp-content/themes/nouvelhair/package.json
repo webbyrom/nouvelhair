@@ -1,0 +1,12 @@
+{
+    "name": "nouvelhair",
+    "version": "1.0.0",
+    "description": "site internet",
+    "main": "index.js",
+    "scripts": {
+      "sass": "sass --watch ../../sass/style.scss:./nouvelhair/style.css"
+    },
+    "author": "Web-byRom",
+    "license": "ISC"
+  }
+  

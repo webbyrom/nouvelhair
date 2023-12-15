@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Salon de coiffure, salon de coiffure naturel, salon de coiffure Nouvel'Hair végétal,coiffeur végétal, teinture végétale, couleur naturelle, coupe homme, coupe enfant, coupe femme, salon de massage Ayurvédique, salon de massage Saint Symphorien sur Coise, Monts du Lyonnais ">
+    <meta name="description" content="salon de coiffure, salon de coiffure naturel, salon de coiffure végétal, coupe homme, coupe femme, coupe enfant, massage ayurvedique, salon coiffure 69590, salon de coiffure Saint Symphorien sur Coise">
+    <meta property="og:locale" content="fr-FR">
+    <meta property="og:title" content="Accueil Nouvel'Hair végétal Saint Symphorien sur Coise">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="salon de coiffure, salon de coiffure naturel, salon de coiffure végétal, coupe homme, coupe femme, coupe enfant, massage ayurvedique, salon coiffure 69590, salon de coiffure Saint Symphorien sur Coise">
+    <meta name="robots" content="follow, index, max-immage-preview:-1, max-video-preview:-1">
+    <meta name="googlebot" content="follow, index, max-image-preview:-1, max-video-preview:-1">
+    <title>Accueil Nouvel&#039;hair</title>
+    <meta name='robots' content='noindex, nofollow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.12 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Accueil - Nouvel&#039;hair</title>
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Accueil - Nouvel&#039;hair" />
+	<meta property="og:url" content="http://localhost/Nouvelhair/" />
+	<meta property="og:site_name" content="Nouvel&#039;hair" />
+	<meta property="article:modified_time" content="2023-07-27T13:41:25+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{
+	    "@context": "https://schema.org",
+	    "@graph": [
+	        {
+	            "@type": "WebPage",
+	            "@id": "http://localhost/Nouvelhair/",
+	            "url": "http://localhost/Nouvelhair/",
+	            "name": "Accueil - Nouvel&#039;hair",
+	            "isPartOf": {
+	                "@id": "http://localhost/Nouvelhair/#website"
+	            },
+	            "about": {
+	                "@id": "http://localhost/Nouvelhair/#organization"
+	            },
+	            "datePublished": "2023-06-20T14:35:38+00:00",
+	            "dateModified": "2023-07-27T13:41:25+00:00",
+	            "breadcrumb": {
+	                "@id": "http://localhost/Nouvelhair/#breadcrumb"
+	            },
+	            "inLanguage": "fr-FR",
+	            "potentialAction": [
+	                {
+	                    "@type": "ReadAction",
+	                    "target": [
+	                        "http://localhost/Nouvelhair/"
+	                    ]
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "BreadcrumbList",
+	            "@id": "http://localhost/Nouvelhair/#breadcrumb",
+	            "itemListElement": [
+	                {
+	                    "@type": "ListItem",
+	                    "position": 1,
+	                    "name": "Home"
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "WebSite",
+	            "@id": "http://localhost/Nouvelhair/#website",
+	            "url": "http://localhost/Nouvelhair/",
+	            "name": "Nouvel&#039;hair",
+	            "description": "Votre salon de coiffure et de bien-être sur Saint Symphorien sur Coise",
+	            "publisher": {
+	                "@id": "http://localhost/Nouvelhair/#organization"
+	            },
+	            "potentialAction": [
+	                {
+	                    "@type": "SearchAction",
+	                    "target": {
+	                        "@type": "EntryPoint",
+	                        "urlTemplate": "http://localhost/Nouvelhair/?s={search_term_string}"
+	                    },
+	                    "query-input": "required name=search_term_string"
+	                }
+	            ],
+	            "inLanguage": "fr-FR"
+	        },
+	        {
+	            "@type": "Organization",
+	            "@id": "http://localhost/Nouvelhair/#organization",
+	            "name": "Nouvel&#039;hair",
+	            "url": "http://localhost/Nouvelhair/",
+	            "logo": {
+	                "@type": "ImageObject",
+	                "inLanguage": "fr-FR",
+	                "@id": "http://localhost/Nouvelhair/#/schema/logo/image/",
+	                "url": "http://localhost/Nouvelhair/wp-content/uploads/2023/07/logo-nouvel-hair-vegetal2.svg",
+	                "contentUrl": "http://localhost/Nouvelhair/wp-content/uploads/2023/07/logo-nouvel-hair-vegetal2.svg",
+	                "width": 1,
+	                "height": 1,
+	                "caption": "Nouvel&#039;hair"
+	            },
+	            "image": {
+	                "@id": "http://localhost/Nouvelhair/#/schema/logo/image/"
+	            }
+	        }
+	    ]
+	}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Nouvel&#039;hair &raquo; Flux" href="http://localhost/Nouvelhair/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Nouvel&#039;hair &raquo; Flux des commentaires" href="http://localhost/Nouvelhair/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/Nouvelhair\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='http://localhost/Nouvelhair/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2' media='all' />
+<style id='wp-block-library-theme-inline-css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='classic-theme-styles-css' href='http://localhost/Nouvelhair/wp-includes/css/classic-themes.min.css?ver=6.2.2' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='css-css' href='http://localhost/Nouvelhair/wp-content/themes/nouvelhair/style.css?ver=6.2.2' media='all' />
+<link rel='stylesheet' id='Nvh-bootstrap-style-css' href='http://localhost/Nouvelhair/wp-content/themes/nouvelhair/assets/css/bootstrap/bootstrap.css?ver=6.2.2' media='all' />
+<script id='jquery-core-js-extra'>
+var ajax_params = {"ajax_url":"http:\/\/localhost\/Nouvelhair\/wp-admin\/admin-ajax.php"};
+</script>
+<script src='http://localhost/Nouvelhair/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
+<script src='http://localhost/Nouvelhair/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="http://localhost/Nouvelhair/wp-json/" /><link rel="alternate" type="application/json" href="http://localhost/Nouvelhair/wp-json/wp/v2/pages/6" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/Nouvelhair/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/Nouvelhair/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2.2" />
+<link rel='shortlink' href='http://localhost/Nouvelhair/' />
+<link rel="alternate" type="application/json+oembed" href="http://localhost/Nouvelhair/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2FNouvelhair%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://localhost/Nouvelhair/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2FNouvelhair%2F&#038;format=xml" />
+<meta name="generator" content="Powered by Slider Revolution 6.6.15 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="http://localhost/Nouvelhair/wp-content/uploads/2023/06/cropped-Plan-de-travail-1hdpi-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://localhost/Nouvelhair/wp-content/uploads/2023/06/cropped-Plan-de-travail-1hdpi-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://localhost/Nouvelhair/wp-content/uploads/2023/06/cropped-Plan-de-travail-1hdpi-180x180.png" />
+<meta name="msapplication-TileImage" content="http://localhost/Nouvelhair/wp-content/uploads/2023/06/cropped-Plan-de-travail-1hdpi-270x270.png" />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+</head>
+
+<body class="home page-template page-template-front-page page-template-front-page-php page page-id-6">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>    <header id="nvh_header" class="nvh-header">
+        <!---- nav menu---->
+        <nav id="Nvh_nav_menu" class="Nvh-nav-menu nav container-fluid"style="background-color: #f7f7f7" >
+            <!-----logo du site---->
+            <a href="http://localhost/Nouvelhair/" class="nav_logo" title="homepage">
+                <img src="http://localhost/Nouvelhair/wp-content/uploads/2023/07/logo-sans-fond.png" alt="" id="logo_img_header" class="logo-img-header">
+            </a>
+            <div id="Nvh_collapse" class="collapse Nvh-collapse"><ul id="Nvh_primary_nav nav_menu" class="Nvh-primary-nav nav-menu"><li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-30"><a href="http://localhost/Nouvelhair/" aria-current="page"><span>Accueil</span></a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://localhost/Nouvelhair/page-d-exemple/"><span>Page d’exemple</span></a></li>
+<li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164"><a href="http://localhost/Nouvelhair/page-404/"><span>Page 404</span></a></li>
+</ul></div>        </nav>
+    </header>
+    <div class="nvh-line"><!-----faire le csss pour créer un effet lumineux----></div>
+    <div id="Nvh-primary-content" class="Nvh-primary-content">
+        <div id="Nvh-secondary-content" class="Nvh-secondary-content">
+            <main id="Nvh-main" class="Nvh-main">
+<div class="Nvh-news-full">
+    <div class="Nvh-home-slider">
+        <!----slider here----->
+        
+			<!-- START accueil REVOLUTION SLIDER 6.6.15 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0px;">
+				<rs-module id="rev_slider_1_1" style="" data-version="6.6.15">
+					<rs-slides style="overflow: hidden; position: absolute;">
+						<rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-thumb="//localhost/Nouvelhair/wp-content/uploads/2023/06/carousel-1-50x100.jpg" data-anim="adpr:false;d:13;ms:1200ms;f:center;" data-filter="e:late;b:84px;g:51%;s:31px;i:10px;" data-in="mo:70;moo:none;o:0;x:ran(-20|20);y:ran(-20|20);r:ran(-40|40);sx:2;sy:2;e:elastic.out;row:20;col:20;" data-out="a:false;" data-alttrans="tp_webgl_mixfade_burn" data-mediafilter="perpetua">
+							<img src="//localhost/Nouvelhair/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="carousel-1" width="2000" height="1145" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//localhost/Nouvelhair/wp-content/uploads/2023/06/carousel-1.jpg" data-no-retina>
+<!---->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide" data-thumb="//localhost/Nouvelhair/wp-content/uploads/2023/06/carousel-4-50x100.jpg" data-anim="ms:1200ms;f:nodelay;" data-filter="b:2;" data-in="o:0;sx:1.2;sy:1.5;m:true;row:6;">
+							<img src="//localhost/Nouvelhair/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="carousel-4" width="2000" height="1145" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//localhost/Nouvelhair/wp-content/uploads/2023/06/carousel-4.jpg" data-no-retina>
+<!---->						</rs-slide>
+					</rs-slides>
+				</rs-module>
+				<script>
+					setREVStartSize({c: 'rev_slider_1_1',rl:[1240,1024,778,480],el:[500],gw:[1240],gh:[500],type:'standard',justify:'',layout:'fullwidth',mh:"0"});if (window.RS_MODULES!==undefined && window.RS_MODULES.modules!==undefined && window.RS_MODULES.modules["revslider11"]!==undefined) {window.RS_MODULES.modules["revslider11"].once = false;window.revapi1 = undefined;if (window.RS_MODULES.checkMinimal!==undefined) window.RS_MODULES.checkMinimal()}
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+			<div style="clear:both;display:block;width:100%;height:0px"></div>    </div>
+</div>
+
+<div class="container-fluid Nvh-news">
+    <h1 class="title-news">Nouvel&#039;hair-Accueil</h1>
+
+    <div class="underlining"></div>
+    <div class="Nvh-home container-fluid text-center" id="Nvh_home">
+        <div class="Nvh-presentation container-fluid">
+            <div class="Nvh-bubble" id="Nvh_bubble1"></div>
+            <div class="Nvh-bubble" id="Nvh_bubble2"></div>
+            <div class="Nvh-bubble" id="Nvh_bubble3"></div>
+            <div class="Nvh-cadre container-fluid">
+                <div class="Nvh-col-prez-img">
+                    <!---------------------- partie présentation du salon ----------->
+                                                   <div class="Nvh-prz circle-container">
+                            </div>
+                            <div class="Nvh-prz-img circle-img">
+                                <img src="http://localhost/Nouvelhair/wp-content/uploads/2023/06/shirodhara.jpg" class="Nvh-img-presentation" alt="http://localhost/Nouvelhair/wp-content/uploads/2023/06/shirodhara.jpg">
+                            </div>
+
+                                        </div>
+                <div class="Nvh-col-prez-text">
+                    <div class="text-home"><!----coté droit pour le texte--->
+                                                    <div class="text-prez">
+                                <p><p><strong>Cupcake ipsum dolor sit amet gingerbread dragée I love. Croissant halvah jujubes pie puddin</strong>g sesame snaps dragée tiramisu. Candy jelly beans I love danish pie lollipop. Lemon drops biscuit lollipop croissant marzipan donut brownie. <em>Cheesecake candy jelly-o soufflé donut chocolate bar sesame snaps cupcake pu</em>dding. Wafer pudding I love tootsie roll cake I love gummi bears I love. Cake pie biscuit I love tootsie roll gummies. Marzipan I love I<em><strong> love brownie tart lollipop gingerbread tart cheesecake.</strong></em>Cake pie I love I love jujubes I love bear claw. Jelly-o gummies dragée tiramisu shortbread icing.</p>
+<p>&nbsp;</p>
+<p>Pudding I love pudding apple pie tiramisu croissant jelly beans. Pastry cake toffee tootsie roll muffin tootsie roll pastry. Chocolate cake sugar plum I love I love caramels jelly-o. Cotton candy macaroon toffee chocolate I love. I love I love oat cake bonbon oat cake liquorice biscuit. Sesame snaps halvah liquorice cotton candy icing biscuit. Carrot cake I love wafer croissant chocolate cake jujubes chocolate cake sugar plum.</p>
+</p>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+            <div class="title-home-filter">
+                <h2 class="title-produits">Les Produits disponibles en Salon</h2>
+            </div>
+            <div class="Nvh-filter">
+                <!---------début filtre------>
+                <button class="filter-button show-all-button" data-filter="all">Tout Afficher</button>
+                <button class="filter-button" data-filter="non-classe">Non classé</button><button class="filter-button" data-filter="test-1">test 1</button><button class="filter-button" data-filter="test-2">test 2</button><button class="filter-button" data-filter="test-3">test 3</button>                <!---------fin filtre------>
+
+            </div>
+            <div class="Nvh-post-content filtered-articles" id="Nvh_post_content">
+                                <article class="card Nvh-card-home" id="Nvh_card_home" style="width: 22rem;">
+    
+        <a href="http://localhost/Nouvelhair/bonjour-tout-le-monde/" title="Bonjour tout le monde !" class="Nvh-post-img">
+            <div class="Nvh-image-container-card">
+                <img width="350" height="240" src="http://localhost/Nouvelhair/wp-content/uploads/2023/06/AdobeStock_37581375_Preview-350x240.jpeg" class="Nvh-img-post-front wp-post-image" alt="" decoding="async" title="Nouvel&#039;hair" />            </div>
+                </a>
+        <div class="card-body">
+            <h5 class="card-title"><a href="http://localhost/Nouvelhair/bonjour-tout-le-monde/" class="Nvh-news-title">Bonjour tout le monde !</a></h5>
+                            <div class="news-catego"><a href="http://localhost/Nouvelhair/category/non-classe/">Non classé</a></div>
+                    </div>
+
+        <div class="card-text">
+            <div class="Nvh-post-text">
+            <p class="Nvh-product-description"><p>Cupcake ipsum dolor sit amet carrot cake topping. Cake sweet roll oat cake bear claw topping chocolate cake jelly-o jelly....</p><span class="Nvh-card-price">12 €</span>            </div>
+            <a href="http://localhost/Nouvelhair/bonjour-tout-le-monde/"
+                title="Bonjour tout le monde !"
+                class="btn-Nvh-color">Voir plus            </a>
+        </div>
+</article><article class="card Nvh-card-home" id="Nvh_card_home" style="width: 22rem;">
+    
+        <a href="http://localhost/Nouvelhair/test-article-1/" title="Test Article 1" class="Nvh-post-img">
+            <div class="Nvh-image-container-card">
+                <img width="350" height="240" src="http://localhost/Nouvelhair/wp-content/uploads/2023/06/lotus-350x240.jpeg" class="Nvh-img-post-front wp-post-image" alt="" decoding="async" title="Nouvel&#039;hair" />            </div>
+                </a>
+        <div class="card-body">
+            <h5 class="card-title"><a href="http://localhost/Nouvelhair/test-article-1/" class="Nvh-news-title">Test Article 1</a></h5>
+                            <div class="news-catego"><a href="http://localhost/Nouvelhair/category/test-1/">test 1</a></div>
+                    </div>
+
+        <div class="card-text">
+            <div class="Nvh-post-text">
+            <p class="Nvh-product-description"><p>Chocolate cake gingerbread sugar plum tiramisu chocolate bar. Icing liquorice liquorice oat cake caramels sweet. Gummies danish carrot cake caramels...</p><span class="Nvh-card-price">12 €</span>            </div>
+            <a href="http://localhost/Nouvelhair/test-article-1/"
+                title="Test Article 1"
+                class="btn-Nvh-color">Voir plus            </a>
+        </div>
+</article><article class="card Nvh-card-home" id="Nvh_card_home" style="width: 22rem;">
+    
+        <a href="http://localhost/Nouvelhair/test-article-2/" title="Test Article 2" class="Nvh-post-img">
+            <div class="Nvh-image-container-card">
+                <img width="350" height="240" src="http://localhost/Nouvelhair/wp-content/uploads/2023/06/AdobeStock_43535323_Preview-350x240.jpeg" class="Nvh-img-post-front wp-post-image" alt="" decoding="async" title="Nouvel&#039;hair" />            </div>
+                </a>
+        <div class="card-body">
+            <h5 class="card-title"><a href="http://localhost/Nouvelhair/test-article-2/" class="Nvh-news-title">Test Article 2</a></h5>
+                            <div class="news-catego"><a href="http://localhost/Nouvelhair/category/non-classe/">Non classé</a>, <a href="http://localhost/Nouvelhair/category/test-2/">test 2</a></div>
+                    </div>
+
+        <div class="card-text">
+            <div class="Nvh-post-text">
+            <p class="Nvh-product-description"><p>Wafer donut marzipan cheesecake chocolate cake I love. <strong>Toffee chocolate cake candy</strong> canes bonbon muffin cheesecake cotton candy sweet roll....</p><span class="Nvh-card-price">30 €</span>            </div>
+            <a href="http://localhost/Nouvelhair/test-article-2/"
+                title="Test Article 2"
+                class="btn-Nvh-color">Voir plus            </a>
+        </div>
+</article><article class="card Nvh-card-home" id="Nvh_card_home" style="width: 22rem;">
+    
+        <a href="http://localhost/Nouvelhair/test-article-3/" title="test Article 3" class="Nvh-post-img">
+            <div class="Nvh-image-container-card">
+                <img width="350" height="240" src="http://localhost/Nouvelhair/wp-content/uploads/2023/06/IMG_0430-350x240.jpg" class="Nvh-img-post-front wp-post-image" alt="" decoding="async" title="Nouvel&#039;hair" />            </div>
+                </a>
+        <div class="card-body">
+            <h5 class="card-title"><a href="http://localhost/Nouvelhair/test-article-3/" class="Nvh-news-title">test Article 3</a></h5>
+                            <div class="news-catego"><a href="http://localhost/Nouvelhair/category/test-3/">test 3</a></div>
+                    </div>
+
+        <div class="card-text">
+            <div class="Nvh-post-text">
+            <p class="Nvh-product-description"><p>Wafer donut marzipan cheesecake chocolate cake I love. Toffee chocolate cake candy canes bonbon muffin cheesecake cotton candy sweet roll....</p><span class="Nvh-card-price">25 €</span>            </div>
+            <a href="http://localhost/Nouvelhair/test-article-3/"
+                title="test Article 3"
+                class="btn-Nvh-color">Voir plus            </a>
+        </div>
+</article><article class="card Nvh-card-home" id="Nvh_card_home" style="width: 22rem;">
+    
+        <a href="http://localhost/Nouvelhair/salut-les-gens/" title="Salut les gens  !" class="Nvh-post-img">
+            <div class="Nvh-image-container-card">
+                <img width="350" height="240" src="http://localhost/Nouvelhair/wp-content/uploads/2023/06/logo-sans-fond-350x240.png" class="Nvh-img-post-front wp-post-image" alt="salon de Coiffure et de massage à Saint Symphorien sur Coise" decoding="async" title="Nouvel&#039;hair" />            </div>
+                </a>
+        <div class="card-body">
+            <h5 class="card-title"><a href="http://localhost/Nouvelhair/salut-les-gens/" class="Nvh-news-title">Salut les gens  !</a></h5>
+                            <div class="news-catego"><a href="http://localhost/Nouvelhair/category/test-2/">test 2</a></div>
+                    </div>
+
+        <div class="card-text">
+            <div class="Nvh-post-text">
+            <p class="Nvh-product-description"><p><span style="color: #808080"><strong>C</strong></span><span style="color: #3366ff"><strong><span style="color: #999999">upcake ipsum</span></strong><span style="color: #999999"> dolor sit amet. Marshmallow topping tootsie roll muffin fruitcake caramels...</p><span class="Nvh-card-price">20 €</span>            </div>
+            <a href="http://localhost/Nouvelhair/salut-les-gens/"
+                title="Salut les gens  !"
+                class="btn-Nvh-color">Voir plus            </a>
+        </div>
+</article>            </div>
+
+        </div>
+    </div>
+
+    </main><!----#Nvh-main---->
+</div><!----#Nvh-secondary-content---->
+</div><!----#Nvh-primary-content---->
+
+<footer class="Nvh_footer container-fluid">
+    <div class="footer_col"><div class="footer-title">Menu</div><nav class="menu-main-menu-container" aria-label="Menu"><ul id="menu-main-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-30"><a href="http://localhost/Nouvelhair/" aria-current="page">Accueil</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://localhost/Nouvelhair/page-d-exemple/">Page d’exemple</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164"><a href="http://localhost/Nouvelhair/page-404/">Page 404</a></li>
+</ul></nav></div>
+		<div class="footer_col">
+		<div class="footer-title">nouveauté</div><nav aria-label="nouveauté">
+		<ul>
+											<li>
+					<a href="http://localhost/Nouvelhair/salut-les-gens/">Salut les gens  !</a>
+											<span class="post-date">8 juillet 2023</span>
+									</li>
+											<li>
+					<a href="http://localhost/Nouvelhair/test-article-3/">test Article 3</a>
+											<span class="post-date">21 juin 2023</span>
+									</li>
+											<li>
+					<a href="http://localhost/Nouvelhair/test-article-2/">Test Article 2</a>
+											<span class="post-date">21 juin 2023</span>
+									</li>
+											<li>
+					<a href="http://localhost/Nouvelhair/test-article-1/">Test Article 1</a>
+											<span class="post-date">21 juin 2023</span>
+									</li>
+											<li>
+					<a href="http://localhost/Nouvelhair/bonjour-tout-le-monde/">Bonjour tout le monde !</a>
+											<span class="post-date">20 juin 2023</span>
+									</li>
+					</ul>
+
+		</nav></div><div class="footer_col"><div class="wp-block-group is-layout-flow"><div class="wp-block-group__inner-container"><h2 class="wp-block-heading">Archives</h2><ul class="wp-block-archives-list wp-block-archives">	<li><a href='http://localhost/Nouvelhair/2023/07/'>juillet 2023</a></li>
+	<li><a href='http://localhost/Nouvelhair/2023/06/'>juin 2023</a></li>
+</ul></div></div></div><div class="footer_col"><div class="wp-block-group is-layout-flow"><div class="wp-block-group__inner-container"><h2 class="wp-block-heading">Catégories</h2><ul class="wp-block-categories-list wp-block-categories">	<li class="cat-item cat-item-1"><a href="http://localhost/Nouvelhair/category/non-classe/">Non classé</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://localhost/Nouvelhair/category/test-1/">test 1</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://localhost/Nouvelhair/category/test-2/">test 2</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://localhost/Nouvelhair/category/test-3/">test 3</a>
+</li>
+</ul></div></div></div>    <div class="Nvh-color-footer container">
+        <!-------ajouter sidebar---->
+    </div>
+</footer>
+
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			 			
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting.concat([ "tpack","threejs"]);
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		        <div id="cookie-banner" >
+            <p>This website uses cookies to improve your experience. By continuing to use this website, you agree to our use of cookies.</p>
+            <a href="#">Learn more about our cookies policy</a>
+            <div class="cookie-consent">
+                <h3>Cookie consent</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="analytics" id="analytics">
+                        <label for="analytics">Analytics cookies</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="marketing" id="marketing">Marketing cookies</li>
+                    <li>
+                        <input type="checkbox" name="social" id="social">Social media cookies</li>
+                </ul>
+                <input type="submit" value="Save" onclick="saveCookieConsent();">
+            </div>
+        </div>
+    
+        <script>
+        function saveCookieConsent() {
+            // Make an AJAX request to save the cookie consent settings
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'http://localhost/Nouvelhair/wp-admin/admin-ajax.php');
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    // If the request is successful, hide the cookie banner
+                    var cookieBanner = document.getElementById('cookie-banner');
+                    if (cookieBanner) {
+                        cookieBanner.style.display = 'none';
+                    }
+                }
+            };
+            xhr.send('action=save_cookie_consent&cookie_consent=yes');
+        }
+        </script>
+        <div class="cookie-not-accepted">Please accept the cookie consent.</div><link href="https://fonts.googleapis.com/css?family=Roboto:400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+<script type="text/javascript">window.RVS = window.RVS || {}; window.RVS.ENV = window.RVS.ENV || {}; window.RVS.ENV.TRANSITIONPACK_URL = "http://localhost/Nouvelhair/wp-content/plugins/revslider-transitionpack-addon/";</script>
+<script>
+		if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
+</script>
+<link rel='stylesheet' id='rs-transitionpack-css-css' href='http://localhost/Nouvelhair/wp-content/plugins/revslider-transitionpack-addon/public/assets/css/revolution.addon.transitionpack.css?ver=1.0.6' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='http://localhost/Nouvelhair/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.15' media='all' />
+<style id='rs-plugin-settings-inline-css'>
+		#rev_slider_1_1_wrapper .hebe.tp-bullets:before{content:' '; position:absolute; width:100%; height:100%; background:transparent; padding:10px; margin-left:-10px;margin-top:-10px; box-sizing:content-box}#rev_slider_1_1_wrapper .hebe .tp-bullet{width:3px; height:3px; position:absolute; background:rgba(255,255,255,0);  cursor:pointer; border:5px solid #000000; border-radius:50%; box-sizing:content-box; -webkit-perspective:400; perspective:400; -webkit-transform:translatez(0.01px); transform:translatez(0.01px);  transition:all 0.3s}#rev_slider_1_1_wrapper .hebe .tp-bullet.rs-touchhover,#rev_slider_1_1_wrapper .hebe .tp-bullet.selected{background:#000000; border-color:rgba(255,255,255,0)}#rev_slider_1_1_wrapper .hebe .tp-bullet-image{position:absolute; width:70px; height:70px; background-position:center center; background-size:cover; visibility:hidden; opacity:0; bottom:3px; transition:all 0.3s; -webkit-transform-style:flat; transform-style:flat; perspective:600; -webkit-perspective:600; transform:scale(0) translateX(-50%) translateY(0%); -webkit-transform:scale(0) translateX(-50%) translateY(0%); transform-origin:0% 100%; -webkit-transform-origin:0% 100%; margin-bottom:15px; border-radius:6px}#rev_slider_1_1_wrapper .hebe .tp-bullet.rs-touchhover .tp-bullet-image{display:block; opacity:1; transform:scale(1) translateX(-50%) translateY(0%); -webkit-transform:scale(1) translateX(-50%) translateY(0%); visibility:visible}#rev_slider_1_1_wrapper .hebe.nav-dir-vertical .tp-bullet-image{bottom:auto; margin-right:15px; margin-bottom:0px; right:3px; transform:scale(0) translateX(0px) translateY(-50%); -webkit-transform:scale(0) translateX(0px) translateY(-50%); transform-origin:100% 0%; -webkit-transform-origin:100% 0%}#rev_slider_1_1_wrapper .hebe.nav-dir-vertical .tp-bullet.rs-touchhover .tp-bullet-image{transform:scale(1) translateX(0px) translateY(-50%); -webkit-transform:scale(1) translateX(0px) translateY(-50%)}#rev_slider_1_1_wrapper .hebe.nav-dir-vertical.nav-pos-hor-left .tp-bullet-image{bottom:auto; margin-left:15px; margin-bottom:0px; left:3px; transform:scale(0) translateX(0px) translateY(-50%); -webkit-transform:scale(0) translateX(0px) translateY(-50%); transform-origin:0% 0%; -webkit-transform-origin:0% 0%}#rev_slider_1_1_wrapper .hebe.nav-dir-vertical.nav-pos-hor-left .tp-bullet.rs-touchhover .tp-bullet-image{transform:scale(1) translateX(0px) translateY(-50%); -webkit-transform:scale(1) translateX(0px) translateY(-50%)}#rev_slider_1_1_wrapper .hebe.nav-pos-ver-top.nav-dir-horizontal .tp-bullet-image{bottom:auto; top:3px; transform:scale(0) translateX(-50%) translateY(0%); -webkit-transform:scale(0) translateX(-50%) translateY(0%); transform-origin:0% 0%; -webkit-transform-origin:0% 0%; margin-top:15px; margin-bottom:0px}#rev_slider_1_1_wrapper .hebe.nav-pos-ver-top.nav-dir-horizontal .tp-bullet.rs-touchhover .tp-bullet-image{transform:scale(1) translateX(-50%) translateY(0%); -webkit-transform:scale(1) translateX(-50%) translateY(0%)}
+</style>
+<script src='http://localhost/Nouvelhair/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.15' defer async id='tp-tools-js'></script>
+<script src='http://localhost/Nouvelhair/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.15' defer async id='revmin-js'></script>
+<script src='http://localhost/Nouvelhair/wp-content/themes/nouvelhair/assets/js/bootstrap/bootstrap.js?ver=6.2.2' id='Nvh-bootstrap-script-js'></script>
+<script src='http://localhost/Nouvelhair/wp-content/themes/nouvelhair/assets/js/Nvh.js/bubble.js?ver=6.2.2' id='Nvh-bubble-js'></script>
+<script src='http://localhost/Nouvelhair/wp-content/themes/nouvelhair/assets/js/Nvh.js/menu-sticky.js?ver=6.2.2' id='Nvh_menu_sticky-js'></script>
+<script src='http://localhost/Nouvelhair/wp-content/themes/nouvelhair/assets/js/Nvh.js/logo-animate.js?ver=6.2.2' id='Nvh_logo_animate-js'></script>
+<script src='http://localhost/Nouvelhair/wp-content/themes/nouvelhair/assets/js/Nvh.js/ajax-filter.js?ver=1.0' id='custom-script-js'></script>
+<script src='http://localhost/Nouvelhair/wp-content/plugins/revslider-transitionpack-addon/public/assets/js/revolution.addon.transitionpack.min.js?ver=1.0.6' defer async id='rs-transitionpack-js-js'></script>
+<script src='http://localhost/Nouvelhair/wp-content/plugins/revslider/public/assets/js/libs/three.min.js?ver=6.6.15' defer async id='revbuilder-threejs-js'></script>
+<script id="rs-initialisation-scripts">
+		var	tpj = jQuery;
+
+		var	revapi1;
+
+		if(window.RS_MODULES === undefined) window.RS_MODULES = {};
+		if(RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+		RS_MODULES.modules["revslider11"] = {once: RS_MODULES.modules["revslider11"]!==undefined ? RS_MODULES.modules["revslider11"].once : undefined, init:function() {
+			window.revapi1 = window.revapi1===undefined || window.revapi1===null || window.revapi1.length===0  ? document.getElementById("rev_slider_1_1") : window.revapi1;
+			if(window.revapi1 === null || window.revapi1 === undefined || window.revapi1.length==0) { window.revapi1initTry = window.revapi1initTry ===undefined ? 0 : window.revapi1initTry+1; if (window.revapi1initTry<20) requestAnimationFrame(function() {RS_MODULES.modules["revslider11"].init()}); return;}
+			window.revapi1 = jQuery(window.revapi1);
+			if(window.revapi1.revolution==undefined){ revslider_showDoubleJqueryError("rev_slider_1_1"); return;}
+			revapi1.revolutionInit({
+					revapi:"revapi1",
+					DPR:"dpr",
+					sliderLayout:"fullwidth",
+					visibilityLevels:"1240,1024,778,480",
+					gridwidth:1240,
+					gridheight:500,
+					autoHeight:true,
+					lazyType:"smart",
+					spinner:"spinner11",
+					perspective:600,
+					perspectiveType:"global",
+					spinnerclr:"#6ce2cd",
+					editorheight:"500,768,960,720",
+					responsiveLevels:"1240,1024,778,480",
+					ajaxUrl:"http://localhost/Nouvelhair/wp-admin/admin-ajax.php",
+					progressBar:{disableProgressBar:true},
+					navigation: {
+						wheelCallDelay:1000,
+						onHoverStop:false,
+						bullets: {
+							enable:true,
+							tmp:"<span class=\"tp-bullet-image\"></span>",
+							style:"hebe"
+						}
+					},
+					viewPort: {
+						global:true,
+						globalDist:"-200px",
+						enable:false
+					},
+					fallbacks: {
+						allowHTML5AutoPlayOnAndroid:true
+					},
+			});
+			
+						if (revapi1 !== undefined) jQuery.fn.revolution.transitionpackInit(revapi1[0].id, {url:"http://localhost/Nouvelhair/wp-content/plugins/revslider-transitionpack-addon/"});
+						 window.TP_SHDRS = window.TP_SHDRS || {};
+						 window.TP_SHDRS.fade =    window.TP_SHDRS.fade || `uniform float progress; uniform bool flipx; uniform bool flipy; uniform sampler2D src1; uniform sampler2D src2; uniform sampler2D displacement; uniform int useTexture; uniform float threshold; varying vec2 vUv; void main() { vec4 texel1 = TEXTURE2D(src1, vUv); vec4 texel2 = TEXTURE2D(src2, vUv); vec4 transitionTexel = TEXTURE2D(displacement, vec2(flipx ? 1. - vUv.x : vUv.x, flipy ? 1. - vUv.y : vUv.y)); float r = progress * (1.0 + threshold * 2.0) - threshold; float mixf = clamp((transitionTexel.r - r) * (1.0 / threshold), .0, 1.0); gl_FragColor = mix(texel1, texel2, mixf); }`;
+
+		}} // End of RevInitScript
+
+		if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
+	</script>
+</body>
+
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced 
+
+Served from: localhost @ 2023-08-02 12:38:37 by W3 Total Cache
+-->

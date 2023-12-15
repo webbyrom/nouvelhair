@@ -1,0 +1,93 @@
+/****
+* page d'archive des articles
+*
+*
+*******/
+.archive {
+    .Nvh-post-archive{
+        display: flex;
+        flex-direction: column;
+        a {
+            display: block;
+            width: -moz-fit-content;
+            width: fit-content;
+            margin: auto;
+            margin-bottom: 3rem;
+            color: lightskyblue;
+            transition: color 0.8s ease-in-out;           
+            &:hover, h2:hover{
+                color: black;
+                text-decoration: underline lightcyan; 
+            }
+        }
+        .Nvh-archive-content{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid lightblue;
+            width: auto;
+            border-radius: 10px;
+            .Nvh-single-archive-img{
+                margin: 0;
+                width: auto;
+                .Nvh-img-post-archive{
+                    //transform: rotate(2deg);
+                    width: 40rem;
+                    height: auto;
+                    box-shadow: 10px 5px 20px black;
+                }
+
+            }
+            .Nvh-single-article{
+                width: 40rem;
+                margin: 0;
+                border-radius: 1rem;
+                padding: 0;
+                box-shadow: 10px 5px 20px black;
+                .Nvh-archive-post{
+                    background-image: $sintimpbg;
+                    border-radius: 1rem;
+                    .Nvh-archive-post-subtitle {
+                        position: relative;
+                        display: flex;
+                        flex-direction: row;
+                        font-style: italic;
+                        padding: 5px;
+                    }
+                    .Nvh-arch-post-price{
+                        background-color: azure;
+                        padding: 1rem;
+                        border-radius: 10px;
+                        font-weight: 600;
+                        font-size: x-large;
+                        box-shadow: 10px 5px 20px black;
+                    }
+                }
+            }
+        }
+    }// inversement de l'image
+    .Nvh-reverse-align{
+        display: flex;
+        flex-direction: column;
+        .Nvh-archive-content{
+            display: flex;
+            flex-direction: row-reverse;
+            .Nvh-single-archive-img{
+                width: -moz-fit-content;
+                width: fit-content;
+                margin: 0;
+            }
+            .Nvh-single-article{
+                .Nvh-archive-post{
+                    background-image: $siintpbg;
+                    .Nvh-archive-post-subtitle {
+                        position: relative;
+                        display: flex;
+                        flex-direction: row-reverse;
+                    }
+                }
+            }
+        }
+    }
+}

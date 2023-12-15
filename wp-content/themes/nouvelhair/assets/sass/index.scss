@@ -1,0 +1,126 @@
+/********
+fichier Css de la page index/ tous les Produits
+*/
+.blog {
+    .Nvh-home {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        .coif-arch{
+            margin-bottom: 3rem;
+           // margin-top: 3rem;
+           
+           .Nvh-archive{
+                border-radius: 75% / 20% ;
+                background-image: $sintimpbg;
+                box-shadow: 10px 20px 30px grey;
+
+                .Nvh-img-archive{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    .Nvh-img-post-archive{
+                        width: 30rem;
+                        height: auto;
+                        //position: absolute;
+                    }
+                    .Nvh-single-text{
+                        padding: 1rem;
+                        width: 47rem;
+                        font-size: larger;
+                        span {
+                            color: white!important;
+                        }
+                    }
+                    .Nvh-single-price {
+                        width: max-content;
+                        background-color: rgb(167 195 221 / 76%);
+                        font-size:3rem;
+                        border: 1px solid white;
+                        border-radius: 10px;
+                        margin-bottom: 20px;
+                    }
+                }
+           }
+           
+        }
+        .Page {
+            z-index: 0;
+            .pagination{
+                .page-item{
+                    .page-link{
+                        color: lightcoral;
+                    }
+                    
+                }
+                .page-item.active{
+                    .page-link.current{
+                        background-color: lightcoral;
+                        color: white;
+                        border: lightgray;
+                    }
+                }
+            }
+        }
+        
+    }
+    .Nvh-partner {
+        .Nvh-partner-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-between;
+            .fade-in {
+                opacity: 0;
+                transform: translateY(30px); /* Décalage vertical initial */
+                transition: opacity 1s, transform 1s;
+            }
+            .fade-in-active {
+                opacity: 1;
+                transform: translateY(0); /* Aucun décalage vertical */
+               
+                
+                
+            }
+            .Nvh-partner-cardcontent {
+                padding: 1rem;
+                .Nvh-partner-card {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                   //align-content: center;
+                    justify-content: center;
+                    align-items: center;
+                   
+    
+                }
+                .Nvh-partner-card-title {
+                    .card-title{
+                        font-weight: 600;
+                        font-size: x-large;
+                        color: rgb(165, 218, 244);
+                    }
+                    a {
+                        color: rgb(165, 218, 244) ;
+                        font-size: larger;
+                        transition: color .4s ease-in-out;
+                        &:hover,
+                        &:visited {
+                            color: lightcoral;
+                        }
+                        
+                    }
+                
+                }
+            }
+           
+        }
+    }
+   
+}

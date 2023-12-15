@@ -1,0 +1,78 @@
+/* page qui suis-je */
+.page-template-page-qui-suis-je {
+    .Nvh-secondary-content {
+        background-image: $bgarchlierre;
+        background-attachment: fixed;
+        background-size: cover;
+        position: relative;
+        background-position: center;
+        z-index: 0;
+    }
+
+    h2 {
+        padding-top: 0;
+    }
+
+    .Nvh-col-qsjz-text {
+        width: 40%;
+        max-height: min-content;
+        border: 1px solid $TextPrezbord;
+        padding: 2rem;
+        border-radius: 5px;
+        position: relative;
+        box-shadow: 5px 10px 20px $PrezBoxShadow;
+        background-color: rgb(255, 255, 255);
+        //background-image: $sintexbg;
+        animation: moveRight $deplacement-duree 2 alternate;
+    }
+
+    // Définition de l'animation SCSS
+    @keyframes moveRight {
+        from {
+            transform: translateY(0);
+        }
+
+        to {
+            transform: translateY($deplacement-distance);
+        }
+    }
+
+    .Nvh-qsj-img {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    .Nvh-qsj-ambiance {
+        display: inline-flex;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+
+        .Nvh-qsj-ambiance-text {
+            display: contents;
+            width: 50%;
+        }
+
+        .Nvh-text-qsj-ambiance {
+            background-image: $btnhoveffect;
+            //display: flex; pas utile pour l'instant
+            padding: 2rem;
+            border: 1px solid gray;
+            border-radius: 10px;
+            //width: 45%;
+            margin: auto;
+
+        }
+
+        .Nvh-qsj-ethique {
+            background-image: $btnhoveffect;
+            //display: flex; pas utile pour l'instant
+            padding: 2rem;
+            border: 1px solid gray;
+            border-radius: 10px;
+            width: 40%;
+            margin: auto;
+        }
+    }
+}

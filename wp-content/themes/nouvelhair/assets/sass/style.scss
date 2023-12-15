@@ -1,0 +1,477 @@
+/*
+Theme Name: Nouvel'Hair Végétal
+theme URI: https://nouvel-hair-vegetal.com
+Author: Romain Fourel/Web-byrom
+Author URI: https://web-byrom.com
+Description: Site internet Salon de coiffure Nouvel'Hair végétal, Saint Symphorien sur Coise, Monts du Lyonnais
+Version: 1.0.0
+Requires at least: 6.2
+Tested up to: 6.2
+Requires PHP: 7.4 or later
+Text Domain:
+Tag: 
+
+*/
+@import "color";
+@import "font";
+@import "Nvh_responsive";
+@import "home";
+@import "404";
+@import "contact";
+@import "massage";
+@import "post_archive";
+@import "qui_suis_je";
+@import "single_coiffure";
+@import "single_post";
+@import "single_massage";
+@import "index";
+@import "capillaire";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+html,
+body,
+div,
+main,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: $Tillareg;
+    vertical-align: baseline;
+    list-style: none;
+    text-align: center;
+    //--bs-gutter-x: 0!important;
+
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+h1,
+h2 {
+    padding-top: 4rem;
+    font-family: $dancings;
+}
+
+p {
+    font-size: larger;
+    line-height: 2rem;
+}
+
+/*******
+ scss Nav et header
+*******/
+.nvh-header,
+nav {
+    position: relative;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    // align-content: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    padding: 0;
+    --bs-gutter-x: 0 !important;
+
+    .nav_logo {
+        position: relative;
+        width: 225px;
+        //left: calc(-1% - 100px);
+        //left: -20rem;
+
+        .logo-img-header {
+            width: 200px;
+            height: auto;
+            position: relative;
+            // border-radius: 50%;
+            transition:
+                width 4s,
+                height 4s,
+                transform 4s;
+
+            &:hover {
+                width: 260px;
+                z-index: 10;
+                height: auto;
+                opacity: 1;
+                transform: rotate(360deg);
+            }
+        }
+
+        .Nvh-logo-animate {
+            opacity: 1;
+            z-index: 10;
+            width: 260px;
+            height: auto;
+            transform: rotate(360deg);
+        }
+    }
+
+    .Nvh-nav-menu {
+        opacity: 1;
+        box-shadow: none;
+        transition:
+            opacity 1s,
+            box-shadow 1s,
+            background-color 2s ease-in-out;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+
+        .collapse.Nvh-collapse {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+
+            .Nvh-primary-nav {
+                display: inline-flex;
+                position: relative;
+                //top: 3rem;
+
+                .Nvh-nav-li {
+                    position: relative;
+                    list-style: none;
+                    text-align: center;
+                    height: min-content;
+                    transition: transform .5s ease-in-out;
+
+                    // overflow: hidden; souci au hover sur le sub-menu
+                    &:hover {
+                        transform: translateY(-4px);
+
+                        &:after {
+                            width: 100%;
+                            position: absolute;
+                        }
+                    }
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        width: 0;
+                        height: 2px;
+                        background-color: $spinnerBorder;
+                        transition: width 0.4s ease-in-out;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+
+                    }
+
+                    a {
+                        color: $nav-link ;
+                        transition: color 0.8s ease-in-out, transform 0.7s ease-in-out;
+                        position: relative;
+
+                        &:hover {
+                            color: $spinnerBorder ;
+
+                        }
+                    }
+
+                }
+
+                .Nvh-nav-li.Nvh_m_active::after {
+                    width: 100%;
+                    position: absolute;
+                    /* Largeur de la bordure pour l'élément actif */
+                }
+
+                .Nvh-nav-li:nth-child(-n + 6) {
+                    margin-right: 2rem;
+                }
+
+                .Nvh-nav-li.Nvh_m_active>a>span {
+                    color: $spinnerBorder;
+                    /* Autres styles pour l'élément actif si nécessaire */
+                }
+
+            }
+
+            .Nvh-submenu-ul {
+                position: absolute;
+                opacity: 0;
+                font-size: large;
+                padding-left: 5px;
+                width: max-content;
+                //background-color: ghostwhite;
+                z-index: 12;
+                margin-top: 1rem;
+                // border-bottom: 1px solid black;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                transition: opacity .8s ease-in-out;
+                .Nvh-submenu-li{
+                    text-align: justify;
+                }
+                .Nvh-submenu-li a span {
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        width: 0;
+                        height: 2px;
+                        background-color: $spinnerBorder;
+                        transition: width 0.4s ease-in-out;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+
+                    }
+                }
+
+            }
+
+            .Nvh-primary-nav .Nvh-nav-li:hover>.Nvh-submenu-ul {
+                opacity: 1;
+
+                .Nvh-submenu-li.Nvh_m_active a>span {
+                    color: $spinnerBorder;
+
+                    &:hover {
+                        &:after {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .Nvh-submenu-li a span {
+                &:hover {
+                    &:after {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .Nvh-primary-nav .Nvh-submenu-ul .Nvh-submenu-li.Nvh_m_sub_active {
+                color: $spinnerBorder;
+                padding: 5px 10px;
+                border-radius: 5px;
+                width: max-content;
+                background-color: rgb(213, 218, 244);
+
+                &:hover {
+                    &:after {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+
+        //collapse
+    }
+
+    /*******
+    Sticky class to navbar    
+    */
+    .sticky {
+        position: fixed;
+        z-index: 11;
+        // transition: background-color 2s ease-in-out;
+        box-shadow: 0px 5px 10px $NavBshadow;
+        background-color: $Navstickybg !important;
+        opacity: 0.8;
+        width: 100%;
+    }
+}
+
+/*.Nvh-news-full {
+    width: max-content;
+}
+/*****
+underline title
+****/
+.underlining {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    box-sizing: content-box;
+    border-radius: 10px;
+    width: 12rem;
+    height: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    .Nvh-border-bottom {
+        position: absolute;
+        right: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to left, $UnderLineFirst, $UnderLineSec, $UnderLineThi, $UnderLineFour);
+        animation: animate-border-bottom 2s linear alternate;
+    }
+
+    @keyframes animate-border-bottom {
+        0% {
+            transform: translateX(100%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+}
+
+
+/******
+ Espacement avant le footer
+*/
+.Nvh-espacement {
+    height: 4rem;
+    background-color: transparent;
+}
+
+/********************
+Footer
+********/
+.Nvh_footer {
+    display: inline-flex;
+    justify-content: space-evenly;
+    left: 0;
+    border: 1px solid $bordfootclr;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    //background-color: transparent;
+    background-color: floralwhite;
+    .icon {
+        height: 3rem;
+    }
+
+    .footer_col {
+        .footer-title {
+            font-weight: 700;
+            margin-top: 2rem;
+        }
+
+        [aria-label] {
+            ul {
+                display: table-footer-group;
+
+                li>a {
+                    color: gray;
+
+                    &:hover {
+                        color: $spinnerBorder;
+                    }
+                }
+            }
+        }
+    }
+
+    .Nvh-color-footer {
+        background-image: linear-gradient(295deg, rgb(166, 247, 208) 50%, white 77%);
+        display: inline-flex;
+        justify-content: space-evenly;
+        width: 100%;
+        position: absolute;
+        z-index: 3;
+    }
+
+    #Nvh_scroll_top_button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 25;
+        display: none;
+    }
+
+    .Nvh-scroll-totop {
+        background-color: rgb(217, 137, 137);
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 24px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 50%;
+        text-decoration: none;
+        transition: background-color .5s ease-in-out, color .5s ease-in-out, border .5s ease-in-out;
+
+        &:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(239, 167, 167);
+            border: 1px solid grey;
+
+        }
+
+        .dashicons-arrow-up-alt {
+            font-size: 15px;
+            display: contents;
+        }
+    }
+}
+
+/****consent cookie*****/
+#cookie-banner {
+    position: relative;
+    background-color: linen;
+    z-index: 3;
+
+    ul {
+        display: inline-flex;
+
+        li {
+            margin-right: 10px;
+
+            input {
+                margin-right: 3px;
+            }
+        }
+    }
+}
+
+.cookie-not-accepted {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

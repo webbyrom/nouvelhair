@@ -1,0 +1,15 @@
+{
+  "name": "nouvelhair",
+  "version": "1.0.0",
+  "description": "Site internet Nouvelhair",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Romain",
+  "license": "ISC",
+  "dependencies": {
+    "12": "^1.0.2",
+    "node.js": "^0.0.1-security"
+  }
+}

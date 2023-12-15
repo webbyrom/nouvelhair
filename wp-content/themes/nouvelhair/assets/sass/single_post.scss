@@ -1,0 +1,63 @@
+/*****
+*single post
+*/
+.single-post {
+    .Nvh-single-post-content {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 4rem;
+
+        .Nvh-img-post-archive {
+            position: relative;
+            width: 54rem;
+            height: auto;
+            box-shadow: 10px 20px 30px $sinpobs;
+            transition: transform .8s;
+            z-index: 1;
+
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+    }
+
+
+    .Nvh-single-text {
+        padding: 3rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        left: 19rem;
+        border-radius: 6px;
+        background-image: $sintexbg;
+        //border: 1px solid $singpotextbd;
+        box-shadow: 5px 8px 56px $bstextsingp;
+        transition: transform .8s;
+        z-index: -2;
+        margin-bottom: 3rem;
+        &:hover {
+            transform: translateY(10px);
+            z-index: -2;
+        }
+        .Nvh-Pdt-descript-single{
+            border-right: 1px solid white;
+            border-left: 1px solid lightcyan;
+            font-size: larger;
+        }
+    }
+
+    .Nvh-single-price {
+        position: relative;
+        top: -4rem;
+        left: 0;
+        right: 0;
+        background-color: $Pricebg;
+        width: max-content;
+        font-size: x-large;
+        padding: 0 10px;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+}

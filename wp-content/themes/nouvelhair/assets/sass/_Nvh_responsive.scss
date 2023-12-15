@@ -1,0 +1,142 @@
+/*****
+tout le responsive du site 
+
+****/
+/****
+
+Variables breakpoints
+
+**/
+
+// 
+$phone: 576px;
+
+//tablet portrait
+$tablet_m: 768px;
+
+// tablet
+$tablet: 992px;
+
+// desktop
+
+$desktop: 1200px;
+
+//desktop plus
+$desktop_p: 1440px;
+
+
+/*** 
+mixin breakpoint
+*/
+@mixin phone {
+    @media screen and (max-width: #{phone}) {
+        @content;
+    }
+}
+
+
+
+@mixin tablet_m {
+    @media screen and (max-width: #{$tablet_m}) {
+        @content;
+    }
+}
+
+
+
+@mixin tablet {
+    @media screen and (max-width: #{$tablet}) {
+        @content;
+    }
+}
+
+
+
+@mixin desktop {
+    @media screen and (max-width: #{$desktop}) {
+        @content;
+    }
+}
+
+
+
+@mixin desktop_p {
+    @media screen and (max-width: #{$desktop_p}) {
+        @content;
+    }
+}
+
+
+
+/***
+*Début responsive du site
+
+***/
+
+
+// responsive Accueil 
+
+@include tablet() {
+    .page-template-front-page {
+        .Nvh-nav-menu {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start !important;
+            align-items: center;
+
+            .nav_logo {
+                width: 190px;
+
+                .logo-img-header {
+                    width: 190px;
+                    position: relative;
+
+                }
+            }
+
+            .Nvh-collapse {
+                position: absolute;
+                padding: 0;
+                bottom: -90px;
+                font-size: small;
+                margin: 0;
+                display: flex !important;
+                justify-content: flex-start !important;
+
+                .Nvh-primary-nav {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    justify-content: center;
+                    align-items: flex-start;
+                }
+            }
+
+            .Nvh-icon-responsive {
+                margin-left: 20px;
+                margin-right: 20px;
+                border: none;
+                display: flex;
+                flex-direction: column;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                transition: transform 1s ease-in-out, border 2s ease-in-out, opacity 1s ease-in-out;
+
+                .Nvh-respon-icon1,
+                .Nvh-respon-icon2,
+                .Nvh-respon-icon3 {
+                    width: 50px;
+                    height: 2px;
+                    box-shadow: 0px 0px 1px darkgreen;
+                    margin-bottom: 5px;
+                    border-radius: 50%;
+                    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+                }
+            }
+
+        }
+    }
+}

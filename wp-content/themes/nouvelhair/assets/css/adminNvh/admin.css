@@ -1,0 +1,69 @@
+/* Utilisez le nom de la page pour cibler les styles spécifiques à cette page */
+.settings_page_Horaires_salon .horaires-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: 30rem;
+    background-color: lightcyan;
+}
+
+.settings_page_Horaires_salon .horaire-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.settings_page_Horaires_salon .jour {
+    flex: 1;
+    font-weight: bold;
+}
+
+.settings_page_Horaires_salon .horaires {
+    flex: 1;
+    text-align: right;
+}
+
+.settings_page_Horaires_salon h2 {
+    color: blue;
+}
+.settings_page_Horaires_salon textarea{
+    width: 30rem;
+}
+.settings_page_Horaires_salon th{
+    font-style: italic;
+    color: black;
+}
+/*******
+ dashboard custom post type
+****/
+.wp-admin #menu-posts-coiffure a.menu-icon-coiffure> div> img {
+    width: 1.7rem;
+    position: relative;
+    margin-left: 5px;
+   
+}
+.wp-admin #menu-posts-soin a.menu-icon-coiffure> div{
+    margin-right: 3px;
+}
+.wp-admin #menu-posts-ayurvedique a.menu-icon-ayurvedique> div> img {
+    width: 1.7rem;
+    position: relative;
+    margin-left: 5px;
+   
+}
+.wp-admin #menu-posts-soin a.menu-icon-ayurvedique> div {
+    margin-right: 3px;
+}
+.wp-admin.post-type-coiffure #acf-group_64d2531e507a2 {
+    background-color: antiquewhite;
+}
+/*******
+dashboard partenaires
+*/
+.wp-admin #menu-posts-partenaire a.menu-icon-partenaire .dashicons-groups:before{
+    color: rgb(238, 195, 195);
+}
+.wp-admin #menu-posts-partenaire a.menu-icon-partenaire:hover {
+    color: rgb(240, 120, 120);
+}
