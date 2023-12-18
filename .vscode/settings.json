@@ -1,0 +1,34 @@
+{
+    "files.autoSave": "onFocusChange",
+    "sass.format.convert": true,
+    "sass.andStared": [
+    
+        "active",
+        "focus",
+        "hover",
+        "nth-child"
+    ],
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/wp-content/themes/nouvelhair",
+            "savePathReplacementPairs": null
+        }
+    ],
+    
+    "liveSassCompile.settings.includeItems": [
+        "/wp-content/themes/nouvelhair/assets/sass/_color.scss",
+        "/wp-content/themes/nouvelhair/assets/sass/_font.scss",
+        "/wp-content/themes/nouvelhair/assets/sass/_Nvh_responsive.scss",
+        "/wp-content/themes/nouvelhair/assets/sass/style.scss"
+    ],
+   "liveSassCompile.settings.rootIsWorkspace": true,
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.compileOnWatch": true,
+    "liveSassCompile.settings.autoprefix": [ "> 1%",
+    "last 2 versions"
+],
+"sass.format.debug": true
+   
+}
