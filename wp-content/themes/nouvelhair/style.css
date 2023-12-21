@@ -72,113 +72,6 @@ file vars colors css
   font-weight: 800;
   font-style: normal;
 }
-/*****
-tout le responsive du site 
-
-****/
-/****
-
-Variables breakpoints
-
-**/
-/*** 
-mixin breakpoint
-*/
-/***
-*Début responsive du site
-
-***/
-@media screen and (max-width: 992px) {
-  .page-template-front-page .Nvh-nav-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: start !important;
-        -ms-flex-pack: start !important;
-            justify-content: flex-start !important;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .page-template-front-page .Nvh-nav-menu .nav_logo {
-    width: 190px;
-  }
-  .page-template-front-page .Nvh-nav-menu .nav_logo .logo-img-header {
-    width: 190px;
-    position: relative;
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-collapse {
-    position: absolute;
-    padding: 0;
-    bottom: -90px;
-    font-size: small;
-    margin: 0;
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -webkit-box-pack: start !important;
-        -ms-flex-pack: start !important;
-            justify-content: flex-start !important;
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-collapse .Nvh-primary-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-icon-responsive {
-    margin-left: 20px;
-    margin-right: 20px;
-    border: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    -webkit-transition: border 2s ease-in-out, opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;
-    transition: border 2s ease-in-out, opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;
-    transition: transform 1s ease-in-out, border 2s ease-in-out, opacity 1s ease-in-out;
-    transition: transform 1s ease-in-out, border 2s ease-in-out, opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-icon-responsive .Nvh-respon-icon1,
-  .page-template-front-page .Nvh-nav-menu .Nvh-icon-responsive .Nvh-respon-icon2,
-  .page-template-front-page .Nvh-nav-menu .Nvh-icon-responsive .Nvh-respon-icon3 {
-    width: 50px;
-    height: 2px;
-    -webkit-box-shadow: 0px 0px 1px darkgreen;
-            box-shadow: 0px 0px 1px darkgreen;
-    margin-bottom: 5px;
-    border-radius: 50%;
-    -webkit-transition: opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;
-    transition: opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;
-    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
-    transition: transform 1s ease-in-out, opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;
-  }
-}
 /*********
 home-post
 ***/
@@ -2075,11 +1968,16 @@ nav {
   /*******
   Sticky class to navbar    
   */
+  /*****
+      menu-burger
+  ***/
 }
 .nvh-header .nav_logo,
 nav .nav_logo {
   position: relative;
   width: 225px;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
 }
 .nvh-header .nav_logo .logo-img-header,
 nav .nav_logo .logo-img-header {
@@ -2310,6 +2208,22 @@ nav .sticky {
   opacity: 0.8;
   width: 100%;
 }
+.nvh-header .top-menu,
+nav .top-menu {
+  display: block;
+}
+.nvh-header .top-menu .Nvh-collapse,
+nav .top-menu .Nvh-collapse {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 0;
+}
 
 /*.Nvh-news-full {
     width: max-content;
@@ -2492,4 +2406,232 @@ Footer
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+/*****
+tout le responsive du site 
+
+****/
+/****
+
+Variables breakpoints
+
+**/
+/*** 
+mixin breakpoint
+*/
+/***
+*Début responsive du site
+
+***/
+@media screen and (max-width: 992px) {
+  .page-template-front-page .Nvh-nav-menu,
+  .page-template .Nvh-nav-menu,
+  .blog .Nvh-nav-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .page-template-front-page .Nvh-nav-menu .nav_logo,
+  .page-template .Nvh-nav-menu .nav_logo,
+  .blog .Nvh-nav-menu .nav_logo {
+    width: 190px;
+    height: 135px;
+  }
+  .page-template-front-page .Nvh-nav-menu .nav_logo .logo-img-header,
+  .page-template .Nvh-nav-menu .nav_logo .logo-img-header,
+  .blog .Nvh-nav-menu .nav_logo .logo-img-header {
+    width: 190px;
+    position: relative;
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon,
+  .blog .Nvh-nav-menu .Nvh-menu-icon {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #3f969b;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 0.7s;
+    transition: -webkit-transform 0.7s;
+    transition: transform 0.7s;
+    transition: transform 0.7s, -webkit-transform 0.7s;
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1,
+  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1 {
+    width: 22px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    border-radius: 5px;
+    -webkit-transition: background 0.5s, -webkit-transform 0.7s;
+    transition: background 0.5s, -webkit-transform 0.7s;
+    transition: background 0.5s, transform 0.7s;
+    transition: background 0.5s, transform 0.7s, -webkit-transform 0.7s;
+    background-color: #FFF;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::before, .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::before,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
+  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::before,
+  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    display: block;
+    border-radius: 5px;
+    width: 22px;
+    height: 2px;
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
+  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon:hover span::before,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon:hover span::before,
+  .blog .Nvh-nav-menu .Nvh-menu-icon:hover span::before {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon:hover span::after,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon:hover span::after,
+  .blog .Nvh-nav-menu .Nvh-menu-icon:hover span::after {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened,
+  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span,
+  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span {
+    background: transparent;
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::before,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::before,
+  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::before {
+    -webkit-transform: translateY(0) rotate(45deg);
+            transform: translateY(0) rotate(45deg);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::after,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::after,
+  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::after {
+    -webkit-transform: translateY(0) rotate(-45deg);
+            transform: translateY(0) rotate(-45deg);
+  }
+  .page-template-front-page .Nvh-nav-menu .collapse.Nvh-collapse,
+  .page-template .Nvh-nav-menu .collapse.Nvh-collapse,
+  .blog .Nvh-nav-menu .collapse.Nvh-collapse {
+    position: relative;
+    padding: 0;
+    opacity: 0;
+    font-size: small;
+    margin: 0;
+    -webkit-transition: opacity 0.5s ease-in-out, -webkit-transform 0.8s ease-in-out;
+    transition: opacity 0.5s ease-in-out, -webkit-transform 0.8s ease-in-out;
+    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out;
+    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;
+    -webkit-transform: translateY(-250px);
+            transform: translateY(-250px);
+    -webkit-box-shadow: 0px 7px 20px black;
+            box-shadow: 0px 7px 20px black;
+  }
+  .page-template-front-page .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav,
+  .page-template .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav,
+  .blog .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+  }
+  .top-menu .collapse.Nvh-collapse {
+    position: relative;
+    opacity: 1 !important;
+    -webkit-transform: translateY(0) !important;
+            transform: translateY(0) !important;
+    background-color: lavender;
+  }
+  .top-menu .collapse.Nvh-collapse .Nvh-primary-nav {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
 }/*# sourceMappingURL=style.css.map */

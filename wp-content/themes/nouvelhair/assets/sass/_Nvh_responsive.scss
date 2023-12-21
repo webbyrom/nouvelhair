@@ -77,16 +77,21 @@ mixin breakpoint
 // responsive Accueil 
 
 @include tablet() {
-    .page-template-front-page {
+
+    .page-template-front-page,
+    .page-template,
+    .blog {
         .Nvh-nav-menu {
             display: flex;
             flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: flex-start !important;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            justify-content: space-between;
             align-items: center;
 
             .nav_logo {
                 width: 190px;
+                height: 135px;
 
                 .logo-img-header {
                     width: 190px;
@@ -95,48 +100,134 @@ mixin breakpoint
                 }
             }
 
-            .Nvh-collapse {
-                position: absolute;
-                padding: 0;
-                bottom: -90px;
-                font-size: small;
-                margin: 0;
-                display: flex !important;
-                justify-content: flex-start !important;
-
-                .Nvh-primary-nav {
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    align-content: center;
-                    justify-content: center;
-                    align-items: flex-start;
-                }
-            }
-
-            .Nvh-icon-responsive {
+            /// icon burger avec animation
+            .Nvh-menu-icon {
+                position: relative;
                 margin-left: 20px;
                 margin-right: 20px;
                 border: none;
                 display: flex;
                 flex-direction: column;
-                width: 50px;
-                height: 50px;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                background-color: $menu-icon-bg;
+                width: 54px;
+                height: 54px;
                 border-radius: 50%;
-                transition: transform 1s ease-in-out, border 2s ease-in-out, opacity 1s ease-in-out;
+                transition: transform $tempo-icon;
+                //transform-origin: center center;
 
-                .Nvh-respon-icon1,
-                .Nvh-respon-icon2,
-                .Nvh-respon-icon3 {
-                    width: 50px;
+                .Nvh-respon-icon1 {
+                    width: 22px;
                     height: 2px;
-                    box-shadow: 0px 0px 1px darkgreen;
-                    margin-bottom: 5px;
-                    border-radius: 50%;
-                    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    display: block;
+                    border-radius: 5px;
+                    transition: background $tempo-bg-icon, transform $tempo-icon;
+                    background-color: $menu-icon-color;
+                    transform: translateX(-50%) translateY(-50%);
+                    //transform-origin: center center;
+
+                    &::before,
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background-color: $menu-icon-color;
+                        display: block;
+                        border-radius: 5px;
+                        width: 22px;
+                        height: 2px;
+                        //transform-origin: center center;
+                        transform: translateY(-6px);
+                    }
+
+                    &::after {
+                        transform: translateY(6px);
+                    }
+
+                }
+
+                &:hover {
+                    span::before {
+                        transform: translateY(-8px);
+                    }
+
+                    span::after {
+                        transform: translateY(8px);
+                    }
+                }
+
+                &.Nvh-opened {
+                    transform: rotate(180deg);
+
+                    //transform-origin: center center;
+                    span {
+                        background: transparent;
+                        //transform-origin: center center;
+                    }
+
+                    span::before {
+                        transform: translateY(0) rotate(45deg);
+                    }
+
+                    span::after {
+                        transform: translateY(0) rotate(-45deg);
+                    }
+                }
+
+            }
+
+            //fin icon burger avec animation
+            .collapse.Nvh-collapse {
+                position: relative;
+                padding: 0;
+                opacity: 0;
+                font-size: small;
+                margin: 0;
+                transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out;
+                transform: translateY(-250px);
+                box-shadow: 0px 7px 20px black;
+                //transition-duration: 0.7s;
+
+                .Nvh-primary-nav {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    align-content: center;
+                    justify-content: center;
+                    align-items: flex-start;
+                    margin: 0;
+                    padding: 1rem 0 1rem 0;
                 }
             }
 
+        }
+
+        //Nvh-nav-menu
+    }
+
+    .top-menu {
+        .collapse.Nvh-collapse {
+            position: relative;
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+            background-color: lavender;
+
+            // width: 100vw;
+            .Nvh-primary-nav {
+                display: inline-flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                width: max-content;
+            }
         }
     }
 }

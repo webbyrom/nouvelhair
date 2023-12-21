@@ -22,8 +22,8 @@
     <header id="nvh_header" class="nvh-header container-fluid">
         <!---- nav menu---->
         <nav id="Nvh_nav_menu" class="Nvh-nav-menu nav container-fluid" style="background-color: <?= get_theme_mod('header_background') ?>">
-            <a href="#" id="Nvh_icon_responsive" class="Nvh-icon-responsive" onclick="">
-                <div class="Nvh-menu-icon">
+            <a href="#" id="Nvh_icon_responsive" class="Nvh-icon-responsive">
+                <div class="Nvh-menu-icon menu-icon-animate">
                     <span class="Nvh-respon-icon1"></span>
                 </div>
 
