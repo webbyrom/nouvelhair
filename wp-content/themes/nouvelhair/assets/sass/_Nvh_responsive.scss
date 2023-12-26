@@ -197,24 +197,37 @@ mixin breakpoint
                 .Nvh-primary-nav {
                     display: flex;
                     flex-direction: row;
-                    flex-wrap: nowrap;
+                    flex-wrap: wrap;
                     align-content: center;
                     justify-content: center;
                     align-items: flex-start;
                     margin: 0;
                     padding: 1rem 0 1rem 0;
+                    
+                    .Nvh-submenu-ul .Nvh-submenu-li{
+                        font-size: large;
+                        //position: static;
+                        background-color: white;
+                        z-index: 15;
+                    }
                 }
             }
 
         }
-
         //Nvh-nav-menu
+        h1 {
+            font-size: xxx-large;
+        }
+        h2, h3 {
+            font-size: xx-large ;
+        }
     }
 
     .top-menu {
         .collapse.Nvh-collapse {
             position: relative;
             opacity: 1 !important;
+            line-height: normal;
             transform: translateY(0) !important;
             background-color: lavender;
 
@@ -222,12 +235,48 @@ mixin breakpoint
             .Nvh-primary-nav {
                 display: inline-flex;
                 flex-direction: row;
-                flex-wrap: nowrap;
+                flex-wrap: wrap;
                 align-content: center;
                 justify-content: center;
                 align-items: center;
                 width: max-content;
+                line-height: 65px;
+                font-size: xx-large;
+                .Nvh-nav-li:nth-child(-n + 6) {
+                    margin-right: 0.8rem!important;
+                    padding-right: 10px;
+                    border-right: 2px solid rgb(13, 210, 200);
+                }
             }
         }
+    }//animation navbar avec le burger
+   
+}
+.home {
+    .Nvh-cadre {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        .Nvh-col-prez-img {
+            width: 100%;
+            display: contents;
+        }
+        .Nvh-col-prez-text {
+            width: 100%;
+        }
+       
+    }
+    .Nvh-filter {
+        padding-top: 0!important;
+    }
+    
+}
+.page-template-page-qui-suis-je{
+    .Nvh-col-qsjz-text {
+        width: 100%;
     }
 }
