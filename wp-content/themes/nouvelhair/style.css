@@ -2659,7 +2659,7 @@ mixin breakpoint
   .top-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-nav-li:nth-child(-n+6) {
     margin-right: 0.8rem !important;
     padding-right: 10px;
-    border-right: 2px solid rgb(13, 210, 200);
+    border-right: 1px solid rgb(36, 180, 156);
   }
 }
 .home .Nvh-cadre {
@@ -2695,4 +2695,50 @@ mixin breakpoint
 
 .page-template-page-qui-suis-je .Nvh-col-qsjz-text {
   width: 100%;
+}
+.page-template-page-qui-suis-je .Nvh-qsj-ambiance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+.page-template-page-qui-suis-je .Nvh-qsj-ambiance .Nvh-text-qsj-ambiance, .page-template-page-qui-suis-je .Nvh-qsj-ambiance .Nvh-qsj-ethique {
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.blog .Nvh-single-text {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: auto !important;
+}
+.blog .Nvh-partner-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }/*# sourceMappingURL=style.css.map */

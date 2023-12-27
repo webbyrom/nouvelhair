@@ -245,7 +245,7 @@ mixin breakpoint
                 .Nvh-nav-li:nth-child(-n + 6) {
                     margin-right: 0.8rem!important;
                     padding-right: 10px;
-                    border-right: 2px solid rgb(13, 210, 200);
+                    border-right: 1px solid rgb(36, 180, 156);
                 }
             }
         }
@@ -278,5 +278,30 @@ mixin breakpoint
 .page-template-page-qui-suis-je{
     .Nvh-col-qsjz-text {
         width: 100%;
+    }
+    .Nvh-qsj-ambiance {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        .Nvh-text-qsj-ambiance, .Nvh-qsj-ethique{
+            width: auto;
+            margin-bottom: 1rem;
+        }
+    }
+}
+.blog {
+    .Nvh-single-text {
+        box-sizing: content-box;
+        width: auto!important;
+    }
+    .Nvh-partner-content {
+        display: flex ;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
     }
 }
