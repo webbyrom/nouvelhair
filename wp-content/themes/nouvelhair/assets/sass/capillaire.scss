@@ -1,5 +1,5 @@
 /****
- fornt-end page Microscopie Capillaire
+ front-end page Microscopie Capillaire
 */
 .page-template-page-capillaire {
     letter-spacing: 1.2px;
@@ -133,7 +133,7 @@
         }
 
     }
-    .Nvh-left-graphisme{
+    .Nvh-left-graphisme {
         position: absolute;
         left: 0;
         top: 0;
@@ -147,7 +147,7 @@
         filter: blur(2px);
 
     }
-    .Nvh-right-graphisme{
+    .Nvh-right-graphisme {
         position: absolute;
         right: 0;
         bottom:0;
@@ -210,7 +210,43 @@
                 
             }
         }
-
+        
+    }// fin explication traitement
+    .Nvh-capillaire-tarif {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        .Nvh-tarf-microcapillaire {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            border: 1px solid black;
+            border-radius: 1rem;
+            .Nvh-microcapil-tarf-title {
+                width: 15rem;// à changer  pour coller au design
+                box-sizing: border-box;
+                padding: 1rem;
+                border: 1px solid #dbd1d1;
+                border-radius: 1rem;
+                box-shadow: 1px 5px 30px #aca9a9;
+                margin-bottom: 3rem;
+            }
+            .Nvh-analyse-micro {
+                background-color: white;
+                border: 1px solid black;
+                border-radius: 1rem;
+                padding: 1rem;
+            }
+        }
+        
     }
     
-}
+}// page Microscopie capillaire

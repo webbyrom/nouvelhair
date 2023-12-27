@@ -65,7 +65,7 @@ get_header() ?>
                         $CapiTexts = $matches_array[1];
 
                         // Replace <li> tags with <li class="specific-class"> tags
-                        foreach ($CapiTexts as &$listItem) {//& devant la variablle permet d'avoir dans le tableau les modifiacations
+                        foreach ($CapiTexts as &$listItem) { //& devant la variablle permet d'avoir dans le tableau les modifiacations
                             $listItem = preg_replace('/<li>/', '<li class="Nvh-listCap">', $listItem);
                         }
 
@@ -77,7 +77,7 @@ get_header() ?>
                         echo '</ul>';
                     }
                     $textOutsideList = preg_replace('/<ul>.*?<\/ul>/si', '', $CapillairDefault);
-                    echo'<p class="Nvh-text-capillaire-list container">'. wp_kses_post($textOutsideList) .'</p>';
+                    echo '<p class="Nvh-text-capillaire-list container">' . wp_kses_post($textOutsideList) . '</p>';
                 }
                 ?>
             </div>
@@ -87,20 +87,37 @@ get_header() ?>
     </section>
     <section class="Nvh-capillaire-ttt container-fluid">
         <h2 class="Nvh-capil-ttt">Le Traitement</h2>
-        
-        <?php  
+
+        <?php
         $CapillaireExplain = get_field('traitment_explain');
         //$CapillaireExplain = get_post_meta($post->ID, 'traitment_explain', true);
         if (!empty($CapillaireExplain)) {
-            echo '<div class="Nvh-ttt-Capillaire container">'. wp_kses_post($CapillaireExplain) . '</div>';
+            echo '<div class="Nvh-ttt-Capillaire container">' . wp_kses_post($CapillaireExplain) . '</div>';
         }
-        
+
         ?>
-           
+
     </section>
     <section class="Nvh-capillaire-tarif container-fluid">
-        <h3 class="Nvh-capil-tarf-title">Tarifs</h3>
-        
+        <div class="Nvh-tarf-microcapillaire container-fluid">
+            <h3 class="Nvh-microcapil-tarf-title">Tarifs</h3>
+            <div class="Nvh-analyse-micro container-fluid">
+                <?php 
+                $analyse_micro = get_field('analyse_et_prelevement');
+                $tarif_analyse = get_field('tarif_analyse');
+                $time_analyse= get_field('duree');
+                if (!empty($analyse_micro) && !empty($tarif_analyse) && !empty($time_analyse)) {
+                    echo '<div class="Nvh-tarif-dure container-fluid">';
+                    echo '<p class="Nvh-analyse-mc container-fluid">' . wp_kses_post($analyse_micro). '</p>';
+                    echo '<p class="Nvh-tarif-dure container-fluid">'. wp_kses_post($tarif_analyse). '€ ttc' . '/'. wp_kses_post($time_analyse).'minutes'.'</p>';
+                    echo '</div>';
+                }
+                ?>
+            </div>
+        </div>
+
+
+
     </section>
 
 </div>

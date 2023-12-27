@@ -1629,7 +1629,7 @@ fichier Css de la page index/ tous les Produits
 }
 
 /****
- fornt-end page Microscopie Capillaire
+ front-end page Microscopie Capillaire
 */
 .page-template-page-capillaire {
   letter-spacing: 1.2px;
@@ -1876,6 +1876,65 @@ fichier Css de la page index/ tous les Produits
 .page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-Capillaire p a:hover {
   color: rgb(209, 105, 209);
   font-size: 19px;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-microcapil-tarf-title {
+  width: 15rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1rem;
+  border: 1px solid #dbd1d1;
+  border-radius: 1rem;
+  -webkit-box-shadow: 1px 5px 30px #aca9a9;
+          box-shadow: 1px 5px 30px #aca9a9;
+  margin-bottom: 3rem;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-analyse-micro {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 *,
