@@ -1915,15 +1915,18 @@ fichier Css de la page index/ tous les Produits
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: auto;
+  width: 50%;
   border: 1px solid black;
   border-radius: 1rem;
 }
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-microcapil-tarf-title {
+  position: relative;
+  top: -33px;
   width: 15rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 1rem;
+  background-color: aliceblue;
   border: 1px solid #dbd1d1;
   border-radius: 1rem;
   -webkit-box-shadow: 1px 5px 30px #aca9a9;
@@ -1931,10 +1934,76 @@ fichier Css de la page index/ tous les Produits
   margin-bottom: 3rem;
 }
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-analyse-micro {
+  position: relative;
+  width: 24rem;
   background-color: white;
   border: 1px solid black;
   border-radius: 1rem;
   padding: 1rem;
+  margin-bottom: 3rem;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-analyse-micro .Nvh-tarif-dure {
+  font-size: large;
+  color: rgb(171, 95, 95);
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-capi-cure-title {
+  font-size: xx-large;
+  margin-bottom: 0;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .underlining {
+  margin-top: 0.5rem;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-homet-cure {
+  position: relative;
+  width: 24rem;
+  padding: 2rem;
+  background-color: lightseagreen;
+  color: ghostwhite;
+  border-radius: 1rem;
+  margin: auto;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon {
+  position: relative;
+  width: 16rem;
+  height: 16rem;
+  padding: 2rem;
+  border-radius: 50%;
+  background-color: lightseagreen;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 *,

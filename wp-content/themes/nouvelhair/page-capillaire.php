@@ -102,18 +102,51 @@ get_header() ?>
         <div class="Nvh-tarf-microcapillaire container-fluid">
             <h3 class="Nvh-microcapil-tarf-title">Tarifs</h3>
             <div class="Nvh-analyse-micro container-fluid">
-                <?php 
+                <?php
                 $analyse_micro = get_field('analyse_et_prelevement');
                 $tarif_analyse = get_field('tarif_analyse');
-                $time_analyse= get_field('duree');
+                $time_analyse = get_field('duree');
                 if (!empty($analyse_micro) && !empty($tarif_analyse) && !empty($time_analyse)) {
                     echo '<div class="Nvh-tarif-dure container-fluid">';
-                    echo '<p class="Nvh-analyse-mc container-fluid">' . wp_kses_post($analyse_micro). '</p>';
-                    echo '<p class="Nvh-tarif-dure container-fluid">'. wp_kses_post($tarif_analyse). '€ ttc' . '/'. wp_kses_post($time_analyse).'minutes'.'</p>';
+                    echo '<p class="Nvh-analyse-mc container-fluid">' . wp_kses_post($analyse_micro) . '</p>';
+                    echo '<p class="Nvh-tarif-dure container-fluid">' . wp_kses_post($tarif_analyse) . '€ ttc' . '/' . wp_kses_post($time_analyse) . 'minutes' . '</p>';
                     echo '</div>';
                 }
                 ?>
             </div>
+            <h4 class="Nvh-capi-cure-title">Cure</h4>
+            <div class="underlining">
+                <span class="Nvh-border-bottom"></span>
+            </div>
+            <div class="Nvh-cure container-fluid">
+                <?php
+                $cure_home = get_field('cure_maison');
+                $cure_home = wp_kses_post($cure_home);
+                $sold_parts = get_field('tarif_des_produits');
+                if (!empty($cure_home) && !empty($sold_parts)) {
+                    echo '<div class="Nvh-homet-cure">';
+                    echo '<p class="Nvh-cure-homet">' . strip_tags($cure_home) . '</p>';
+                    echo '<p class="Nvh-parts-sold">' . 'pour un coût de ' . $sold_parts . '€ttc' . '</p>';
+                    echo '</div>';
+                }
+
+
+                ?>
+
+                <div class="Nvh-cure-salon container-fluid">
+                    <?php
+                    $cure_salon = get_field('cure_salon');
+                    $cure_salon = wp_kses_post($cure_salon);
+                    if (!empty($cure_salon)) {
+                        echo '<p class="Nvh-cure-salont">' . strip_tags($cure_salon) . '</p>';
+                    }
+
+
+                    ?>
+                </div>
+            </div>
+            <div class="Nvh-total-cure-home container-fluid"></div>
+            <div class="Nvh-total-cure-salon container-fluid"></div>
         </div>
 
 

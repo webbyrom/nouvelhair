@@ -227,24 +227,75 @@
             align-content: center;
             justify-content: center;
             align-items: center;
-            width: auto;
+            width: 50%;
             border: 1px solid black;
             border-radius: 1rem;
             .Nvh-microcapil-tarf-title {
+                position: relative;
+                top: -33px;
                 width: 15rem;// à changer  pour coller au design
                 box-sizing: border-box;
                 padding: 1rem;
+                background-color: aliceblue;
                 border: 1px solid #dbd1d1;
                 border-radius: 1rem;
                 box-shadow: 1px 5px 30px #aca9a9;
                 margin-bottom: 3rem;
             }
             .Nvh-analyse-micro {
+                position: relative;
+                width: 24rem;
                 background-color: white;
                 border: 1px solid black;
                 border-radius: 1rem;
                 padding: 1rem;
+                margin-bottom: 3rem;
+                .Nvh-tarif-dure {
+                    font-size: large;
+                    color: rgb(171, 95, 95);
+
+                }
             }
+            .Nvh-capi-cure-title {
+                font-size: xx-large;
+                margin-bottom: 0;
+            }
+            .underlining {
+                margin-top: 0.5rem;
+            }
+            .Nvh-cure {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: center; 
+                justify-content: center;
+                align-items: center;
+                .Nvh-homet-cure {
+                    position: relative;
+                    width: 24rem; 
+                    padding: 2rem;  
+                    background-color: lightseagreen;
+                    color: ghostwhite;
+                    border-radius: 1rem;
+                    margin: auto;
+
+                }
+                .Nvh-cure-salon {
+                    position: relative;
+                    width: 14rem;
+                    height: 14rem;
+                    padding: 2rem;
+                    border-radius: 50%;
+                    background-color: lightseagreen;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            
         }
         
     }
