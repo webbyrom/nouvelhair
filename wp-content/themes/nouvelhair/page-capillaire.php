@@ -118,7 +118,10 @@ get_header() ?>
             <div class="underlining">
                 <span class="Nvh-border-bottom"></span>
             </div>
+            <div class="Nvh-trait-cure container-fluid"></div>
+            <div class="Nvh-trait-cure-salon container-fluid"></div>
             <div class="Nvh-cure container-fluid">
+                
                 <?php
                 $cure_home = get_field('cure_maison');
                 $cure_home = wp_kses_post($cure_home);
@@ -145,8 +148,26 @@ get_header() ?>
                     ?>
                 </div>
             </div>
-            <div class="Nvh-total-cure-home container-fluid"></div>
-            <div class="Nvh-total-cure-salon container-fluid"></div>
+            <div class="Nvh-total-cure container-fluid">
+                <div class="Nvh-total-cure-home container-fluid">
+                    <?php
+                    $cure_total_home = get_field('total_cure_maison');
+                    $cure_total_home = wp_kses_post($cure_total_home);
+                    if (!empty($cure_total_home)) {
+                        echo '<span class="Nvh-total-homet-cure">' . "soit un total de " . '</span>' . '</span class="Nvh-total-homep">' . $cure_total_home . "€ttc" . '</span>';
+                    }
+
+                    ?>
+                </div>
+                <div class="Nvh-total-cure-salon container-fluid">
+                    <?php
+                    $cure_total_salon = get_field('total_cure_salon');
+                    if (!empty($cure_total_salon)) {
+                        echo '<span class="Nvh-total-salont-cure">' . "soit un total de " . '</span>' . '</span class="Nvh-total-salonp">' . wp_kses_post($cure_total_salon) . "€ttc" . '</span>';
+                    }
+                    ?>
+                </div>
+            </div>
         </div>
 
 

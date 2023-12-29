@@ -259,20 +259,39 @@
             .Nvh-capi-cure-title {
                 font-size: xx-large;
                 margin-bottom: 0;
+                
             }
             .underlining {
                 margin-top: 0.5rem;
             }
+            // trait indiquant la cure maison ou salon
+            .Nvh-trait-cure{
+                position: relative;
+                width: 8rem;
+                height: 2px; 
+                transform: rotate(-45deg);
+                left: -114px;   
+                background-color: black;
+            }
+            .Nvh-trait-cure-salon {
+                position: relative;
+                z-index: -1;
+                top: 1px;
+                width: 9rem;
+                height: 2px;
+                background-color: black;
+                transform: rotate(45deg);
+                left: 6rem;
+            }
             .Nvh-cure {
-                display: flex;
+                display: inline-flex;
                 flex-direction: row;
-                flex-wrap: nowrap;
-                align-content: center; 
-                justify-content: center;
                 align-items: center;
+                justify-content: center;
+                flex-wrap: nowrap;
                 .Nvh-homet-cure {
                     position: relative;
-                    width: 24rem; 
+                    width: 20rem; 
                     padding: 2rem;  
                     background-color: lightseagreen;
                     color: ghostwhite;
@@ -291,6 +310,43 @@
                     display: flex;
                     flex-direction: column;
                     flex-wrap: nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    right: 2rem;
+                }
+            }
+            .Nvh-total-cure {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                .Nvh-total-cure-home {
+                    position: relative;
+                    width: 11rem;
+                    height: 11rem;
+                    padding: 2rem;
+                    border-radius: 50%;
+                    background-color: brown;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    align-content: center;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                }
+                .Nvh-total-cure-salon {
+                    position: relative;
+                    width: 12rem;
+                    padding: 2rem;
+                    background-color: brown;
+                    border-radius: 1rem;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    align-content: center;
                     justify-content: center;
                     align-items: center;
                 }

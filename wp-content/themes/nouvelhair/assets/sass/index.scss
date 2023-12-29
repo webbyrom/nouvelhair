@@ -73,6 +73,7 @@ fichier Css de la page index/ tous les Produits
     .Nvh-partner {
         .Nvh-partner-content {
             display: flex;
+            flex-direction: row;
             flex-wrap: wrap;
             align-content: center;
             justify-content: space-between;
