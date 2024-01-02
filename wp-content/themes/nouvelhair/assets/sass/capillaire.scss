@@ -4,9 +4,11 @@
 .page-template-page-capillaire {
     letter-spacing: 1.2px;
     line-height: 2rem;
-    .container-fluid{
-        --bs-gutter-x:0!important;
+
+    .container-fluid {
+        --bs-gutter-x: 0 !important;
     }
+
     .Nvh-descript-capillaire {
         position: relative;
         display: flex;
@@ -16,11 +18,11 @@
         align-items: center;
         margin: 0;
         padding: 0;
-       
+
 
         .Nvh-decript-capillaire {
-           display: block;
-           margin-bottom: 4rem;
+            display: block;
+            margin-bottom: 4rem;
 
             .Nvh-capillaire-texte {
                 text-align: justify;
@@ -68,14 +70,17 @@
                     transform: rotate(360deg);
                 }
             }
+
             .Nvh-capillaire-imgdescp {
                 border-radius: 1rem;
 
             }
         }
+
         .Nvh-img-descirpt-capillaire {
             position: relative;
             margin: 0px 40px;
+
             //width: auto;
             &::before {
                 content: "";
@@ -89,21 +94,22 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 opacity: 0.4;
-               // border-top-left-radius: 8rem; enlever pour mettre les triangles à la place
-               // border-bottom-right-radius: 8rem;
-                box-shadow: 5px 10px 30px black;               
+                // border-top-left-radius: 8rem; enlever pour mettre les triangles à la place
+                // border-bottom-right-radius: 8rem;
+                box-shadow: 5px 10px 30px black;
 
             }
+
             .Nvh-capillaire-default {
                 position: relative;
                 letter-spacing: 2px;
                 width: auto;
                 margin-bottom: 2rem;
-                font-weight: 600; 
+                font-weight: 600;
                 text-decoration: underline darkmagenta;
-                
+
             }
-           
+
         }
     }
 
@@ -116,7 +122,7 @@
         font-size: larger;
         font-weight: 600;
         margin-bottom: 3rem;
-       
+
 
         .Nvh-CapiListe {
             display: flex;
@@ -127,12 +133,14 @@
             align-items: flex-start;
             margin-bottom: 2rem;
         }
-        .Nvh-text-capillaire-list{
+
+        .Nvh-text-capillaire-list {
             font-size: larger;
             color: brown;
         }
 
     }
+
     .Nvh-left-graphisme {
         position: absolute;
         left: 0;
@@ -147,10 +155,11 @@
         filter: blur(2px);
 
     }
+
     .Nvh-right-graphisme {
         position: absolute;
         right: 0;
-        bottom:0;
+        bottom: 0;
         width: 0;
         height: 0;
         border-left: 100px solid transparent;
@@ -160,18 +169,20 @@
         opacity: 0.5;
         filter: blur(2px);
     }
+
     .Nvh-capillaire-ttt {
         margin-top: 5rem;
         position: relative;
-        .Nvh-capil-ttt{
+
+        .Nvh-capil-ttt {
             padding: 0;
             margin-bottom: 3rem;
             //font-weight: 800;
             font-size: 3rem;
             width: auto;
         }
-        
-        .Nvh-ttt-Capillaire{
+
+        .Nvh-ttt-Capillaire {
             width: 750px;
             height: 750px;
             border-radius: 50%;
@@ -181,13 +192,15 @@
             align-items: center;
             background-image: linear-gradient(45deg, white 65%, rgb(240 194 171) 20%);
             box-shadow: 1px 5px 30px grey;
-            h4{
+
+            h4 {
                 position: relative;
                 //font-size: xx-large;
                 font-weight: 700;
                 margin-bottom: 2rem;
                 text-decoration: underline;
             }
+
             p {
                 position: relative;
                 text-align: center;
@@ -197,21 +210,25 @@
                 word-wrap: break-word;
                 padding-left: 50px;
                 padding-right: 50px;
+
                 // z-index: 2;
                 a {
                     color: darkmagenta;
                     //transform: translateY(0px);
                     transition: color 0.4s ease-in-out, font-size 0.5s ease-in-out;
+
                     &:hover {
-                        color:rgb(209, 105, 209);
-                       font-size: 19px;
+                        color: rgb(209, 105, 209);
+                        font-size: 19px;
                     }
                 }
-                
+
             }
         }
-        
-    }// fin explication traitement
+
+    }
+
+    // fin explication traitement
     .Nvh-capillaire-tarif {
         margin-top: 4rem;
         display: flex;
@@ -220,6 +237,7 @@
         align-content: center;
         justify-content: center;
         align-items: center;
+
         .Nvh-tarf-microcapillaire {
             display: flex;
             flex-direction: column;
@@ -230,10 +248,11 @@
             width: 50%;
             border: 1px solid black;
             border-radius: 1rem;
+
             .Nvh-microcapil-tarf-title {
                 position: relative;
                 top: -33px;
-                width: 15rem;// à changer  pour coller au design
+                width: 15rem; // à changer  pour coller au design
                 box-sizing: border-box;
                 padding: 1rem;
                 background-color: aliceblue;
@@ -242,6 +261,7 @@
                 box-shadow: 1px 5px 30px #aca9a9;
                 margin-bottom: 3rem;
             }
+
             .Nvh-analyse-micro {
                 position: relative;
                 width: 24rem;
@@ -250,60 +270,74 @@
                 border-radius: 1rem;
                 padding: 1rem;
                 margin-bottom: 3rem;
+
                 .Nvh-tarif-dure {
                     font-size: large;
                     color: rgb(171, 95, 95);
 
                 }
             }
+
             .Nvh-capi-cure-title {
                 font-size: xx-large;
                 margin-bottom: 0;
-                
+
             }
+
             .underlining {
                 margin-top: 0.5rem;
             }
-            // trait indiquant la cure maison ou salon
-            .Nvh-trait-cure{
-                position: relative;
-                width: 8rem;
-                height: 2px; 
-                transform: rotate(-45deg);
-                left: -114px;   
-                background-color: black;
-            }
-            .Nvh-trait-cure-salon {
-                position: relative;
-                z-index: -1;
-                top: 1px;
-                width: 9rem;
-                height: 2px;
-                background-color: black;
-                transform: rotate(45deg);
-                left: 6rem;
-            }
-            .Nvh-cure {
-                display: inline-flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                flex-wrap: nowrap;
-                .Nvh-homet-cure {
-                    position: relative;
-                    width: 20rem; 
-                    padding: 2rem;  
-                    background-color: lightseagreen;
-                    color: ghostwhite;
-                    border-radius: 1rem;
-                    margin: auto;
 
-                }
+            .Nvh-cure {
+                display: inline-flex;   
+                flex-wrap: nowrap;
+                flex-direction: row;
+                justify-content: center;
+                align-items: flex-start;
+
+                .Nvh-cure-maison,
                 .Nvh-cure-salon {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-content: space-around;
+                    justify-content: center;
+                    align-items: center;
+
+                    .Nvh-homet-cure {
+                        position: relative;
+                        width: 20rem;
+                        padding: 1rem;
+                        background-color: lightseagreen;
+                        color: ghostwhite;
+                        border-radius: 1rem;
+                        margin: 2rem 0;
+
+
+                    }
+
+                    .Nvh-total-cure-home {
+                        position: relative;
+                        width: 10rem;
+                        height: 10rem;
+                        padding: 1rem;
+                        border-radius: 50%;
+                        background-color: brown;
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        align-content: center;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                    }
+                }
+
+                .Nvh-cure-salont {
                     position: relative;
-                    width: 14rem;
-                    height: 14rem;
-                    padding: 2rem;
+                    width: 10rem;
+                    height: 10rem;
+                    padding: 1rem;
                     border-radius: 50%;
                     background-color: lightseagreen;
                     color: white;
@@ -312,34 +346,14 @@
                     flex-wrap: nowrap;
                     justify-content: center;
                     align-items: center;
-                    right: 2rem;
+                    margin: 2rem 0;
+                    //right: 2rem;
                 }
-            }
-            .Nvh-total-cure {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: nowrap;
-                justify-content: center;
-                align-items: center;
-                .Nvh-total-cure-home {
-                    position: relative;
-                    width: 11rem;
-                    height: 11rem;
-                    padding: 2rem;
-                    border-radius: 50%;
-                    background-color: brown;
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: nowrap;
-                    align-content: center;
-                    justify-content: center;
-                    align-items: center;
-                    color: white;
-                }
+
                 .Nvh-total-cure-salon {
                     position: relative;
                     width: 12rem;
-                    padding: 2rem;
+                    padding: 1rem;
                     background-color: brown;
                     border-radius: 1rem;
                     color: white;
@@ -350,10 +364,14 @@
                     justify-content: center;
                     align-items: center;
                 }
+
             }
-            
+
+
         }
-        
+
     }
-    
-}// page Microscopie capillaire
+
+}
+
+// page Microscopie capillaire

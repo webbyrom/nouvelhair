@@ -1640,7 +1640,7 @@ fichier Css de la page index/ tous les Produits
   line-height: 2rem;
 }
 .page-template-page-capillaire .container-fluid {
-  --bs-gutter-x:0!important;
+  --bs-gutter-x: 0 !important;
 }
 .page-template-page-capillaire .Nvh-descript-capillaire {
   position: relative;
@@ -1957,60 +1957,25 @@ fichier Css de la page index/ tous les Produits
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .underlining {
   margin-top: 0.5rem;
 }
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-trait-cure {
-  position: relative;
-  width: 8rem;
-  height: 2px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  left: -114px;
-  background-color: black;
-}
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-trait-cure-salon {
-  position: relative;
-  z-index: -1;
-  top: 1px;
-  width: 9rem;
-  height: 2px;
-  background-color: black;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  left: 6rem;
-}
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-homet-cure {
-  position: relative;
-  width: 20rem;
-  padding: 2rem;
-  background-color: lightseagreen;
-  color: ghostwhite;
-  border-radius: 1rem;
-  margin: auto;
-}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison,
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon {
-  position: relative;
-  width: 14rem;
-  height: 14rem;
-  padding: 2rem;
-  border-radius: 50%;
-  background-color: lightseagreen;
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2018,26 +1983,10 @@ fichier Css de la page index/ tous les Produits
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  right: 2rem;
-}
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-total-cure {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2045,11 +1994,22 @@ fichier Css de la page index/ tous les Produits
       -ms-flex-align: center;
           align-items: center;
 }
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-total-cure .Nvh-total-cure-home {
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-homet-cure,
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon .Nvh-homet-cure {
   position: relative;
-  width: 11rem;
-  height: 11rem;
-  padding: 2rem;
+  width: 20rem;
+  padding: 1rem;
+  background-color: lightseagreen;
+  color: ghostwhite;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-total-cure-home,
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon .Nvh-total-cure-home {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
   border-radius: 50%;
   background-color: brown;
   display: -webkit-box;
@@ -2071,10 +2031,35 @@ fichier Css de la page index/ tous les Produits
           align-items: center;
   color: white;
 }
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-total-cure .Nvh-total-cure-salon {
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salont {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: lightseagreen;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-total-cure-salon {
   position: relative;
   width: 12rem;
-  padding: 2rem;
+  padding: 1rem;
   background-color: brown;
   border-radius: 1rem;
   color: white;
