@@ -123,8 +123,8 @@ get_header() ?>
             <div class="Nvh-trait-cure-salon container-fluid"></div>
             ---->
             <div class="Nvh-cure container-fluid">
-                <div class="Nvh-cure-maison container-fluid">
-                    <h5 class="NVh-cure-home">Réalisée à la Maison</h5>
+                <div class="Nvh-cure-maison Nvh-anim-cure container-fluid">
+                    <h5 class="Nvh-cure-home-title">Réalisée à la Maison</h5>
                     <?php
                     $cure_home = get_field('cure_maison');
                     $cure_home = wp_kses_post($cure_home);
@@ -143,15 +143,15 @@ get_header() ?>
                         $cure_total_home = get_field('total_cure_maison');
                         $cure_total_home = wp_kses_post($cure_total_home);
                         if (!empty($cure_total_home)) {
-                            echo '<span class="Nvh-total-homet-cure">' . "soit un total de " . '</span>' . '</span class="Nvh-total-homep">' . $cure_total_home . "€ttc" . '</span>';
+                            echo '<span class="Nvh-total-homet-cure Nvh-anim-cure">' . "soit un total de " . '</span>' . '</span class="Nvh-total-homep">' . $cure_total_home . "€ttc" . '</span>';
                         }
 
                         ?>
                     </div>
 
                 </div>
-                <div class="Nvh-cure-salon container-fluid">
-                    <h5 class="Nvh-cure-salon-title">Réaliée au Salon</h5>
+                <div class="Nvh-cure-salon Nvh-anim-cure container-fluid">
+                    <h5 class="Nvh-cure-salon-title">Réalisée au Salon</h5>
                     <?php
                     $cure_salon = get_field('cure_salon');
                     $cure_salon = wp_kses_post($cure_salon);

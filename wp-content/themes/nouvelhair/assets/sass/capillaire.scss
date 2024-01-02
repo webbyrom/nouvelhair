@@ -303,44 +303,58 @@
                     align-content: space-around;
                     justify-content: center;
                     align-items: center;
-
+                    //opacity: 0;
+                    .Nvh-cure-home-title, .Nvh-cure-salon-title{
+                        opacity: 0;
+                        font-style: oblique;
+                        text-decoration: underline darkviolet;
+                    }
+                    
                     .Nvh-homet-cure {
+                        opacity: 0;
                         position: relative;
+                        color: black;
                         width: 20rem;
                         padding: 1rem;
-                        background-color: lightseagreen;
-                        color: ghostwhite;
-                        border-radius: 1rem;
                         margin: 2rem 0;
-
+                        border-radius: 1rem;
+                        //background-color: lightseagreen;
+                        border: 1px solid darkviolet;
+                        box-shadow: 1px 2px 20px lightslategray;
 
                     }
 
                     .Nvh-total-cure-home {
+                        opacity: 0;
                         position: relative;
                         width: 10rem;
                         height: 10rem;
                         padding: 1rem;
                         border-radius: 50%;
-                        background-color: brown;
+                        border: 1px solid darkviolet;
+                        background-color: white;
+                        box-shadow: 1px 2px 20px lightslategray;
                         display: flex;
                         flex-direction: column;
                         flex-wrap: nowrap;
                         align-content: center;
                         justify-content: center;
                         align-items: center;
-                        color: white;
+                        color: black;
                     }
                 }
 
                 .Nvh-cure-salont {
+                    opacity: 0;
                     position: relative;
                     width: 10rem;
                     height: 10rem;
                     padding: 1rem;
                     border-radius: 50%;
-                    background-color: lightseagreen;
-                    color: white;
+                    border: 1px solid darkviolet;
+                    box-shadow: 1px 2px 20px lightslategray;
+                    background-color: white;
+                    color: black;
                     display: flex;
                     flex-direction: column;
                     flex-wrap: nowrap;
@@ -351,18 +365,27 @@
                 }
 
                 .Nvh-total-cure-salon {
+                    opacity: 0;
                     position: relative;
                     width: 12rem;
                     padding: 1rem;
-                    background-color: brown;
+                    background-color: white;
                     border-radius: 1rem;
-                    color: white;
+                    border: 1px solid darkviolet;
+                    box-shadow: 1px 2px 20px lightslategray;
+                    color: black;
                     display: flex;
                     flex-direction: column;
                     flex-wrap: nowrap;
                     align-content: center;
                     justify-content: center;
                     align-items: center;
+                }
+                .Nvh-visible {
+                    opacity: 1;
+                    
+                    transition: opacity 0.8s ease-in-out;
+                   
                 }
 
             }
