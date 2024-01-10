@@ -46,6 +46,11 @@
 .wp-admin #menu-posts-soin a.menu-icon-coiffure> div{
     margin-right: 3px;
 }
+.wp-admin #menu-posts-coiffure a.menu-icon-coiffure:hover {
+    background-color: darkgreen;
+    color: white;
+    font-weight: 700;
+}
 .wp-admin #menu-posts-ayurvedique a.menu-icon-ayurvedique> div> img {
     width: 1.7rem;
     position: relative;
@@ -54,6 +59,11 @@
 }
 .wp-admin #menu-posts-soin a.menu-icon-ayurvedique> div {
     margin-right: 3px;
+}
+.wp-admin #menu-posts-ayurvedique a.menu-icon-ayurvedique:hover{
+    background-color: darkgreen;
+    color: white;
+    font-weight: 700;
 }
 .wp-admin.post-type-coiffure #acf-group_64d2531e507a2 {
     background-color: antiquewhite;
@@ -65,5 +75,6 @@ dashboard partenaires
     color: rgb(238, 195, 195);
 }
 .wp-admin #menu-posts-partenaire a.menu-icon-partenaire:hover {
-    color: rgb(240, 120, 120);
+    color: white;
+    background-color: rgb(240, 120, 120);
 }

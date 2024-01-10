@@ -1838,6 +1838,7 @@ fichier Css de la page index/ tous les Produits
 .page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-Capillaire {
   width: 750px;
   height: 750px;
+  position: relative;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1852,9 +1853,19 @@ fichier Css de la page index/ tous les Produits
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: linear-gradient(45deg, white 65%, rgb(240, 194, 171) 20%);
+  background-color: white;
   -webkit-box-shadow: 1px 5px 30px grey;
           box-shadow: 1px 5px 30px grey;
+}
+.page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-Capillaire::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: radial-gradient(circle at bottom left, white 65%, rgba(240, 185, 185, 0.49) 25%);
 }
 .page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-Capillaire h4 {
   position: relative;
@@ -1881,8 +1892,37 @@ fichier Css de la page index/ tous les Produits
   color: rgb(209, 105, 209);
   font-size: 19px;
 }
+.page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-capillaire2, .page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-capillaire3 {
+  width: 800px;
+  height: 800px;
+  /* background-color: antiquewhite; */
+  border-width: 1px 6px 2px 3px;
+  border-style: solid;
+  border-color: lightcoral;
+  border-radius: 50%;
+  position: absolute;
+  top: 79px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+  -webkit-transform: rotateX(-22deg);
+          transform: rotateX(-22deg);
+  /* transform: perspective(10px); */
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: rotateY(-21deg);
+          transform: rotateY(-21deg);
+}
+.page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-capillaire3 {
+  -webkit-transform: rotateX(22deg);
+          transform: rotateX(22deg);
+  border-width: 2px 6px 3px 2px;
+  border-style: solid;
+  border-color: lightseagreen;
+}
 .page-template-page-capillaire .Nvh-capillaire-tarif {
-  margin-top: 4rem;
+  margin-top: 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1994,7 +2034,8 @@ fichier Css de la page index/ tous les Produits
       -ms-flex-align: center;
           align-items: center;
 }
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-cure-home-title, .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-cure-salon-title,
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-cure-home-title,
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-cure-salon-title,
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon .Nvh-cure-home-title,
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon .Nvh-cure-salon-title {
   opacity: 0;
@@ -2011,7 +2052,7 @@ fichier Css de la page index/ tous les Produits
   padding: 1rem;
   margin: 2rem 0;
   border-radius: 1rem;
-  border: 1px solid darkviolet;
+  border: 1px solid #c7c5c7;
   -webkit-box-shadow: 1px 2px 20px lightslategray;
           box-shadow: 1px 2px 20px lightslategray;
 }
@@ -2023,7 +2064,7 @@ fichier Css de la page index/ tous les Produits
   height: 10rem;
   padding: 1rem;
   border-radius: 50%;
-  border: 1px solid darkviolet;
+  border: 1px solid #c7c5c7;
   background-color: white;
   -webkit-box-shadow: 1px 2px 20px lightslategray;
           box-shadow: 1px 2px 20px lightslategray;
@@ -2053,7 +2094,7 @@ fichier Css de la page index/ tous les Produits
   height: 10rem;
   padding: 1rem;
   border-radius: 50%;
-  border: 1px solid darkviolet;
+  border: 1px solid #c7c5c7;
   -webkit-box-shadow: 1px 2px 20px lightslategray;
           box-shadow: 1px 2px 20px lightslategray;
   background-color: white;
@@ -2082,7 +2123,7 @@ fichier Css de la page index/ tous les Produits
   padding: 1rem;
   background-color: white;
   border-radius: 1rem;
-  border: 1px solid darkviolet;
+  border: 1px solid #c7c5c7;
   -webkit-box-shadow: 1px 2px 20px lightslategray;
           box-shadow: 1px 2px 20px lightslategray;
   color: black;
@@ -2365,6 +2406,9 @@ nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  background-color: rgba(248, 248, 255, 0.5607843137);
+  padding: 1rem;
+  border-radius: 1rem;
   z-index: 12;
   margin-top: 1rem;
   display: -webkit-box;
@@ -2385,6 +2429,16 @@ nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul {
 .nvh-header .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul .Nvh-submenu-li,
 nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul .Nvh-submenu-li {
   text-align: justify;
+  margin-bottom: 5px;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+.nvh-header .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul .Nvh-submenu-li:hover,
+nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul .Nvh-submenu-li:hover {
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
 }
 .nvh-header .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul .Nvh-submenu-li a span:after,
 nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul .Nvh-submenu-li a span:after {

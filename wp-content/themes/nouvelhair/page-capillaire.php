@@ -96,7 +96,8 @@ get_header() ?>
         }
 
         ?>
-
+        <div class="Nvh-ttt-capillaire2 container-fluid"></div><!------cercle arriére plan---->
+        <div class="Nvh-ttt-capillaire3 container-fluid"></div><!------cercle arriére plan---->
     </section>
     <section class="Nvh-capillaire-tarif container-fluid">
         <div class="Nvh-tarf-microcapillaire container-fluid">

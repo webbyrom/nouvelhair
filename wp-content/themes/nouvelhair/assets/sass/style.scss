@@ -235,7 +235,9 @@ nav {
                 font-size: large;
                 padding-left: 5px;
                 width: max-content;
-                //background-color: ghostwhite;
+                background-color: #f8f8ff8f;
+                padding: 1rem;
+                border-radius: 1rem;
                 z-index: 12;
                 margin-top: 1rem;
                 // border-bottom: 1px solid black;
@@ -246,6 +248,12 @@ nav {
                 transition: opacity .8s ease-in-out;
                 .Nvh-submenu-li{
                     text-align: justify;
+                    margin-bottom: 5px;
+                    transition: transform 0.5s ease-in-out;
+                    &:hover {
+                       // transition-delay:  .6s ease-in-out;
+                        transform: translateX(3px);
+                    }
                 }
                 .Nvh-submenu-li a span {
                     &:after {
