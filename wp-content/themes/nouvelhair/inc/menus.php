@@ -8,7 +8,10 @@ if (!function_exists('Nhv_register_menu')) {
     {
         register_nav_menus([
             'primary' =>    esc_html__('Primary Menu', 'nouvelhair'),
-            'footer'    =>  esc_html__('Footer Menu', 'nouvelhair')
+            'footer'    =>  esc_html__('Footer Menu', 'nouvelhair'),
+            'footer-coiffure'   => esc_html__('Footer Coiffure', 'nouvelhaire'),
+            'footer-massage'    => esc_html__('Footer Massages', 'nouvelhair'),
+            
         ]);
     }
     add_action('init', 'Nhv_register_menu');
@@ -36,6 +39,31 @@ if (! function_exists('Nvh_primary_nav')) {
             'walker'    => ''
         ]);
     }
+    if (! function_exists('NVh_footer_coiffure')) {
+        function Nvh_footer_coiffure() {
+            wp_nav_menu([
+                'theme_location' =>  'footer-coiffure',
+                'sort_column'   =>  'menu_order',
+                'contianer' =>  'div',
+                'container_class'   =>  'Nvh-footer-coiffure-content container-fluid',
+                'container_id'  =>  'Nvh_footer-coiffure_content',
+                'container_aria_label'  =>  'Nvh_m_active',
+                'menu_class'    =>  'Nvh-footer-coiffure',
+                'menu_id'   =>  'Nvh_footer_coiffure',
+                'echo'  =>  true,
+                'show_home' =>  true,
+                'before'    => '',
+                'after' => '',
+                'link_before'   => '<span>',
+                'link_after'    =>  '</span>',
+                'item_wrap' =>  '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                'item_spacing'  => 'preserve',
+                'depth' => 0,
+                'walker' => ''
+            ]);
+        }
+    }
+    
 }
 /****
  * customisation des éléments ul /li du menu et du sous menu 
@@ -98,15 +126,17 @@ add_action('widgets_init', function () {
     
     register_sidebar([
         'id'    => 'footer-nav',
-        'name'  => __('Footer_nav', 'Nvh'),
+        'name'  => __('Footer_nav', 'nouvelhair'),
+        'class' => 'Nvh-footer-sidebar container-fluid',
         'before_title' => '<div class="footer-title">',
         'after_title'    => '</div>',
         'before_widget' => '<div class="footer_col">',
         'after_widget'   => '</div>'
     ]);
+   
     register_sidebar([
         'id'    => 'blog',
-        'name'  => __('Blog sidebar', 'Nvh'),
+        'name'  => __('Blog sidebar', 'nouvelhair'),
         'before_title' => '<div class="sidebar_title">',
         'after_title'    => '</div>',
         'before_widget' => '<div class="sidebar_widget">',

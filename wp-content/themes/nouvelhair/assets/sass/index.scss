@@ -25,6 +25,14 @@ fichier Css de la page index/ tous les Produits
                     flex-wrap: nowrap;
                     justify-content: center;
                     align-items: center;
+                    .Nvh-single-article {
+                        color: chocolate;
+                        margin-bottom: 1rem;
+                        transition: color 0.6s ease-in-out;
+                        &:hover,&:focus {
+                            color: Black;
+                        }
+                    }
                     .Nvh-img-post-archive{
                         width: 30rem;
                         height: auto;
@@ -33,7 +41,14 @@ fichier Css de la page index/ tous les Produits
                     .Nvh-single-text{
                         padding: 1rem;
                         width: 47rem;
+                        border: 1px solid white;
+                        border-radius: 5px;
                         font-size: larger;
+                        margin: 1rem;
+                        transition: box-shadow 0.6s ease-in-out;
+                        &:hover {
+                            box-shadow: 1px 2px 20px white;
+                        }
                         span {
                             color: white!important;
                         }

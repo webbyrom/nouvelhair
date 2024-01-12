@@ -35,7 +35,7 @@
                 overflow: hidden;
                 background-color: rgb(249, 247, 250);
                 z-index: 1;
-                position: relative;
+                
             }
 
             .Nvh-capillaire-texte::before {
@@ -45,7 +45,7 @@
                 height: 99%;
                 left: 0;
                 top: 0;
-                background-image: conic-gradient(transparent, transparent, transparent, rgb(169, 135, 232));
+                background-image: conic-gradient(transparent, transparent, transparent, rgb(117 179 245));
                 animation: anim 4s linear infinite;
                 z-index: 0;
                 /* ::before est en arrière-plan */
@@ -56,6 +56,7 @@
             .Nvh-capillaire-texte span {
                 position: absolute;
                 padding: 2rem;
+                font-size: larger;
                 inset: 4px;
                 background-color: rgb(247, 250, 250);
                 z-index: 1;
@@ -181,7 +182,8 @@
             font-size: 3rem;
             width: auto;
         }
-// cercle pour le ttt
+
+        // cercle pour le ttt
         .Nvh-ttt-Capillaire {
             width: 750px;
             height: 750px;
@@ -192,21 +194,20 @@
             justify-content: center;
             align-items: center;
             background-color: white;
-            //background-image: radial-gradient(circle at bottom left, white 65%, rgb(240, 194, 171) 25%);
-            //background-image: linear-gradient(45deg, white 65%, rgb(240, 194, 171) 20%);
-           //background-image: radial-gradient(circle at 50px -40px, transparent 50px, blue 40px);
             box-shadow: 1px 5px 30px grey;
-         &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            background-image: radial-gradient(circle at bottom left, white 65%, rgb(240 185 185 / 49%) 25%);
-            
-         }
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                background-image: radial-gradient(circle at bottom left, white 65%, rgb(240 185 185 / 49%) 25%);
+
+            }
+
             h4 {
                 position: relative;
                 //font-size: xx-large;
@@ -239,14 +240,16 @@
 
             }
         }
-        .Nvh-ttt-capillaire2, .Nvh-ttt-capillaire3{
+
+        .Nvh-ttt-capillaire2,
+        .Nvh-ttt-capillaire3 {
             width: 800px;
             height: 800px;
             /* background-color: antiquewhite; */
             border-width: 1px 6px 2px 3px;
             border-style: solid;
             border-color: lightcoral;
-           // border: 2px solid lightcoral;
+            // border: 2px solid lightcoral;
             border-radius: 50%;
             position: absolute;
             top: 79px;
@@ -259,17 +262,21 @@
             transform-style: preserve-3d;
             transform: rotateY(-21deg);
         }
+
         .Nvh-ttt-capillaire3 {
             transform: rotateX(22deg);
             border-width: 2px 6px 3px 2px;
             border-style: solid;
             border-color: lightseagreen;
-           // border: 2px solid lightseagreen;
+            // border: 2px solid lightseagreen;
         }
 
     }
 
     // fin explication traitement
+
+
+    /******* partie des Tarifs *******/
     .Nvh-capillaire-tarif {
         margin-top: 8rem;
         display: flex;
@@ -278,6 +285,7 @@
         align-content: center;
         justify-content: center;
         align-items: center;
+        // background: antiquewhite; // juste pour visualiser à enlever apres 
 
         .Nvh-tarf-microcapillaire {
             display: flex;
@@ -286,20 +294,15 @@
             align-content: center;
             justify-content: center;
             align-items: center;
-            width: 50%;
-            border: 1px solid black;
-            border-radius: 1rem;
+            width: 100%;
+            margin: 0px 40px 1rem;
+            border-radius: 5px;
+            //border: 1px solid black;
+            //border-radius: 1rem;
 
             .Nvh-microcapil-tarf-title {
                 position: relative;
-                top: -33px;
-                width: 15rem; // à changer  pour coller au design
                 box-sizing: border-box;
-                padding: 1rem;
-                background-color: aliceblue;
-                border: 1px solid #dbd1d1;
-                border-radius: 1rem;
-                box-shadow: 1px 5px 30px #aca9a9;
                 margin-bottom: 3rem;
             }
 
@@ -314,6 +317,7 @@
 
                 .Nvh-tarif-dure {
                     font-size: large;
+                    font-weight: 700;
                     color: rgb(171, 95, 95);
 
                 }
@@ -335,48 +339,70 @@
                 flex-direction: row;
                 justify-content: center;
                 align-items: flex-start;
+                background-attachment: fixed;
+                background-image: url(http://localhost/nouvelhair/wp-content/uploads/2024/01/AdobeStock_596727286_Preview.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: .6rem;
+                perspective: 1000px;
 
                 .Nvh-cure-maison,
                 .Nvh-cure-salon {
+                    width: max-content;
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
                     align-content: space-around;
                     justify-content: center;
                     align-items: center;
+                    border: 2px solid white;
+                    backdrop-filter: blur(10px);
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                    transition: transform 0.5s;
+                    box-shadow: 1px 2px 20px black;
+
+                    &:hover {
+                        transform: rotateY(10deg) rotateX(10deg) rotateZ(5deg);
+                    }
+
 
                     //opacity: 0;
                     .Nvh-cure-home-title,
                     .Nvh-cure-salon-title {
                         opacity: 0;
                         font-style: oblique;
-                        text-decoration: underline darkviolet;
+                        font-weight: 800;
+                        font-size: larger;
+                        width: 100%;
+                        height: 6rem;
+                        background-color: #71b2cd;
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        justify-content: center;
+                        align-items: center;
+
                     }
 
                     .Nvh-homet-cure {
                         opacity: 0;
                         position: relative;
+                        background-color: white;
                         color: black;
+                        font-size: larger;
                         width: 20rem;
                         padding: 1rem;
                         margin: 2rem 0;
-                        border-radius: 1rem;
-                        //background-color: lightseagreen;
-                        border: 1px solid #c7c5c7;
-                        box-shadow: 1px 2px 20px lightslategray;
 
                     }
 
-                    .Nvh-total-cure-home {
+                    .Nvh-total-cure-home , .Nvh-total-cure-salon{
                         opacity: 0;
                         position: relative;
-                        width: 10rem;
-                        height: 10rem;
+                        width: 12rem;
                         padding: 1rem;
-                        border-radius: 50%;
-                        border: 1px solid #c7c5c7;
                         background-color: white;
-                        box-shadow: 1px 2px 20px lightslategray;
                         display: flex;
                         flex-direction: column;
                         flex-wrap: nowrap;
@@ -384,29 +410,29 @@
                         justify-content: center;
                         align-items: center;
                         color: black;
+                        font-size: larger;
+                        border-radius: 1rem;
+                        margin-bottom: 1rem;
                     }
                 }
 
                 .Nvh-cure-salont {
                     opacity: 0;
                     position: relative;
-                    width: 10rem;
-                    height: 10rem;
+                    width: 20rem;
                     padding: 1rem;
-                    border-radius: 50%;
-                    border: 1px solid #c7c5c7;
-                    box-shadow: 1px 2px 20px lightslategray;
                     background-color: white;
                     color: black;
+                    font-size: larger;
                     display: flex;
                     flex-direction: column;
                     flex-wrap: nowrap;
                     justify-content: center;
                     align-items: center;
                     margin: 2rem 0;
-                    //right: 2rem;
-                }
 
+                }
+/*
                 .Nvh-total-cure-salon {
                     opacity: 0;
                     position: relative;
@@ -414,17 +440,17 @@
                     padding: 1rem;
                     background-color: white;
                     border-radius: 1rem;
-                    border: 1px solid #c7c5c7;
-                    box-shadow: 1px 2px 20px lightslategray;
                     color: black;
+                    font-size: larger;
                     display: flex;
                     flex-direction: column;
                     flex-wrap: nowrap;
                     align-content: center;
                     justify-content: center;
                     align-items: center;
+                    margin-bottom: 1rem;
                 }
-
+*/
                 .Nvh-visible {
                     opacity: 1;
                     transition: opacity 0.8s ease-in-out;

@@ -58,8 +58,6 @@ jQuery(document).ready(function ($) {
 });
 
 
-
-
 // scroll top buton
 
 // affichage du bouton retour vers le haut au défilement de la page

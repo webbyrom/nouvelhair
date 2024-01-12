@@ -4,6 +4,7 @@
  * Theme: Nouvel'hair
  * Version: 1.0.4
  * Author: Romain / Webbyrom
+ * 
  */
 defined('ABSPATH') or exit;
 

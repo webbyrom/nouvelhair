@@ -104,6 +104,9 @@ home-post
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 5rem;
 }
 .Nvh-cadre .Nvh-col-prez-img {
@@ -1064,7 +1067,7 @@ Page Côté massage
 /*****
 single coiffure
 ****/
-.single-coiffure .Nvh-coiffures, .single-coiffure .Nvh-coiffure-post, .page-template-archive-coiffure .Nvh-coiffures, .page-template-archive-coiffure .Nvh-coiffure-post {
+.single-coiffure .Nvh-coiffures, .single-coiffure .Nvh-coiffure-post, .page-template-archive-coiffure .Nvh-coiffures, .page-template-archive-coiffure .Nvh-coiffure-post, .archive.tax-coupe .Nvh-coiffures, .archive.tax-coupe .Nvh-coiffure-post {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1077,7 +1080,7 @@ single coiffure
   margin-bottom: 3rem;
   position: relative;
 }
-.single-coiffure .Nvh-coiffures .flip-box, .single-coiffure .Nvh-coiffure-post .flip-box, .page-template-archive-coiffure .Nvh-coiffures .flip-box, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box {
+.single-coiffure .Nvh-coiffures .flip-box, .single-coiffure .Nvh-coiffure-post .flip-box, .page-template-archive-coiffure .Nvh-coiffures .flip-box, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box, .archive.tax-coupe .Nvh-coiffures .flip-box, .archive.tax-coupe .Nvh-coiffure-post .flip-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1096,12 +1099,12 @@ single coiffure
   margin-right: 3rem;
   margin-bottom: 2rem;
 }
-.single-coiffure .Nvh-coiffures .flip-box:hover .back, .single-coiffure .Nvh-coiffure-post .flip-box:hover .back, .page-template-archive-coiffure .Nvh-coiffures .flip-box:hover .back, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box:hover .back {
+.single-coiffure .Nvh-coiffures .flip-box:hover .back, .single-coiffure .Nvh-coiffure-post .flip-box:hover .back, .page-template-archive-coiffure .Nvh-coiffures .flip-box:hover .back, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box:hover .back, .archive.tax-coupe .Nvh-coiffures .flip-box:hover .back, .archive.tax-coupe .Nvh-coiffure-post .flip-box:hover .back {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
   z-index: 10;
 }
-.single-coiffure .Nvh-coiffures .flip-box:hover .front, .single-coiffure .Nvh-coiffure-post .flip-box:hover .front, .page-template-archive-coiffure .Nvh-coiffures .flip-box:hover .front, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box:hover .front {
+.single-coiffure .Nvh-coiffures .flip-box:hover .front, .single-coiffure .Nvh-coiffure-post .flip-box:hover .front, .page-template-archive-coiffure .Nvh-coiffures .flip-box:hover .front, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box:hover .front, .archive.tax-coupe .Nvh-coiffures .flip-box:hover .front, .archive.tax-coupe .Nvh-coiffure-post .flip-box:hover .front {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
   z-index: -1;
@@ -1110,7 +1113,9 @@ single coiffure
 .single-coiffure .Nvh-coiffures .flip-box .front, .single-coiffure .Nvh-coiffure-post .flip-box .back,
 .single-coiffure .Nvh-coiffure-post .flip-box .front, .page-template-archive-coiffure .Nvh-coiffures .flip-box .back,
 .page-template-archive-coiffure .Nvh-coiffures .flip-box .front, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .back,
-.page-template-archive-coiffure .Nvh-coiffure-post .flip-box .front {
+.page-template-archive-coiffure .Nvh-coiffure-post .flip-box .front, .archive.tax-coupe .Nvh-coiffures .flip-box .back,
+.archive.tax-coupe .Nvh-coiffures .flip-box .front, .archive.tax-coupe .Nvh-coiffure-post .flip-box .back,
+.archive.tax-coupe .Nvh-coiffure-post .flip-box .front {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1136,17 +1141,21 @@ single coiffure
 .single-coiffure .Nvh-coiffures .flip-box .front .Nvh-cote-coif, .single-coiffure .Nvh-coiffure-post .flip-box .back .Nvh-cote-coif,
 .single-coiffure .Nvh-coiffure-post .flip-box .front .Nvh-cote-coif, .page-template-archive-coiffure .Nvh-coiffures .flip-box .back .Nvh-cote-coif,
 .page-template-archive-coiffure .Nvh-coiffures .flip-box .front .Nvh-cote-coif, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .back .Nvh-cote-coif,
-.page-template-archive-coiffure .Nvh-coiffure-post .flip-box .front .Nvh-cote-coif {
+.page-template-archive-coiffure .Nvh-coiffure-post .flip-box .front .Nvh-cote-coif, .archive.tax-coupe .Nvh-coiffures .flip-box .back .Nvh-cote-coif,
+.archive.tax-coupe .Nvh-coiffures .flip-box .front .Nvh-cote-coif, .archive.tax-coupe .Nvh-coiffure-post .flip-box .back .Nvh-cote-coif,
+.archive.tax-coupe .Nvh-coiffure-post .flip-box .front .Nvh-cote-coif {
   width: 80%;
 }
 .single-coiffure .Nvh-coiffures .flip-box .back .Nvh-cote-coif a,
 .single-coiffure .Nvh-coiffures .flip-box .front .Nvh-cote-coif a, .single-coiffure .Nvh-coiffure-post .flip-box .back .Nvh-cote-coif a,
 .single-coiffure .Nvh-coiffure-post .flip-box .front .Nvh-cote-coif a, .page-template-archive-coiffure .Nvh-coiffures .flip-box .back .Nvh-cote-coif a,
 .page-template-archive-coiffure .Nvh-coiffures .flip-box .front .Nvh-cote-coif a, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .back .Nvh-cote-coif a,
-.page-template-archive-coiffure .Nvh-coiffure-post .flip-box .front .Nvh-cote-coif a {
+.page-template-archive-coiffure .Nvh-coiffure-post .flip-box .front .Nvh-cote-coif a, .archive.tax-coupe .Nvh-coiffures .flip-box .back .Nvh-cote-coif a,
+.archive.tax-coupe .Nvh-coiffures .flip-box .front .Nvh-cote-coif a, .archive.tax-coupe .Nvh-coiffure-post .flip-box .back .Nvh-cote-coif a,
+.archive.tax-coupe .Nvh-coiffure-post .flip-box .front .Nvh-cote-coif a {
   color: white;
 }
-.single-coiffure .Nvh-coiffures .flip-box .back, .single-coiffure .Nvh-coiffure-post .flip-box .back, .page-template-archive-coiffure .Nvh-coiffures .flip-box .back, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .back {
+.single-coiffure .Nvh-coiffures .flip-box .back, .single-coiffure .Nvh-coiffure-post .flip-box .back, .page-template-archive-coiffure .Nvh-coiffures .flip-box .back, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .back, .archive.tax-coupe .Nvh-coiffures .flip-box .back, .archive.tax-coupe .Nvh-coiffure-post .flip-box .back {
   background-color: rgba(26, 25, 25, 0.774);
   position: absolute;
   color: rgb(255, 255, 255);
@@ -1158,7 +1167,7 @@ single coiffure
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
 }
-.single-coiffure .Nvh-coiffures .flip-box .back:after, .single-coiffure .Nvh-coiffure-post .flip-box .back:after, .page-template-archive-coiffure .Nvh-coiffures .flip-box .back:after, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .back:after {
+.single-coiffure .Nvh-coiffures .flip-box .back:after, .single-coiffure .Nvh-coiffure-post .flip-box .back:after, .page-template-archive-coiffure .Nvh-coiffures .flip-box .back:after, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .back:after, .archive.tax-coupe .Nvh-coiffures .flip-box .back:after, .archive.tax-coupe .Nvh-coiffure-post .flip-box .back:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -1172,12 +1181,12 @@ single coiffure
   -webkit-box-shadow: 9px -5px 19px lightgray;
           box-shadow: 9px -5px 19px lightgray;
 }
-.single-coiffure .Nvh-coiffures .flip-box .front, .single-coiffure .Nvh-coiffure-post .flip-box .front, .page-template-archive-coiffure .Nvh-coiffures .flip-box .front, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .front {
+.single-coiffure .Nvh-coiffures .flip-box .front, .single-coiffure .Nvh-coiffure-post .flip-box .front, .page-template-archive-coiffure .Nvh-coiffures .flip-box .front, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .front, .archive.tax-coupe .Nvh-coiffures .flip-box .front, .archive.tax-coupe .Nvh-coiffure-post .flip-box .front {
   z-index: 10;
   color: white;
   font-size: xx-large;
 }
-.single-coiffure .Nvh-coiffures .flip-box .front:after, .single-coiffure .Nvh-coiffure-post .flip-box .front:after, .page-template-archive-coiffure .Nvh-coiffures .flip-box .front:after, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .front:after {
+.single-coiffure .Nvh-coiffures .flip-box .front:after, .single-coiffure .Nvh-coiffure-post .flip-box .front:after, .page-template-archive-coiffure .Nvh-coiffures .flip-box .front:after, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .front:after, .archive.tax-coupe .Nvh-coiffures .flip-box .front:after, .archive.tax-coupe .Nvh-coiffure-post .flip-box .front:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -1189,7 +1198,7 @@ single coiffure
   border-right-color: white;
   border-radius: 4px;
 }
-.single-coiffure .Nvh-coiffures .flip-box .content, .single-coiffure .Nvh-coiffure-post .flip-box .content, .page-template-archive-coiffure .Nvh-coiffures .flip-box .content, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .content {
+.single-coiffure .Nvh-coiffures .flip-box .content, .single-coiffure .Nvh-coiffure-post .flip-box .content, .page-template-archive-coiffure .Nvh-coiffures .flip-box .content, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .content, .archive.tax-coupe .Nvh-coiffures .flip-box .content, .archive.tax-coupe .Nvh-coiffure-post .flip-box .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1206,7 +1215,7 @@ single coiffure
   -webkit-transform: translateZ(50px);
   transform: translateZ(50px);
 }
-.single-coiffure .Nvh-coiffures .flip-box .content .Nvh-cote-coif, .single-coiffure .Nvh-coiffure-post .flip-box .content .Nvh-cote-coif, .page-template-archive-coiffure .Nvh-coiffures .flip-box .content .Nvh-cote-coif, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .content .Nvh-cote-coif {
+.single-coiffure .Nvh-coiffures .flip-box .content .Nvh-cote-coif, .single-coiffure .Nvh-coiffure-post .flip-box .content .Nvh-cote-coif, .page-template-archive-coiffure .Nvh-coiffures .flip-box .content .Nvh-cote-coif, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .content .Nvh-cote-coif, .archive.tax-coupe .Nvh-coiffures .flip-box .content .Nvh-cote-coif, .archive.tax-coupe .Nvh-coiffure-post .flip-box .content .Nvh-cote-coif {
   font-size: smaller;
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-box-sizing: border-box;
@@ -1215,7 +1224,7 @@ single coiffure
   border-radius: 1rem;
   padding: 5px 10px;
 }
-.single-coiffure .Nvh-coiffures .flip-box .content .Nvh-price, .single-coiffure .Nvh-coiffure-post .flip-box .content .Nvh-price, .page-template-archive-coiffure .Nvh-coiffures .flip-box .content .Nvh-price, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .content .Nvh-price {
+.single-coiffure .Nvh-coiffures .flip-box .content .Nvh-price, .single-coiffure .Nvh-coiffure-post .flip-box .content .Nvh-price, .page-template-archive-coiffure .Nvh-coiffures .flip-box .content .Nvh-price, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .content .Nvh-price, .archive.tax-coupe .Nvh-coiffures .flip-box .content .Nvh-price, .archive.tax-coupe .Nvh-coiffure-post .flip-box .content .Nvh-price {
   background-color: rgba(235, 216, 216, 0.7) !important;
   color: black;
   width: -webkit-max-content;
@@ -1224,10 +1233,10 @@ single coiffure
   padding: 1rem;
   border-radius: 1rem;
 }
-.single-coiffure .Nvh-coiffures .flip-box .content a, .single-coiffure .Nvh-coiffure-post .flip-box .content a, .page-template-archive-coiffure .Nvh-coiffures .flip-box .content a, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .content a {
+.single-coiffure .Nvh-coiffures .flip-box .content a, .single-coiffure .Nvh-coiffure-post .flip-box .content a, .page-template-archive-coiffure .Nvh-coiffures .flip-box .content a, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .content a, .archive.tax-coupe .Nvh-coiffures .flip-box .content a, .archive.tax-coupe .Nvh-coiffure-post .flip-box .content a {
   color: white;
 }
-.single-coiffure .Nvh-coiffures .flip-box .content p, .single-coiffure .Nvh-coiffure-post .flip-box .content p, .page-template-archive-coiffure .Nvh-coiffures .flip-box .content p, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .content p {
+.single-coiffure .Nvh-coiffures .flip-box .content p, .single-coiffure .Nvh-coiffure-post .flip-box .content p, .page-template-archive-coiffure .Nvh-coiffures .flip-box .content p, .page-template-archive-coiffure .Nvh-coiffure-post .flip-box .content p, .archive.tax-coupe .Nvh-coiffures .flip-box .content p, .archive.tax-coupe .Nvh-coiffure-post .flip-box .content p {
   padding: 2rem;
 }
 
@@ -1317,17 +1326,17 @@ single coiffure
 /**************
 single massage 
 */
-.single-ayurvedique .Nvh-main {
+.single-ayurvedique .Nvh-main, .archive.tax-massage .Nvh-main {
   margin-bottom: 2rem;
 }
-.single-ayurvedique .Nvh-main .Nvh-article-ayur {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur, .archive.tax-massage .Nvh-main .Nvh-article-ayur {
   background-image: url(http://localhost/Nouvelhair/wp-content/uploads/2023/10/Bglierrefloute.png);
   background-attachment: fixed;
   background-size: cover;
   position: relative;
   background-position: center;
 }
-.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1346,7 +1355,7 @@ single massage
       -ms-flex-align: center;
           align-items: center;
 }
-.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-img-ayurv-single .Img-Ayur-single {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-img-ayurv-single .Img-Ayur-single, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-img-ayurv-single .Img-Ayur-single {
   width: 20rem;
   position: relative;
   border-radius: 1rem;
@@ -1358,13 +1367,13 @@ single massage
   transition: filter 0.8s, box-shadow 0.8s;
   transition: filter 0.8s, box-shadow 0.8s, -webkit-filter 0.8s, -webkit-box-shadow 0.8s;
 }
-.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-img-ayurv-single .Img-Ayur-single:hover {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-img-ayurv-single .Img-Ayur-single:hover, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-img-ayurv-single .Img-Ayur-single:hover {
   -webkit-filter: none;
           filter: none;
   -webkit-box-shadow: 5px 10px 20px black;
           box-shadow: 5px 10px 20px black;
 }
-.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-ayur-pri-ti {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-ayur-pri-ti, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-ayur-pri-ti {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -1375,7 +1384,7 @@ single massage
   font-weight: 800;
   margin-bottom: 2rem;
 }
-.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1391,7 +1400,7 @@ single massage
       -ms-flex-pack: center;
           justify-content: center;
 }
-.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .underlining-ayurv {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .underlining-ayurv, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .underlining-ayurv {
   height: 2px;
   display: inline-block;
   background: -webkit-gradient(linear, right top, left top, from(#ccf2ff), color-stop(#1ac6ff), color-stop(#33ffad), to(#66c2ff));
@@ -1402,7 +1411,8 @@ single massage
   margin-bottom: 2rem;
 }
 .single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-desc-ayurv-single,
-.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-desc-ayurv-single,
+.archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf {
   position: relative;
   width: 40rem;
   background-image: linear-gradient(350deg, rgba(127, 183, 229, 0.902) 50%, white 77%);
@@ -1415,22 +1425,24 @@ single massage
           box-shadow: 10px 5px 20px;
 }
 .single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-desc-ayurv-single h2,
-.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf h2 {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf h2, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-desc-ayurv-single h2,
+.archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf h2 {
   color: rgb(0, 0, 0);
   font-weight: 600;
   padding-top: 1rem;
 }
 .single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-desc-ayurv-single p,
-.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf p {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf p, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-desc-ayurv-single p,
+.archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf p {
   text-align: inherit !important;
 }
-.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-desc-ayurv-single {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-desc-ayurv-single, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-desc-ayurv-single {
   margin-right: 2rem;
 }
-.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf {
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf {
   margin-left: 2rem;
 }
-.single-ayurvedique .Nvh-main .Nvh_pagination_single {
+.single-ayurvedique .Nvh-main .Nvh_pagination_single, .archive.tax-massage .Nvh-main .Nvh_pagination_single {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1446,7 +1458,7 @@ single massage
           align-items: center;
   margin-top: 3rem;
 }
-.single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single {
+.single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1467,20 +1479,20 @@ single massage
   transition: filter 0.4s ease-in-out;
   transition: filter 0.4s ease-in-out, -webkit-filter 0.4s ease-in-out;
 }
-.single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single .dashicons-arrow-left-alt2, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single .dashicons-arrow-right-alt2, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single .dashicons-arrow-left-alt2, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single .dashicons-arrow-right-alt2 {
+.single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single .dashicons-arrow-left-alt2, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single .dashicons-arrow-right-alt2, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single .dashicons-arrow-left-alt2, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single .dashicons-arrow-right-alt2, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single .dashicons-arrow-left-alt2, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single .dashicons-arrow-right-alt2, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single .dashicons-arrow-left-alt2, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single .dashicons-arrow-right-alt2 {
   line-height: 0.5;
 }
-.single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single h5, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single h5 {
+.single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single h5, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single h5, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single h5, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single h5 {
   color: darkmagenta;
 }
-.single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single .Nvh-pagiante-image, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single .Nvh-pagiante-image {
+.single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single .Nvh-pagiante-image, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single .Nvh-pagiante-image, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single .Nvh-pagiante-image, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single .Nvh-pagiante-image {
   width: 100px;
   height: auto;
   margin-right: 1rem;
   margin-left: 1rem;
   border-radius: 20%;
 }
-.single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single:hover, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single:hover {
+.single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single:hover, .single-ayurvedique .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single:hover, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single:hover, .archive.tax-massage .Nvh-main .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single:hover {
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
 }
@@ -1534,6 +1546,15 @@ fichier Css de la page index/ tous les Produits
       -ms-flex-align: center;
           align-items: center;
 }
+.blog .Nvh-home .coif-arch .Nvh-archive .Nvh-img-archive .Nvh-single-article {
+  color: chocolate;
+  margin-bottom: 1rem;
+  -webkit-transition: color 0.6s ease-in-out;
+  transition: color 0.6s ease-in-out;
+}
+.blog .Nvh-home .coif-arch .Nvh-archive .Nvh-img-archive .Nvh-single-article:hover, .blog .Nvh-home .coif-arch .Nvh-archive .Nvh-img-archive .Nvh-single-article:focus {
+  color: Black;
+}
 .blog .Nvh-home .coif-arch .Nvh-archive .Nvh-img-archive .Nvh-img-post-archive {
   width: 30rem;
   height: auto;
@@ -1541,7 +1562,18 @@ fichier Css de la page index/ tous les Produits
 .blog .Nvh-home .coif-arch .Nvh-archive .Nvh-img-archive .Nvh-single-text {
   padding: 1rem;
   width: 47rem;
+  border: 1px solid white;
+  border-radius: 5px;
   font-size: larger;
+  margin: 1rem;
+  -webkit-transition: -webkit-box-shadow 0.6s ease-in-out;
+  transition: -webkit-box-shadow 0.6s ease-in-out;
+  transition: box-shadow 0.6s ease-in-out;
+  transition: box-shadow 0.6s ease-in-out, -webkit-box-shadow 0.6s ease-in-out;
+}
+.blog .Nvh-home .coif-arch .Nvh-archive .Nvh-img-archive .Nvh-single-text:hover {
+  -webkit-box-shadow: 1px 2px 20px white;
+          box-shadow: 1px 2px 20px white;
 }
 .blog .Nvh-home .coif-arch .Nvh-archive .Nvh-img-archive .Nvh-single-text span {
   color: white !important;
@@ -1638,6 +1670,7 @@ fichier Css de la page index/ tous les Produits
 .page-template-page-capillaire {
   letter-spacing: 1.2px;
   line-height: 2rem;
+  /******* partie des Tarifs *******/
 }
 .page-template-page-capillaire .container-fluid {
   --bs-gutter-x: 0 !important;
@@ -1676,7 +1709,6 @@ fichier Css de la page index/ tous les Produits
   overflow: hidden;
   background-color: rgb(249, 247, 250);
   z-index: 1;
-  position: relative;
 }
 .page-template-page-capillaire .Nvh-descript-capillaire .Nvh-decript-capillaire .Nvh-capillaire-texte::before {
   content: "";
@@ -1685,7 +1717,7 @@ fichier Css de la page index/ tous les Produits
   height: 99%;
   left: 0;
   top: 0;
-  background-image: conic-gradient(transparent, transparent, transparent, rgb(169, 135, 232));
+  background-image: conic-gradient(transparent, transparent, transparent, rgb(117, 179, 245));
   -webkit-animation: anim 4s linear infinite;
           animation: anim 4s linear infinite;
   z-index: 0;
@@ -1696,6 +1728,7 @@ fichier Css de la page index/ tous les Produits
 .page-template-page-capillaire .Nvh-descript-capillaire .Nvh-decript-capillaire .Nvh-capillaire-texte span {
   position: absolute;
   padding: 2rem;
+  font-size: larger;
   inset: 4px;
   background-color: rgb(247, 250, 250);
   z-index: 1;
@@ -1892,7 +1925,8 @@ fichier Css de la page index/ tous les Produits
   color: rgb(209, 105, 209);
   font-size: 19px;
 }
-.page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-capillaire2, .page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-capillaire3 {
+.page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-capillaire2,
+.page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-capillaire3 {
   width: 800px;
   height: 800px;
   /* background-color: antiquewhite; */
@@ -1959,22 +1993,14 @@ fichier Css de la page index/ tous les Produits
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 50%;
-  border: 1px solid black;
-  border-radius: 1rem;
+  width: 100%;
+  margin: 0px 40px 1rem;
+  border-radius: 5px;
 }
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-microcapil-tarf-title {
   position: relative;
-  top: -33px;
-  width: 15rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 1rem;
-  background-color: aliceblue;
-  border: 1px solid #dbd1d1;
-  border-radius: 1rem;
-  -webkit-box-shadow: 1px 5px 30px #aca9a9;
-          box-shadow: 1px 5px 30px #aca9a9;
   margin-bottom: 3rem;
 }
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-analyse-micro {
@@ -1988,6 +2014,7 @@ fichier Css de la page index/ tous les Produits
 }
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-analyse-micro .Nvh-tarif-dure {
   font-size: large;
+  font-weight: 700;
   color: rgb(171, 95, 95);
 }
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-capi-cure-title {
@@ -2013,9 +2040,38 @@ fichier Css de la page index/ tous les Produits
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  background-attachment: fixed;
+  background-image: url(http://localhost/nouvelhair/wp-content/uploads/2024/01/AdobeStock_596727286_Preview.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.6rem;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  /*
+                  .Nvh-total-cure-salon {
+                      opacity: 0;
+                      position: relative;
+                      width: 12rem;
+                      padding: 1rem;
+                      background-color: white;
+                      border-radius: 1rem;
+                      color: black;
+                      font-size: larger;
+                      display: flex;
+                      flex-direction: column;
+                      flex-wrap: nowrap;
+                      align-content: center;
+                      justify-content: center;
+                      align-items: center;
+                      margin-bottom: 1rem;
+                  }
+  */
 }
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison,
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2033,6 +2089,22 @@ fichier Css de la page index/ tous les Produits
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: 2px solid white;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-box-shadow: 1px 2px 20px black;
+          box-shadow: 1px 2px 20px black;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison:hover,
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon:hover {
+  -webkit-transform: rotateY(10deg) rotateX(10deg) rotateZ(5deg);
+          transform: rotateY(10deg) rotateX(10deg) rotateZ(5deg);
 }
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-cure-home-title,
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-cure-salon-title,
@@ -2040,93 +2112,46 @@ fichier Css de la page index/ tous les Produits
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon .Nvh-cure-salon-title {
   opacity: 0;
   font-style: oblique;
-  -webkit-text-decoration: underline darkviolet;
-          text-decoration: underline darkviolet;
+  font-weight: 800;
+  font-size: larger;
+  width: 100%;
+  height: 6rem;
+  background-color: #71b2cd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-homet-cure,
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon .Nvh-homet-cure {
   opacity: 0;
   position: relative;
+  background-color: white;
   color: black;
+  font-size: larger;
   width: 20rem;
   padding: 1rem;
   margin: 2rem 0;
-  border-radius: 1rem;
-  border: 1px solid #c7c5c7;
-  -webkit-box-shadow: 1px 2px 20px lightslategray;
-          box-shadow: 1px 2px 20px lightslategray;
 }
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-total-cure-home,
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon .Nvh-total-cure-home {
-  opacity: 0;
-  position: relative;
-  width: 10rem;
-  height: 10rem;
-  padding: 1rem;
-  border-radius: 50%;
-  border: 1px solid #c7c5c7;
-  background-color: white;
-  -webkit-box-shadow: 1px 2px 20px lightslategray;
-          box-shadow: 1px 2px 20px lightslategray;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: black;
-}
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salont {
-  opacity: 0;
-  position: relative;
-  width: 10rem;
-  height: 10rem;
-  padding: 1rem;
-  border-radius: 50%;
-  border: 1px solid #c7c5c7;
-  -webkit-box-shadow: 1px 2px 20px lightslategray;
-          box-shadow: 1px 2px 20px lightslategray;
-  background-color: white;
-  color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 2rem 0;
-}
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-total-cure-salon {
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-total-cure-home, .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-total-cure-salon,
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon .Nvh-total-cure-home,
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon .Nvh-total-cure-salon {
   opacity: 0;
   position: relative;
   width: 12rem;
   padding: 1rem;
   background-color: white;
-  border-radius: 1rem;
-  border: 1px solid #c7c5c7;
-  -webkit-box-shadow: 1px 2px 20px lightslategray;
-          box-shadow: 1px 2px 20px lightslategray;
-  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2144,6 +2169,35 @@ fichier Css de la page index/ tous les Produits
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: black;
+  font-size: larger;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salont {
+  opacity: 0;
+  position: relative;
+  width: 20rem;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  font-size: larger;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
 }
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-visible {
   opacity: 1;
@@ -2401,12 +2455,13 @@ nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-nav-li.Nvh_m_acti
 nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul {
   position: absolute;
   opacity: 0;
+  visibility: hidden;
   font-size: large;
   padding-left: 5px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  background-color: rgba(248, 248, 255, 0.5607843137);
+  background-color: rgba(248, 248, 255, 0.937254902);
   padding: 1rem;
   border-radius: 1rem;
   z-index: 12;
@@ -2423,8 +2478,8 @@ nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-transition: opacity 0.8s ease-in-out;
-  transition: opacity 0.8s ease-in-out;
+  -webkit-transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+  transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
 }
 .nvh-header .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul .Nvh-submenu-li,
 nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul .Nvh-submenu-li {
@@ -2457,6 +2512,7 @@ nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul .Nvh-submenu-li a span:
 .nvh-header .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-nav-li:hover > .Nvh-submenu-ul,
 nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-nav-li:hover > .Nvh-submenu-ul {
   opacity: 1;
+  visibility: visible;
 }
 .nvh-header .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-nav-li:hover > .Nvh-submenu-ul .Nvh-submenu-li.Nvh_m_active a > span,
 nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-nav-li:hover > .Nvh-submenu-ul .Nvh-submenu-li.Nvh_m_active a > span {
@@ -2572,34 +2628,148 @@ underline title
 Footer
 ********/
 .Nvh_footer {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  left: 0;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  color: white;
   border: 1px solid lightgray;
-  height: 200px;
-  width: 100%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  min-height: 30vh;
+  width: 100vw;
   position: relative;
-  background-color: floralwhite;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-image: url(http://localhost/nouvelhair/wp-content/uploads/2024/01/AdobeStock_621848612_Preview.jpeg);
+  background-size: cover;
+  background-position-y: 35em;
+  background-repeat: no-repeat;
+}
+.Nvh_footer::before {
+  content: "";
+  width: 100vw;
+  min-height: 50vh;
+  position: absolute;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
 }
 .Nvh_footer .icon {
-  height: 3rem;
+  height: 2rem;
+  width: 2rem;
+  z-index: 3;
+  color: darkblue;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+.Nvh_footer .icon:hover, .Nvh_footer .icon:visited {
+  color: white;
+}
+.Nvh_footer .footer_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 .Nvh_footer .footer_col .footer-title {
   font-weight: 700;
-  margin-top: 2rem;
+  font-size: larger;
+  font-style: italic;
+  margin-top: 10px;
+  letter-spacing: 0.1rem;
+  z-index: 2;
+}
+.Nvh_footer .footer_col .menu-massages-container, .Nvh_footer .footer_col .menu-toute-la-coiffure-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: -webkit-max-content !important;
+  max-height: -moz-max-content !important;
+  max-height: max-content !important;
+}
+.Nvh_footer .footer_col .menu-massages-container #menu-massages, .Nvh_footer .footer_col .menu-massages-container #menu-toute-la-coiffure, .Nvh_footer .footer_col .menu-toute-la-coiffure-container #menu-massages, .Nvh_footer .footer_col .menu-toute-la-coiffure-container #menu-toute-la-coiffure {
+  padding: 0;
+  color: white;
+}
+.Nvh_footer .footer_col .menu-massages-container #menu-massages .Nvh-nav-li, .Nvh_footer .footer_col .menu-massages-container #menu-toute-la-coiffure .Nvh-nav-li, .Nvh_footer .footer_col .menu-toute-la-coiffure-container #menu-massages .Nvh-nav-li, .Nvh_footer .footer_col .menu-toute-la-coiffure-container #menu-toute-la-coiffure .Nvh-nav-li {
+  text-align: start;
+  font-weight: 500;
+  color: white;
+}
+.Nvh_footer .footer_col .footer_social {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+}
+.Nvh_footer .footer_col .footer_credits {
+  z-index: 2;
+}
+.Nvh_footer .footer_col .footer_credits img {
+  width: 4rem;
 }
 .Nvh_footer .footer_col [aria-label] ul {
   display: table-footer-group;
+  padding: 0;
 }
 .Nvh_footer .footer_col [aria-label] ul li > a {
-  color: gray;
+  color: black;
+  -webkit-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
 }
 .Nvh_footer .footer_col [aria-label] ul li > a:hover {
-  color: #6babad;
+  color: white;
 }
 .Nvh_footer .Nvh-color-footer {
   background-image: linear-gradient(295deg, rgb(166, 247, 208) 50%, white 77%);
@@ -2686,341 +2856,6 @@ Footer
           flex-direction: row;
   -ms-flex-line-pack: center;
       align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-/*****
-tout le responsive du site 
-
-****/
-/****
-
-Variables breakpoints
-
-**/
-/*** 
-mixin breakpoint
-*/
-/***
-*Début responsive du site
-
-***/
-@media screen and (max-width: 992px) {
-  .page-template-front-page .Nvh-nav-menu,
-  .page-template .Nvh-nav-menu,
-  .blog .Nvh-nav-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-line-pack: start;
-        align-content: flex-start;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .page-template-front-page .Nvh-nav-menu .nav_logo,
-  .page-template .Nvh-nav-menu .nav_logo,
-  .blog .Nvh-nav-menu .nav_logo {
-    width: 190px;
-    height: 135px;
-  }
-  .page-template-front-page .Nvh-nav-menu .nav_logo .logo-img-header,
-  .page-template .Nvh-nav-menu .nav_logo .logo-img-header,
-  .blog .Nvh-nav-menu .nav_logo .logo-img-header {
-    width: 190px;
-    position: relative;
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon,
-  .page-template .Nvh-nav-menu .Nvh-menu-icon,
-  .blog .Nvh-nav-menu .Nvh-menu-icon {
-    position: relative;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: #3f969b;
-    width: 54px;
-    height: 54px;
-    border-radius: 50%;
-    -webkit-transition: -webkit-transform 0.7s;
-    transition: -webkit-transform 0.7s;
-    transition: transform 0.7s;
-    transition: transform 0.7s, -webkit-transform 0.7s;
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1,
-  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1,
-  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1 {
-    width: 22px;
-    height: 2px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    display: block;
-    border-radius: 5px;
-    -webkit-transition: background 0.5s, -webkit-transform 0.7s;
-    transition: background 0.5s, -webkit-transform 0.7s;
-    transition: background 0.5s, transform 0.7s;
-    transition: background 0.5s, transform 0.7s, -webkit-transform 0.7s;
-    background-color: #FFF;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-            transform: translateX(-50%) translateY(-50%);
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::before, .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
-  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::before,
-  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
-  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::before,
-  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #FFF;
-    display: block;
-    border-radius: 5px;
-    width: 22px;
-    height: 2px;
-    -webkit-transform: translateY(-6px);
-            transform: translateY(-6px);
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
-  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
-  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after {
-    -webkit-transform: translateY(6px);
-            transform: translateY(6px);
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon:hover span::before,
-  .page-template .Nvh-nav-menu .Nvh-menu-icon:hover span::before,
-  .blog .Nvh-nav-menu .Nvh-menu-icon:hover span::before {
-    -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon:hover span::after,
-  .page-template .Nvh-nav-menu .Nvh-menu-icon:hover span::after,
-  .blog .Nvh-nav-menu .Nvh-menu-icon:hover span::after {
-    -webkit-transform: translateY(8px);
-            transform: translateY(8px);
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened,
-  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened,
-  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span,
-  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span,
-  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span {
-    background: transparent;
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::before,
-  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::before,
-  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::before {
-    -webkit-transform: translateY(0) rotate(45deg);
-            transform: translateY(0) rotate(45deg);
-  }
-  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::after,
-  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::after,
-  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::after {
-    -webkit-transform: translateY(0) rotate(-45deg);
-            transform: translateY(0) rotate(-45deg);
-  }
-  .page-template-front-page .Nvh-nav-menu .collapse.Nvh-collapse,
-  .page-template .Nvh-nav-menu .collapse.Nvh-collapse,
-  .blog .Nvh-nav-menu .collapse.Nvh-collapse {
-    position: relative;
-    padding: 0;
-    opacity: 0;
-    font-size: small;
-    margin: 0;
-    -webkit-transition: opacity 0.5s ease-in-out, -webkit-transform 0.8s ease-in-out;
-    transition: opacity 0.5s ease-in-out, -webkit-transform 0.8s ease-in-out;
-    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out;
-    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;
-    -webkit-transform: translateY(-250px);
-            transform: translateY(-250px);
-    -webkit-box-shadow: 0px 7px 20px black;
-            box-shadow: 0px 7px 20px black;
-  }
-  .page-template-front-page .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav,
-  .page-template .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav,
-  .blog .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    margin: 0;
-    padding: 1rem 0 1rem 0;
-  }
-  .page-template-front-page .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-submenu-ul .Nvh-submenu-li,
-  .page-template .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-submenu-ul .Nvh-submenu-li,
-  .blog .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-submenu-ul .Nvh-submenu-li {
-    font-size: large;
-    background-color: white;
-    z-index: 15;
-  }
-  .page-template-front-page h1,
-  .page-template h1,
-  .blog h1 {
-    font-size: xxx-large;
-  }
-  .page-template-front-page h2, .page-template-front-page h3,
-  .page-template h2,
-  .page-template h3,
-  .blog h2,
-  .blog h3 {
-    font-size: xx-large;
-  }
-  .top-menu .collapse.Nvh-collapse {
-    position: relative;
-    opacity: 1 !important;
-    line-height: normal;
-    -webkit-transform: translateY(0) !important;
-            transform: translateY(0) !important;
-    background-color: lavender;
-  }
-  .top-menu .collapse.Nvh-collapse .Nvh-primary-nav {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    line-height: 65px;
-    font-size: xx-large;
-  }
-  .top-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-nav-li:nth-child(-n+6) {
-    margin-right: 0.8rem !important;
-    padding-right: 10px;
-    border-right: 1px solid rgb(36, 180, 156);
-  }
-}
-.home .Nvh-cadre {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 0;
-}
-.home .Nvh-cadre .Nvh-col-prez-img {
-  width: 100%;
-  display: contents;
-}
-.home .Nvh-cadre .Nvh-col-prez-text {
-  width: 100%;
-}
-.home .Nvh-filter {
-  padding-top: 0 !important;
-}
-
-.page-template-page-qui-suis-je .Nvh-col-qsjz-text {
-  width: 100%;
-}
-.page-template-page-qui-suis-je .Nvh-qsj-ambiance {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-.page-template-page-qui-suis-je .Nvh-qsj-ambiance .Nvh-text-qsj-ambiance, .page-template-page-qui-suis-je .Nvh-qsj-ambiance .Nvh-qsj-ethique {
-  width: auto;
-  margin-bottom: 1rem;
-}
-
-.blog .Nvh-single-text {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  width: auto !important;
-}
-.blog .Nvh-partner-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

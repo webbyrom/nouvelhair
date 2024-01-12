@@ -20,7 +20,7 @@
                 <?php
                 $PriceProduct = get_field('prix');
                 if (!empty($PriceProduct)) {
-                    echo '<span class="Nvh-single-product-price">' . $PriceProduct . ' €' . '</span>';
+                    echo '<span class="Nvh-single-product-price">' . $PriceProduct . ' €ttc' . '</span>';
                 }
                 ?>
             </div>

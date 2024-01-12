@@ -39,7 +39,7 @@ get_header() ?>
             }
             if (!empty($image)) {
                 // Afficher l'image dans une balise <div>.
-                echo '<div class="Nvh-img-capillaire container"><img src="' . esc_url($image) . '" class="Nvh-capillaire-imgdescp img-fluid" alt="Description de l\'image"></div>';
+                echo '<div class="Nvh-img-capillaire container-fluid"><img src="' . esc_url($image) . '" class="Nvh-capillaire-imgdescp img-fluid" alt="Description de l\'image"></div>';
             }
 
             ?>
@@ -85,6 +85,7 @@ get_header() ?>
             <div class="Nvh-right-graphisme container-fluid"></div>
         </div>
     </section>
+    <!-------présentation ttt------>
     <section class="Nvh-capillaire-ttt container-fluid">
         <h2 class="Nvh-capil-ttt">Le Traitement</h2>
 
@@ -100,7 +101,7 @@ get_header() ?>
         <div class="Nvh-ttt-capillaire3 container-fluid"></div><!------cercle arriére plan---->
     </section>
     <section class="Nvh-capillaire-tarif container-fluid">
-        <div class="Nvh-tarf-microcapillaire container-fluid">
+        <div class="Nvh-tarf-microcapillaire container">
             <h3 class="Nvh-microcapil-tarf-title">Tarifs</h3>
             <div class="Nvh-analyse-micro container-fluid">
                 <?php
@@ -119,12 +120,9 @@ get_header() ?>
             <div class="underlining">
                 <span class="Nvh-border-bottom"></span>
             </div>
-            <!-----
-            <div class="Nvh-trait-cure container-fluid"></div>
-            <div class="Nvh-trait-cure-salon container-fluid"></div>
-            ---->
+            <!------ présentation de la cure------>
             <div class="Nvh-cure container-fluid">
-                <div class="Nvh-cure-maison Nvh-anim-cure container-fluid">
+                <div class="Nvh-cure-maison Nvh-anim-cure container-fluid"><!----cure maison ----->
                     <h5 class="Nvh-cure-home-title">Réalisée à la Maison</h5>
                     <?php
                     $cure_home = get_field('cure_maison');
@@ -133,7 +131,7 @@ get_header() ?>
                     if (!empty($cure_home) && !empty($sold_parts)) {
                         echo '<div class="Nvh-homet-cure">';
                         echo '<p class="Nvh-cure-homet">' . strip_tags($cure_home) . '</p>';
-                        echo '<p class="Nvh-parts-sold">' . 'pour un coût de ' . $sold_parts . '€ttc' . '</p>';
+                        echo '<p class="Nvh-parts-sold">' . 'pour un coût de ' .'<span class="Nvh-pdt-home">' . $sold_parts . '€ttc'. '</span>' . '</p>';
                         echo '</div>';
                     }
 
@@ -144,21 +142,23 @@ get_header() ?>
                         $cure_total_home = get_field('total_cure_maison');
                         $cure_total_home = wp_kses_post($cure_total_home);
                         if (!empty($cure_total_home)) {
-                            echo '<span class="Nvh-total-homet-cure Nvh-anim-cure">' . "soit un total de " . '</span>' . '</span class="Nvh-total-homep">' . $cure_total_home . "€ttc" . '</span>';
+                            echo '<span class="Nvh-total-homet-cure Nvh-anim-cure">' . "Tarif total de la prestation " . '</span>' . '<span class="Nvh-total-homep">' . $cure_total_home . "€ttc" . '</span>';
                         }
 
                         ?>
                     </div>
 
-                </div>
-                <div class="Nvh-cure-salon Nvh-anim-cure container-fluid">
+                </div><!-----fin cure maison------>
+                <div class="Nvh-cure-salon Nvh-anim-cure container-fluid"><!-----cure salon--->
                     <h5 class="Nvh-cure-salon-title">Réalisée au Salon</h5>
                     <?php
                     $cure_salon = get_field('cure_salon');
                     $cure_salon = wp_kses_post($cure_salon);
-                    if (!empty($cure_salon)) {
+                    $total_pdt_salon = get_field('tarif_total_produit_cure_salon_');
+                    if (!empty($cure_salon) && !empty($total_pdt_salon)) {
                         echo '<div class="Nvh-cure-salont container-fluid">';
                         echo '<p class="Nvh-cure-salonp">' . strip_tags($cure_salon) . '</p>';
+                        echo '<p class"= Nvh-total-pdt-cure-salon">'. "pour un coût de " .'<span class="Nvh-total-pdt-salon">'. $total_pdt_salon . "€ttc". '</span>'.  '</p>';
                         echo '</div>';
                     }
 
@@ -167,12 +167,12 @@ get_header() ?>
                         <?php
                         $cure_total_salon = get_field('total_cure_salon');
                         if (!empty($cure_total_salon)) {
-                            echo '<span class="Nvh-total-salont-cure">' . "soit un total de " . '</span>' . '</span class="Nvh-total-salonp">' . wp_kses_post($cure_total_salon) . "€ttc" . '</span>';
+                            echo '<span class="Nvh-total-salont-cure">' . "Tarif total de la prestation " . '</span>' . '<span class="Nvh-total-salonp">' . wp_kses_post($cure_total_salon) . "€ttc" . '</span>';
                         }
                         ?>
                     </div>
 
-                </div>
+                </div><!----fin cure salon-------->
 
             </div>
 

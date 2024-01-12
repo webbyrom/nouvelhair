@@ -19,6 +19,7 @@ defined('ABSPATH') or die('');
 
 <footer class="Nvh_footer container-fluid">
     <?php dynamic_sidebar('footer-nav'); ?>
+    <?php dynamic_sidebar('footer-coiffure');?>
     <?php get_option('Nvh_date'); ?>
     <div id="Nvh_scroll_top_button" class="Nvh-button-to-top">
         <a href="#" class="Nvh-scroll-totop">

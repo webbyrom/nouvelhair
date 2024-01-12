@@ -232,10 +232,11 @@ nav {
             .Nvh-submenu-ul {
                 position: absolute;
                 opacity: 0;
+                visibility: hidden;
                 font-size: large;
                 padding-left: 5px;
                 width: max-content;
-                background-color: #f8f8ff8f;
+                background-color: #f8f8ffef;
                 padding: 1rem;
                 border-radius: 1rem;
                 z-index: 12;
@@ -245,7 +246,7 @@ nav {
                 flex-direction: column;
                 flex-wrap: wrap;
                 align-items: flex-start;
-                transition: opacity .8s ease-in-out;
+                transition: opacity .8s ease-in-out, visibility 0.8s ease-in-out;
                 .Nvh-submenu-li{
                     text-align: justify;
                     margin-bottom: 5px;
@@ -274,7 +275,8 @@ nav {
 
             .Nvh-primary-nav .Nvh-nav-li:hover>.Nvh-submenu-ul {
                 opacity: 1;
-
+                visibility: visible;
+                            
                 .Nvh-submenu-li.Nvh_m_active a>span {
                     color: $spinnerBorder;
 
@@ -388,34 +390,106 @@ underline title
 Footer
 ********/
 .Nvh_footer {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
     justify-content: space-evenly;
-    left: 0;
+    align-items: stretch;
+    color: white;
+    //left: 0;
     border: 1px solid $bordfootclr;
-    height: 200px;
-    width: 100%;
+    height: min-content;
+    min-height: 30vh;
+    width: 100vw;
     position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-image: $bgIimgFooter;
+    background-size: cover;
+    background-position-y: 35em;
+    background-repeat: no-repeat;
     //background-color: transparent;
-    background-color: floralwhite;
+    //background-color: floralwhite;
+    &::before {
+        content: '';
+        width: 100vw;
+        min-height: 50vh;
+        position: absolute;
+        backdrop-filter: blur(6px);
+        
+    }
     .icon {
-        height: 3rem;
+        height: 2rem;
+        width: 2rem;
+        z-index: 3;
+        color: darkblue;
+        transition: all .6s ease-in-out;
+        &:hover, &:visited {
+            color: white;
+        }
     }
 
     .footer_col {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
         .footer-title {
             font-weight: 700;
-            margin-top: 2rem;
+            font-size: larger;
+            font-style: italic;
+            margin-top: 10px;
+            letter-spacing: 0.1rem;
+            z-index: 2;
+        }
+        .menu-massages-container, .menu-toute-la-coiffure-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-height: max-content !important;
+            #menu-massages, #menu-toute-la-coiffure{
+                padding: 0;
+                color: white;
+                .Nvh-nav-li {
+                    text-align: start;
+                    font-weight: 500;
+                    color: white;
+                }
+            }
+        }
+        .footer_social {
+            display: inline-flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: stretch;
+            justify-content: center;
+            align-items: center;
+            z-index: 2;
+        }
+
+        .footer_credits {
+            z-index: 2;
+            img {
+                width: 4rem;
+            }
         }
 
         [aria-label] {
             ul {
                 display: table-footer-group;
+                padding: 0;
 
                 li>a {
-                    color: gray;
+                    color: black;
+                    transition: color .4s ease-in-out;
 
                     &:hover {
-                        color: $spinnerBorder;
+                        //color: $spinnerBorder;
+                        color: white;
                     }
                 }
             }
@@ -496,4 +570,4 @@ Footer
     justify-content: center;
     align-items: center;
 }
-@import "Nvh_responsive";
+//@import "Nvh_responsive";
