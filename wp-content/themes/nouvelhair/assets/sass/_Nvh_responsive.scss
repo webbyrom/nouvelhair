@@ -79,14 +79,15 @@ mixin breakpoint
 @include tablet() {
 
     .page-template-front-page,
-    .page-template,
+    .page-template, .single,
+    .archive, 
     .blog {
         .Nvh-nav-menu {
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
+            flex-wrap: wrap!important;
             align-content: flex-start;
-            justify-content: space-between;
+            justify-content: space-between!important;
             align-items: center;
 
             .nav_logo {
@@ -245,63 +246,140 @@ mixin breakpoint
                 .Nvh-nav-li:nth-child(-n + 6) {
                     margin-right: 0.8rem!important;
                     padding-right: 10px;
-                    border-right: 1px solid rgb(36, 180, 156);
+                    border-right: 2px solid rgb(251, 251, 251);
                 }
             }
         }
     }//animation navbar avec le burger
-   
-}
-.home {
-    .Nvh-cadre {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0;
-        .Nvh-col-prez-img {
-            width: 100%;
-            display: contents;
+    // page d'accueil 
+    .home {
+        .Nvh-cadre {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0;
+            .Nvh-col-prez-img {
+                width: 100%;
+                display: contents;
+            }
+            .Nvh-col-prez-text {
+                width: 100%;
+            }
+           
         }
-        .Nvh-col-prez-text {
-            width: 100%;
+        .Nvh-filter {
+            padding-top: 0!important;
         }
-       
+        
     }
-    .Nvh-filter {
-        padding-top: 0!important;
+    .page-template-page-qui-suis-je{
+        .Nvh-col-qsjz-text {
+            width: 100%;
+        }
+        .Nvh-qsj-ambiance {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            .Nvh-text-qsj-ambiance, .Nvh-qsj-ethique{
+                width: auto;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    // page coté coiffure
+    .blog {
+        .Nvh-single-text {
+            box-sizing: content-box;
+            width: auto!important;
+        }
+        .Nvh-partner-content {
+            display: flex ;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center!important;
+            align-items: center;
+        }
+    }
+    // page microscopie capillaire
+    .page-template-page-capillaire {
+        .Nvh-ttt-Capillaire {
+            width: 700px!important;
+            height: 700px!important;
+            
+        }
+        .Nvh-ttt-capillaire3, .Nvh-ttt-capillaire2 {
+            width: 750px!important;
+            height: 750px!important;
+        }
+    }
+    // page coté massages
+   .page-template-page-cote-massage {
+        .Nvh-ayur-massage {
+            width: 100%;
+            background-color: transparent;
+            .Nvh-type-massage {
+                display: flex;
+                flex-direction: column !important;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                .Nvh-ayr-texte {
+                    width: 100%;
+                    margin-bottom: 2rem;
+                }
+                .Nvh-ayur-image {
+                    width: auto ;
+                }
+            }
+       
+        }
+        .Nvh-ayurvedique {
+            .Nvh-ayurlist-descr {
+                width: auto !important;
+            }
+        }
+    }
+    /*  Single massage */
+    .single-ayurvedique {
+        .Img-Ayur-single {
+            width: 100% !important;
+        }
+        .Nvh-desc-ayurv-single {
+            margin-right: 0 !important;
+        }
+        .Nvh-ayurvbf {
+            margin-left: 0 !important;
+            margin-top: 1rem;
+        }
+        .Nvh-single-ayur-video {
+            margin-top: 2rem;
+           // margin-bottom: 2rem;
+           .Nvh-content-ayur-vide {
+             margin-top: 3rem;
+           }
+        }
     }
     
-}
-.page-template-page-qui-suis-je{
-    .Nvh-col-qsjz-text {
-        width: 100%;
-    }
-    .Nvh-qsj-ambiance {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        .Nvh-text-qsj-ambiance, .Nvh-qsj-ethique{
-            width: auto;
-            margin-bottom: 1rem;
+    /* Single produits par catégorie*/
+
+    .archive,.category-soin-pour-les-cheveux {
+        .Nvh-archive-content {
+            display: flex;
+            flex-direction: column !important;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            .Nvh-single-archive-img {
+                margin: 1rem 0 1rem 0 !important;
+            }
         }
-    }
-}
-.blog {
-    .Nvh-single-text {
-        box-sizing: content-box;
-        width: auto!important;
-    }
-    .Nvh-partner-content {
-        display: flex ;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
     }
 }

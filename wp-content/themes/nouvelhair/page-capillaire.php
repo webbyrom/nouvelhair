@@ -93,7 +93,7 @@ get_header() ?>
         $CapillaireExplain = get_field('traitment_explain');
         //$CapillaireExplain = get_post_meta($post->ID, 'traitment_explain', true);
         if (!empty($CapillaireExplain)) {
-            echo '<div class="Nvh-ttt-Capillaire container">' . wp_kses_post($CapillaireExplain) . '</div>';
+            echo '<div class="Nvh-ttt-Capillaire container-fluid">' . wp_kses_post($CapillaireExplain) . '</div>';
         }
 
         ?>

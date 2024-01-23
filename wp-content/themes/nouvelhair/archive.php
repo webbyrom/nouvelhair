@@ -76,7 +76,7 @@ get_header(); ?>
                             
                             <div class="Nvh-single-price Nvh-archive-post-price container">
                                 <?php if (!empty($price)) : ?>
-                                    <span class="Nvh-arch-post-price"><?php echo $price; ?> €</span>
+                                    <span class="Nvh-arch-post-price"><?php echo $price; ?> € ttc</span>
                                 <?php endif; ?>
                             </div>
                         </div><!-----fin du texte--->

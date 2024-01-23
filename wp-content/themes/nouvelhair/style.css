@@ -1442,6 +1442,20 @@ single massage
 .single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf {
   margin-left: 2rem;
 }
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-ayur-video, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-ayur-video {
+  margin-top: 4rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-ayur-video .Nvh-title-ayurv-video, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-ayur-video .Nvh-title-ayurv-video {
+  margin-bottom: 2rem;
+}
+.single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-ayur-video .youtube-video iframe, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-ayur-video .youtube-video iframe {
+  border-radius: 1rem;
+  -webkit-box-shadow: 1px 2px 20px black;
+          box-shadow: 1px 2px 20px black;
+}
 .single-ayurvedique .Nvh-main .Nvh_pagination_single, .archive.tax-massage .Nvh-main .Nvh_pagination_single {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1768,7 +1782,7 @@ fichier Css de la page index/ tous les Produits
   left: 0;
   z-index: -1;
   background-attachment: fixed;
-  background-image: url(http://localhost/Nouvelhair/wp-content/uploads/2023/11/AdobeStock_467514218_Preview.jpeg);
+  background-image: url(http://localhost/nouvelhair/wp-content/uploads/2024/01/AdobeStock_467514218-scaled.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.4;
@@ -2041,7 +2055,7 @@ fichier Css de la page index/ tous les Produits
       -ms-flex-align: start;
           align-items: flex-start;
   background-attachment: fixed;
-  background-image: url(http://localhost/nouvelhair/wp-content/uploads/2024/01/AdobeStock_596727286_Preview.jpeg);
+  background-image: url(http://localhost/nouvelhair/wp-content/uploads/2024/01/AdobeStock_596727286-scaled.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.6rem;
@@ -2205,6 +2219,439 @@ fichier Css de la page index/ tous les Produits
   transition: opacity 0.8s ease-in-out;
 }
 
+/*****
+tout le responsive du site 
+
+****/
+/****
+
+Variables breakpoints
+
+**/
+/*** 
+mixin breakpoint
+*/
+/***
+*Début responsive du site
+
+***/
+@media screen and (max-width: 992px) {
+  .page-template-front-page .Nvh-nav-menu,
+  .page-template .Nvh-nav-menu, .single .Nvh-nav-menu,
+  .archive .Nvh-nav-menu,
+  .blog .Nvh-nav-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .page-template-front-page .Nvh-nav-menu .nav_logo,
+  .page-template .Nvh-nav-menu .nav_logo, .single .Nvh-nav-menu .nav_logo,
+  .archive .Nvh-nav-menu .nav_logo,
+  .blog .Nvh-nav-menu .nav_logo {
+    width: 190px;
+    height: 135px;
+  }
+  .page-template-front-page .Nvh-nav-menu .nav_logo .logo-img-header,
+  .page-template .Nvh-nav-menu .nav_logo .logo-img-header, .single .Nvh-nav-menu .nav_logo .logo-img-header,
+  .archive .Nvh-nav-menu .nav_logo .logo-img-header,
+  .blog .Nvh-nav-menu .nav_logo .logo-img-header {
+    width: 190px;
+    position: relative;
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon, .single .Nvh-nav-menu .Nvh-menu-icon,
+  .archive .Nvh-nav-menu .Nvh-menu-icon,
+  .blog .Nvh-nav-menu .Nvh-menu-icon {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #3f969b;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 0.7s;
+    transition: -webkit-transform 0.7s;
+    transition: transform 0.7s;
+    transition: transform 0.7s, -webkit-transform 0.7s;
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1, .single .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1,
+  .archive .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1,
+  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1 {
+    width: 22px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    border-radius: 5px;
+    -webkit-transition: background 0.5s, -webkit-transform 0.7s;
+    transition: background 0.5s, -webkit-transform 0.7s;
+    transition: background 0.5s, transform 0.7s;
+    transition: background 0.5s, transform 0.7s, -webkit-transform 0.7s;
+    background-color: #FFF;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::before, .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::before,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after, .single .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::before, .single .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
+  .archive .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::before,
+  .archive .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
+  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::before,
+  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    display: block;
+    border-radius: 5px;
+    width: 22px;
+    height: 2px;
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after, .single .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
+  .archive .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after,
+  .blog .Nvh-nav-menu .Nvh-menu-icon .Nvh-respon-icon1::after {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon:hover span::before,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon:hover span::before, .single .Nvh-nav-menu .Nvh-menu-icon:hover span::before,
+  .archive .Nvh-nav-menu .Nvh-menu-icon:hover span::before,
+  .blog .Nvh-nav-menu .Nvh-menu-icon:hover span::before {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon:hover span::after,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon:hover span::after, .single .Nvh-nav-menu .Nvh-menu-icon:hover span::after,
+  .archive .Nvh-nav-menu .Nvh-menu-icon:hover span::after,
+  .blog .Nvh-nav-menu .Nvh-menu-icon:hover span::after {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened, .single .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened,
+  .archive .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened,
+  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span, .single .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span,
+  .archive .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span,
+  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span {
+    background: transparent;
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::before,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::before, .single .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::before,
+  .archive .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::before,
+  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::before {
+    -webkit-transform: translateY(0) rotate(45deg);
+            transform: translateY(0) rotate(45deg);
+  }
+  .page-template-front-page .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::after,
+  .page-template .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::after, .single .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::after,
+  .archive .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::after,
+  .blog .Nvh-nav-menu .Nvh-menu-icon.Nvh-opened span::after {
+    -webkit-transform: translateY(0) rotate(-45deg);
+            transform: translateY(0) rotate(-45deg);
+  }
+  .page-template-front-page .Nvh-nav-menu .collapse.Nvh-collapse,
+  .page-template .Nvh-nav-menu .collapse.Nvh-collapse, .single .Nvh-nav-menu .collapse.Nvh-collapse,
+  .archive .Nvh-nav-menu .collapse.Nvh-collapse,
+  .blog .Nvh-nav-menu .collapse.Nvh-collapse {
+    position: relative;
+    padding: 0;
+    opacity: 0;
+    font-size: small;
+    margin: 0;
+    -webkit-transition: opacity 0.5s ease-in-out, -webkit-transform 0.8s ease-in-out;
+    transition: opacity 0.5s ease-in-out, -webkit-transform 0.8s ease-in-out;
+    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out;
+    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;
+    -webkit-transform: translateY(-250px);
+            transform: translateY(-250px);
+    -webkit-box-shadow: 0px 7px 20px black;
+            box-shadow: 0px 7px 20px black;
+  }
+  .page-template-front-page .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav,
+  .page-template .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav, .single .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav,
+  .archive .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav,
+  .blog .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+  }
+  .page-template-front-page .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-submenu-ul .Nvh-submenu-li,
+  .page-template .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-submenu-ul .Nvh-submenu-li, .single .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-submenu-ul .Nvh-submenu-li,
+  .archive .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-submenu-ul .Nvh-submenu-li,
+  .blog .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-submenu-ul .Nvh-submenu-li {
+    font-size: large;
+    background-color: white;
+    z-index: 15;
+  }
+  .page-template-front-page h1,
+  .page-template h1, .single h1,
+  .archive h1,
+  .blog h1 {
+    font-size: xxx-large;
+  }
+  .page-template-front-page h2, .page-template-front-page h3,
+  .page-template h2,
+  .page-template h3, .single h2, .single h3,
+  .archive h2,
+  .archive h3,
+  .blog h2,
+  .blog h3 {
+    font-size: xx-large;
+  }
+  .top-menu .collapse.Nvh-collapse {
+    position: relative;
+    opacity: 1 !important;
+    line-height: normal;
+    -webkit-transform: translateY(0) !important;
+            transform: translateY(0) !important;
+    background-color: lavender;
+  }
+  .top-menu .collapse.Nvh-collapse .Nvh-primary-nav {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    line-height: 65px;
+    font-size: xx-large;
+  }
+  .top-menu .collapse.Nvh-collapse .Nvh-primary-nav .Nvh-nav-li:nth-child(-n+6) {
+    margin-right: 0.8rem !important;
+    padding-right: 10px;
+    border-right: 2px solid rgb(251, 251, 251);
+  }
+  .home .Nvh-cadre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+  }
+  .home .Nvh-cadre .Nvh-col-prez-img {
+    width: 100%;
+    display: contents;
+  }
+  .home .Nvh-cadre .Nvh-col-prez-text {
+    width: 100%;
+  }
+  .home .Nvh-filter {
+    padding-top: 0 !important;
+  }
+  .page-template-page-qui-suis-je .Nvh-col-qsjz-text {
+    width: 100%;
+  }
+  .page-template-page-qui-suis-je .Nvh-qsj-ambiance {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .page-template-page-qui-suis-je .Nvh-qsj-ambiance .Nvh-text-qsj-ambiance, .page-template-page-qui-suis-je .Nvh-qsj-ambiance .Nvh-qsj-ethique {
+    width: auto;
+    margin-bottom: 1rem;
+  }
+  .blog .Nvh-single-text {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    width: auto !important;
+  }
+  .blog .Nvh-partner-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .page-template-page-capillaire .Nvh-ttt-Capillaire {
+    width: 700px !important;
+    height: 700px !important;
+  }
+  .page-template-page-capillaire .Nvh-ttt-capillaire3, .page-template-page-capillaire .Nvh-ttt-capillaire2 {
+    width: 750px !important;
+    height: 750px !important;
+  }
+  .page-template-page-cote-massage .Nvh-ayur-massage {
+    width: 100%;
+    background-color: transparent;
+  }
+  .page-template-page-cote-massage .Nvh-ayur-massage .Nvh-type-massage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .page-template-page-cote-massage .Nvh-ayur-massage .Nvh-type-massage .Nvh-ayr-texte {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .page-template-page-cote-massage .Nvh-ayur-massage .Nvh-type-massage .Nvh-ayur-image {
+    width: auto;
+  }
+  .page-template-page-cote-massage .Nvh-ayurvedique .Nvh-ayurlist-descr {
+    width: auto !important;
+  }
+  /*  Single massage */
+  .single-ayurvedique .Img-Ayur-single {
+    width: 100% !important;
+  }
+  .single-ayurvedique .Nvh-desc-ayurv-single {
+    margin-right: 0 !important;
+  }
+  .single-ayurvedique .Nvh-ayurvbf {
+    margin-left: 0 !important;
+    margin-top: 1rem;
+  }
+  .single-ayurvedique .Nvh-single-ayur-video {
+    margin-top: 2rem;
+  }
+  .single-ayurvedique .Nvh-single-ayur-video .Nvh-content-ayur-vide {
+    margin-top: 3rem;
+  }
+  /* Single produits par catégorie*/
+  .archive .Nvh-archive-content, .category-soin-pour-les-cheveux .Nvh-archive-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .archive .Nvh-archive-content .Nvh-single-archive-img, .category-soin-pour-les-cheveux .Nvh-archive-content .Nvh-single-archive-img {
+    margin: 1rem 0 1rem 0 !important;
+  }
+}
 *,
 *::before,
 *::after {
@@ -2635,16 +3082,13 @@ Footer
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
   color: white;
   border: 1px solid lightgray;
   height: -webkit-min-content;
@@ -2659,6 +3103,16 @@ Footer
   background-size: cover;
   background-position-y: 35em;
   background-repeat: no-repeat;
+  /*
+      .Nvh-color-footer {
+          background-image: linear-gradient(295deg, rgb(166, 247, 208) 50%, white 77%);
+          display: inline-flex;
+          justify-content: space-evenly;
+          width: 100%;
+          position: absolute;
+          z-index: 3;
+      }
+  */
 }
 .Nvh_footer::before {
   content: "";
@@ -2678,6 +3132,8 @@ Footer
 }
 .Nvh_footer .icon:hover, .Nvh_footer .icon:visited {
   color: white;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 .Nvh_footer .footer_col {
   display: -webkit-box;
@@ -2714,9 +3170,11 @@ Footer
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2727,6 +3185,7 @@ Footer
 .Nvh_footer .footer_col .menu-massages-container #menu-massages, .Nvh_footer .footer_col .menu-massages-container #menu-toute-la-coiffure, .Nvh_footer .footer_col .menu-toute-la-coiffure-container #menu-massages, .Nvh_footer .footer_col .menu-toute-la-coiffure-container #menu-toute-la-coiffure {
   padding: 0;
   color: white;
+  font-size: large;
 }
 .Nvh_footer .footer_col .menu-massages-container #menu-massages .Nvh-nav-li, .Nvh_footer .footer_col .menu-massages-container #menu-toute-la-coiffure .Nvh-nav-li, .Nvh_footer .footer_col .menu-toute-la-coiffure-container #menu-massages .Nvh-nav-li, .Nvh_footer .footer_col .menu-toute-la-coiffure-container #menu-toute-la-coiffure .Nvh-nav-li {
   text-align: start;
@@ -2758,30 +3217,27 @@ Footer
 }
 .Nvh_footer .footer_col .footer_credits img {
   width: 4rem;
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  transition: -webkit-transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
+  transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+}
+.Nvh_footer .footer_col .footer_credits img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 .Nvh_footer .footer_col [aria-label] ul {
   display: table-footer-group;
   padding: 0;
+  font-size: large;
 }
 .Nvh_footer .footer_col [aria-label] ul li > a {
-  color: black;
+  color: #c5bebe;
   -webkit-transition: color 0.4s ease-in-out;
   transition: color 0.4s ease-in-out;
 }
 .Nvh_footer .footer_col [aria-label] ul li > a:hover {
   color: white;
-}
-.Nvh_footer .Nvh-color-footer {
-  background-image: linear-gradient(295deg, rgb(166, 247, 208) 50%, white 77%);
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  width: 100%;
-  position: absolute;
-  z-index: 3;
 }
 .Nvh_footer #Nvh_scroll_top_button {
   position: fixed;

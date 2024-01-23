@@ -96,6 +96,21 @@ single massage
                             margin-left: 2rem;
                         }
                     }
+                    .Nvh-single-ayur-video {
+                        margin-top: 4rem;
+                        width: max-content;
+                        .Nvh-title-ayurv-video {
+                            margin-bottom: 2rem;
+                        }
+                        .youtube-video {
+                            
+                            iframe {
+                                border-radius: 1rem;
+                                box-shadow: 1px 2px 20px black
+                            }
+                          
+                        }
+                    }
                 }
             }
         }

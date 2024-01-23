@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.4.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-09 16:09:28+0000\n"
+"PO-Revision-Date: 2024-01-16 14:10:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1069,7 +1069,7 @@ msgstr "Emplacement"
 msgid "Sticky"
 msgstr "Épinglé"
 
-#: wp-login.php:1318
+#: wp-login.php:1320
 msgid "https://wordpress.org/documentation/article/cookies/"
 msgstr "https://fr.wordpress.org/support/article/cookies/"
 
@@ -1795,7 +1795,7 @@ msgstr "Avatar par défaut"
 msgid "There is already a ping from that URL for this post."
 msgstr "Il y a déjà un ping de cette URL pour cette publication."
 
-#: wp-login.php:968
+#: wp-login.php:970
 msgid "The password cannot be a space or all spaces."
 msgstr "Le mot de passe ne peut pas être uniquement composé d’espaces."
 
@@ -3820,19 +3820,19 @@ msgstr "Saisir « / » pour choisir un bloc"
 msgid "Layout"
 msgstr "Mise en page"
 
-#: wp-login.php:1434
+#: wp-login.php:1436
 msgid "<strong>Error:</strong> User registration is currently not allowed."
 msgstr "<strong>Erreur :</strong> l’inscription n’est actuellement pas autorisée."
 
-#: wp-login.php:974
+#: wp-login.php:976
 msgid "<strong>Error:</strong> The passwords do not match."
 msgstr "<strong>Erreur :</strong> les mots de passe ne correspondent pas."
 
-#: wp-login.php:838
+#: wp-login.php:840
 msgid "<strong>Error:</strong> Your password reset link has expired. Please request a new link below."
 msgstr "<strong>Erreur :</strong> votre lien de réinitialisation de mot de passe a expiré. Veuillez demander un nouveau lien ci-dessous."
 
-#: wp-login.php:836
+#: wp-login.php:838
 msgid "<strong>Error:</strong> Your password reset link appears to be invalid. Please request a new link below."
 msgstr "<strong>Erreur :</strong> votre lien de réinitialisation de mot de passe semble non valide. Veuillez demander un nouveau lien ci-dessous."
 
@@ -4965,15 +4965,15 @@ msgstr "Désolé, vous n’avez pas l’autorisation de visualiser le thème act
 msgid "[block rendering halted]"
 msgstr "[rendu du bloc interrompu]"
 
-#: wp-login.php:1064
+#: wp-login.php:1066
 msgid "Save Password"
 msgstr "Enregistrer le mot de passe"
 
-#: wp-login.php:1063
+#: wp-login.php:1065
 msgid "Generate Password"
 msgstr "Générer un mot de passe"
 
-#: wp-login.php:1010
+#: wp-login.php:1012
 msgid "Enter your new password below or generate one."
 msgstr "Saisissez votre nouveau mot de passe ci-dessous ou générez-en un."
 
@@ -6245,17 +6245,17 @@ msgstr "Les champs autres que %s ne sont pas supportés par les plans de sites p
 msgid "Fields other than %s are not currently supported for the sitemap index."
 msgstr "Les champs différents de %s ne sont actuellement pas supportés pour l’index du plan de site."
 
-#: wp-login.php:1229
+#: wp-login.php:1231
 msgid "Check your email"
 msgstr "Vérifiez vos e-mails"
 
 #. translators: %s: Link to the login page.
-#: wp-login.php:1219
+#: wp-login.php:1221
 msgid "Registration complete. Please check your email, then visit the <a href=\"%s\">login page</a>."
 msgstr "Enregistrement terminé. Vérifiez vos e-mails puis rendez-vous sur la <a href=\"%s\">page de connexion</a>."
 
 #. translators: %s: Link to the login page.
-#: wp-login.php:1209
+#: wp-login.php:1211
 msgid "Check your email for the confirmation link, then visit the <a href=\"%s\">login page</a>."
 msgstr "Vérifiez vos e-mails pour le lien de confirmation puis rendez-vous sur la <a href=\"%s\">page de connexion</a>."
 
@@ -6506,7 +6506,7 @@ msgctxt "minimum input length for searching post links"
 msgid "3"
 msgstr "3"
 
-#: wp-login.php:866
+#: wp-login.php:868
 msgid "Please enter your username or email address. You will receive an email message with instructions on how to reset your password."
 msgstr "Merci de renseigner votre identifiant ou votre adresse e-mail. Vous recevrez un e-mail contenant les instructions vous permettant de réinitialiser votre mot de passe."
 
@@ -6777,41 +6777,41 @@ msgstr "Le serveur a renvoyé une réponse inattendue. Cependant, le fichier a p
 msgid "https://wordpress.org/documentation/article/editing-wp-config-php/"
 msgstr "https://fr.wordpress.org/support/article/editing-wp-config-php/"
 
-#: wp-login.php:742
+#: wp-login.php:744
 msgid "Remind me later"
 msgstr "Me le rappeler ultérieurement"
 
-#: wp-login.php:726
+#: wp-login.php:728
 msgid "The email is correct"
 msgstr "L’e-mail est correct"
 
-#: wp-login.php:714
+#: wp-login.php:716
 msgid "This email may be different from your personal email address."
 msgstr "Cet e-mail peut être différent de votre adresse e-mail personnelle."
 
 #. translators: %s: Admin email address.
-#: wp-login.php:707
+#: wp-login.php:709
 msgid "Current administration email: %s"
 msgstr "E-mail d’administration actuel : %s"
 
-#: wp-login.php:696
+#: wp-login.php:698
 msgid "Why is this important?"
 msgstr "Pourquoi est-ce important ?"
 
 #. translators: URL to the WordPress help section about admin email.
-#: wp-login.php:685
+#: wp-login.php:687
 msgid "https://wordpress.org/documentation/article/settings-general-screen/#email-address"
 msgstr "https://fr.wordpress.org/support/article/settings-general-screen/"
 
-#: wp-login.php:681
+#: wp-login.php:683
 msgid "Please verify that the <strong>administration email</strong> for this website is still correct."
 msgstr "Veuillez vérifier que <strong>l’e-mail d’administration</strong> pour ce site est toujours correct."
 
-#: wp-login.php:678
+#: wp-login.php:680
 msgid "Administration email verification"
 msgstr "Vérification de l’e-mail d’administration"
 
-#: wp-login.php:649
+#: wp-login.php:651
 msgid "Confirm your administration email"
 msgstr "Confirmer votre e-mail d’administration"
 
@@ -7007,7 +7007,7 @@ msgstr "Restaurer depuis la corbeille"
 #: wp-includes/load.php:191
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:150
 #: wp-includes/update.php:209 wp-includes/update.php:447
-#: wp-includes/update.php:728 wp-login.php:1319
+#: wp-includes/update.php:728 wp-login.php:1321
 #: wp-admin/includes/class-wp-automatic-updater.php:887
 #: wp-admin/includes/class-wp-automatic-updater.php:1323
 #: wp-admin/includes/class-wp-site-health.php:1458
@@ -7224,19 +7224,19 @@ msgstr[1] "%s commentaires en modération"
 msgid "Quote from Hello Dolly song, by Jerry Herman:"
 msgstr "Citation de la chanson Hello Dolly, par Jerry Herman :"
 
-#: wp-login.php:1438
+#: wp-login.php:1440
 msgid "Recovery Mode Initialized. Please log in to continue."
 msgstr "Mode de récupération initialisé. Veuillez vous connecter pour continuer."
 
-#: wp-login.php:1329
+#: wp-login.php:1331
 msgid "https://wordpress.org/documentation/article/cookies/#enable-cookies-in-your-browser"
 msgstr "https://fr.wordpress.org/support/article/cookies/"
 
-#: wp-login.php:1239
+#: wp-login.php:1241
 msgid "Missing confirm key."
 msgstr "Clé de confirmation manquante."
 
-#: wp-login.php:1235 wp-admin/includes/ajax-actions.php:4905
+#: wp-login.php:1237 wp-admin/includes/ajax-actions.php:4905
 #: wp-admin/includes/ajax-actions.php:5095
 msgid "Missing request ID."
 msgstr "ID de demande manquant."
@@ -7557,7 +7557,7 @@ msgstr "Élément ajouté."
 #: wp-includes/class-wp-customize-manager.php:5722
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:58
 #: wp-includes/functions.php:8404 wp-includes/media-template.php:167
-#: wp-includes/widgets/class-wp-widget-custom-html.php:322 wp-login.php:690
+#: wp-includes/widgets/class-wp-widget-custom-html.php:322 wp-login.php:692
 #: wp-includes/js/dist/components.js:61982
 #: wp-includes/js/dist/customize-widgets.js:1439
 #: wp-includes/js/dist/edit-post.js:3811 wp-includes/js/dist/edit-site.js:33390
@@ -7999,7 +7999,7 @@ msgstr "Média WordPress"
 msgid "Privacy Policy"
 msgstr "Politique de confidentialité"
 
-#: wp-login.php:1267
+#: wp-login.php:1269
 msgid "User action confirmed."
 msgstr "Action du compte confirmée."
 
@@ -11284,7 +11284,7 @@ msgctxt "previous set of posts"
 msgid "Previous"
 msgstr "Précédent"
 
-#: wp-includes/general-template.php:525 wp-login.php:885 wp-login.php:1497
+#: wp-includes/general-template.php:525 wp-login.php:887 wp-login.php:1499
 msgid "Username or Email Address"
 msgstr "Identifiant ou adresse e-mail"
 
@@ -11729,7 +11729,7 @@ msgid "Sorry, you are not allowed to delete this post."
 msgstr "Désolé, vous n’avez pas l’autorisation de supprimer cet article."
 
 #. translators: %s: Site title.
-#: wp-login.php:326
+#: wp-login.php:328
 msgctxt "site"
 msgid "&larr; Go to %s"
 msgstr "&larr; Aller sur %s"
@@ -11752,7 +11752,7 @@ msgstr "Aujourd’hui"
 msgid "Deleted:"
 msgstr "Supprimé !"
 
-#: wp-login.php:1038 wp-admin/install.php:173 wp-admin/user-edit.php:702
+#: wp-login.php:1040 wp-admin/install.php:173 wp-admin/user-edit.php:702
 #: wp-admin/user-new.php:611 wp-admin/js/user-profile.js:52
 msgid "Confirm use of weak password"
 msgstr "Confirmer l’utilisation du mot de passe faible"
@@ -11882,7 +11882,7 @@ msgstr "Retirer %1$s manuellement va causer des avertissements PHP. Utilisez plu
 msgid "The next group of formatting shortcuts are applied as you type or when you insert them around plain text in the same paragraph. Press Escape or the Undo button to undo."
 msgstr "Les raccourcis de mise en forme du groupe ci-dessous s’appliquent au fur et à mesure que vous écrivez ou lorsque vous les insérez autour d’un texte d’un paragraphe. Appuyez sur Échap ou sur le bouton Annuler pour revenir en arrière."
 
-#: wp-login.php:1427
+#: wp-login.php:1429
 msgid "Your session has expired. Please log in to continue where you left off."
 msgstr "Votre session a expiré. Veuillez vous reconnecter pour reprendre à la dernière page visitée."
 
@@ -12739,13 +12739,13 @@ msgstr "Retirer l’élément du menu : %1$s (%2$s)"
 msgid "Edit menu item: %1$s (%2$s)"
 msgstr "Modifier l’élément de menu : %1$s (%2$s)"
 
-#: wp-login.php:1031 wp-admin/install.php:147 wp-admin/options-writing.php:183
+#: wp-login.php:1033 wp-admin/install.php:147 wp-admin/options-writing.php:183
 #: wp-admin/user-edit.php:675 wp-admin/user-new.php:592
 #: wp-admin/js/password-toggle.js:26 wp-admin/js/user-profile.js:83
 msgid "Hide password"
 msgstr "Cacher le mot de passe"
 
-#: wp-login.php:1505 wp-admin/setup-config.php:239
+#: wp-login.php:1507 wp-admin/setup-config.php:239
 #: wp-admin/js/password-toggle.js:33 wp-admin/js/user-profile.js:83
 msgid "Show password"
 msgstr "Afficher le mot de passe"
@@ -12776,7 +12776,7 @@ msgstr "En tant qu’icône de navigateur"
 msgid "No items"
 msgstr "Aucun élément"
 
-#: wp-login.php:1174
+#: wp-login.php:1176
 msgid "Registration confirmation will be emailed to you."
 msgstr "La confirmation d’inscription vous sera envoyée par e-mail."
 
@@ -13864,7 +13864,7 @@ msgctxt "add new from admin bar"
 msgid "Link"
 msgstr "Lien"
 
-#: wp-login.php:1436
+#: wp-login.php:1438
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
 msgstr "<strong>WordPress a bien été mis à jour !</strong> Veuillez vous reconnecter pour voir les nouveautés."
 
@@ -14047,12 +14047,12 @@ msgid "Keyboard Shortcuts"
 msgstr "Raccourcis clavier"
 
 #. translators: %s: Browser cookie documentation URL.
-#: wp-login.php:1328
+#: wp-login.php:1330
 msgid "<strong>Error:</strong> Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
 msgstr "<strong>Erreur :</strong> les cookies sont bloqués ou ne sont pas reconnus par votre navigateur. Vous devez <a href=\"%s\">activer les cookies</a> pour utiliser WordPress."
 
 #. translators: 1: Browser cookie documentation URL, 2: Support forums URL.
-#: wp-login.php:1317
+#: wp-login.php:1319
 msgid "<strong>Error:</strong> Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
 msgstr "<strong>Erreur :</strong> les cookies sont bloqués en raison d’un retour inattendu. Pour obtenir de l’aide, veuillez lire <a href=\"%1$s\">cette documentation</a> ou essayez les <a href=\"%2$s\">forums d’entraide</a>."
 
@@ -14924,7 +14924,7 @@ msgstr "En-têtes téléversés aléatoires"
 msgid "https://wordpress.org/support/forum/requests-and-feedback"
 msgstr "https://wordpress.org/support/forum/requests-and-feedback"
 
-#: wp-login.php:411 wp-admin/includes/class-wp-users-list-table.php:318
+#: wp-login.php:413 wp-admin/includes/class-wp-users-list-table.php:318
 msgid "Change"
 msgstr "Modifier"
 
@@ -16649,23 +16649,23 @@ msgstr "Hauteur des miniatures"
 msgid "Thumbnail Width"
 msgstr "Largeur des miniatures"
 
-#: wp-login.php:1043
+#: wp-login.php:1045
 msgid "Confirm new password"
 msgstr "Confirmer le nouveau mot de passe"
 
-#: wp-login.php:1025
+#: wp-login.php:1027
 msgid "New password"
 msgstr "Nouveau mot de passe"
 
-#: wp-login.php:1008
+#: wp-login.php:1010
 msgid "Reset Password"
 msgstr "Réinitialiser le mot de passe"
 
-#: wp-login.php:993
+#: wp-login.php:995
 msgid "Your password has been reset."
 msgstr "Votre mot de passe a été réinitialisé."
 
-#: wp-login.php:991 wp-admin/user-edit.php:711
+#: wp-login.php:993 wp-admin/user-edit.php:711
 msgid "Password Reset"
 msgstr "Réinitialisation du mot de passe"
 
@@ -17551,32 +17551,32 @@ msgstr "Il ne semble pas y avoir de nouvel e-mail."
 msgid "Slow down cowboy, no need to check for new mails so often!"
 msgstr "Lève le pied, champion ! Inutile de vérifier tes e-mails aussi souvent !"
 
-#: wp-login.php:1432
+#: wp-login.php:1434
 msgid "You are now logged out."
 msgstr "Votre déconnexion a bien été effectuée."
 
-#: wp-login.php:1349
+#: wp-login.php:1351
 msgid "You have logged in successfully."
 msgstr "Votre connexion a bien été établie."
 
-#: wp-includes/user.php:194 wp-includes/user.php:266 wp-login.php:1188
-#: wp-login.php:1562
+#: wp-includes/user.php:194 wp-includes/user.php:266 wp-login.php:1190
+#: wp-login.php:1564
 msgid "Lost your password?"
 msgstr "Mot de passe oublié ?"
 
-#: wp-login.php:1144
+#: wp-login.php:1146
 msgid "Register For This Site"
 msgstr "S’inscrire sur ce site"
 
-#: wp-login.php:1142
+#: wp-login.php:1144
 msgid "Registration Form"
 msgstr "Formulaire d’inscription"
 
-#: wp-login.php:900
+#: wp-login.php:902
 msgid "Get New Password"
 msgstr "Générer un mot de passe"
 
-#: wp-login.php:864
+#: wp-login.php:866
 msgid "Lost Password"
 msgstr "Mot de passe oublié"
 
@@ -18352,7 +18352,7 @@ msgstr "Paragraphe"
 
 #. translators: Hidden accessibility text.
 #. translators: The user language selection field label.
-#: wp-includes/class-wp-editor.php:1235 wp-login.php:372
+#: wp-includes/class-wp-editor.php:1235 wp-login.php:374
 #: wp-includes/js/dist/format-library.js:1723 wp-admin/user-edit.php:381
 #: wp-admin/user-new.php:557
 msgid "Language"
@@ -18574,12 +18574,12 @@ msgstr "Résultats de recherche %1$s %2$s"
 msgid "Site Admin"
 msgstr "Admin. du site"
 
-#: wp-includes/general-template.php:693 wp-login.php:909 wp-login.php:1073
-#: wp-login.php:1178 wp-login.php:1554
+#: wp-includes/general-template.php:693 wp-login.php:911 wp-login.php:1075
+#: wp-login.php:1180 wp-login.php:1556
 msgid "Register"
 msgstr "Inscription"
 
-#: wp-includes/general-template.php:527 wp-login.php:1520
+#: wp-includes/general-template.php:527 wp-login.php:1522
 msgid "Remember Me"
 msgstr "Se souvenir de moi"
 
@@ -18588,8 +18588,8 @@ msgstr "Se souvenir de moi"
 msgid "Log out"
 msgstr "Déconnexion"
 
-#: wp-includes/general-template.php:386 wp-login.php:905 wp-login.php:993
-#: wp-login.php:1069 wp-login.php:1183
+#: wp-includes/general-template.php:386 wp-login.php:907 wp-login.php:995
+#: wp-login.php:1071 wp-login.php:1185
 msgid "Log in"
 msgstr "Connexion"
 
@@ -19183,7 +19183,7 @@ msgstr "Format d’heure"
 msgid "Date Format"
 msgstr "Format de date"
 
-#: wp-includes/comment-template.php:2526 wp-login.php:1160
+#: wp-includes/comment-template.php:2526 wp-login.php:1162
 #: wp-admin/comment.php:189 wp-admin/edit-form-comment.php:63
 #: wp-admin/includes/class-wp-users-list-table.php:375
 #: wp-admin/includes/template.php:495 wp-admin/user-edit.php:540
@@ -19301,13 +19301,13 @@ msgstr "Oui"
 msgid "Edit Category"
 msgstr "Modifier la catégorie"
 
-#: wp-includes/general-template.php:528 wp-login.php:1473 wp-login.php:1522
+#: wp-includes/general-template.php:528 wp-login.php:1475 wp-login.php:1524
 #: wp-admin/install.php:229 wp-admin/install.php:448
 #: wp-admin/includes/network.php:757
 msgid "Log In"
 msgstr "Se connecter"
 
-#: wp-login.php:1034
+#: wp-login.php:1036
 msgid "Strength indicator"
 msgstr "Indicateur de robustesse"
 
@@ -19589,7 +19589,7 @@ msgid "Add or remove tags"
 msgstr "Ajouter ou retirer des étiquettes"
 
 #: wp-includes/media.php:4763 wp-includes/script-loader.php:1249
-#: wp-login.php:725 wp-includes/js/dist/edit-site.js:22589
+#: wp-login.php:727 wp-includes/js/dist/edit-site.js:22589
 #: wp-includes/js/dist/edit-widgets.js:3361 wp-includes/js/dist/editor.js:7877
 #: wp-admin/edit-form-comment.php:245 wp-admin/edit-tag-form.php:300
 #: wp-admin/includes/class-wp-plugins-list-table.php:619
@@ -19781,7 +19781,7 @@ msgstr "Appliquer"
 msgid "Redo"
 msgstr "Rétablir"
 
-#: wp-includes/general-template.php:526 wp-login.php:1502
+#: wp-includes/general-template.php:526 wp-login.php:1504
 #: wp-includes/js/dist/edit-site.js:28876
 #: wp-admin/includes/class-wp-posts-list-table.php:1772
 #: wp-admin/includes/file.php:2534 wp-admin/install.php:137
@@ -19790,7 +19790,7 @@ msgstr "Rétablir"
 msgid "Password"
 msgstr "Mot de passe"
 
-#: wp-login.php:1156 wp-admin/includes/class-wp-users-list-table.php:373
+#: wp-login.php:1158 wp-admin/includes/class-wp-users-list-table.php:373
 #: wp-admin/includes/class-wp-users-list-table.php:396
 #: wp-admin/includes/file.php:2533 wp-admin/install.php:118
 #: wp-admin/install.php:434 wp-admin/setup-config.php:230

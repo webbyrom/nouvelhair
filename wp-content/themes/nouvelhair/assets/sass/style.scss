@@ -25,6 +25,7 @@ Tag:
 @import "single_massage";
 @import "index";
 @import "capillaire";
+@import "Nvh_responsive";
 
 *,
 *::before,
@@ -392,10 +393,9 @@ Footer
 .Nvh_footer {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: stretch;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: space-evenly;
-    align-items: stretch;
     color: white;
     //left: 0;
     border: 1px solid $bordfootclr;
@@ -427,6 +427,7 @@ Footer
         transition: all .6s ease-in-out;
         &:hover, &:visited {
             color: white;
+            transform: rotate(360deg);
         }
     }
 
@@ -448,12 +449,14 @@ Footer
         .menu-massages-container, .menu-toute-la-coiffure-container{
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
             align-items: center;
             max-height: max-content !important;
             #menu-massages, #menu-toute-la-coiffure{
                 padding: 0;
                 color: white;
+                font-size: large;
                 .Nvh-nav-li {
                     text-align: start;
                     font-weight: 500;
@@ -475,6 +478,10 @@ Footer
             z-index: 2;
             img {
                 width: 4rem;
+                transition: transform 0.5s ease-in;
+                &:hover {
+                    transform: rotate(360deg);
+                }
             }
         }
 
@@ -482,9 +489,10 @@ Footer
             ul {
                 display: table-footer-group;
                 padding: 0;
+                font-size: large;
 
                 li>a {
-                    color: black;
+                    color: #c5bebe;
                     transition: color .4s ease-in-out;
 
                     &:hover {
@@ -495,7 +503,7 @@ Footer
             }
         }
     }
-
+/*
     .Nvh-color-footer {
         background-image: linear-gradient(295deg, rgb(166, 247, 208) 50%, white 77%);
         display: inline-flex;
@@ -504,7 +512,7 @@ Footer
         position: absolute;
         z-index: 3;
     }
-
+*/
     #Nvh_scroll_top_button {
         position: fixed;
         bottom: 20px;

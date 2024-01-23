@@ -1,6 +1,6 @@
 <?php
 
-use Yoast\WP\SEO\Presenters\Admin\Sidebar_Presenter;
+//use Yoast\WP\SEO\Presenters\Admin\Sidebar_Presenter;
 
 get_header();
 defined('ABSPATH') or die();
@@ -98,7 +98,7 @@ defined('ABSPATH') or die();
         ?>
     </div>
 </div>
-<div class="Nvh-lunaire container-fluid">
+<div id ="Nvh_lune_anchor"class="Nvh-lunaire container-fluid">
     <aside>
         <?php dynamic_sidebar('blog'); ?>
         <!---- <a target="blank"
