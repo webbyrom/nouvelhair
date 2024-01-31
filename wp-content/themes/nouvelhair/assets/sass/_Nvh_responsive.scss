@@ -43,7 +43,7 @@ mixin breakpoint
 }
 
 
-
+// fait le 23/01/2024
 @mixin tablet {
     @media screen and (max-width: #{$tablet}) {
         @content;
@@ -380,6 +380,162 @@ mixin breakpoint
             .Nvh-single-archive-img {
                 margin: 1rem 0 1rem 0 !important;
             }
+        }
+    }
+}
+/******* Responsive Tèl***/
+@include tablet_m() {
+    .Nvh-nav-menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       //align-content: stretch;
+        justify-content: center;
+        align-items: center;
+        .Nvh-icon-responsive {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center !important;
+        }
+        .Nvh-collapse {
+            position: relative;
+            right: 0 !important;
+        }
+    }
+    //page Accueil
+    .home {
+       
+        .Nvh-coiffure-title {
+            font-size: 2.5rem;
+        }
+        .Nvh-col-prez-text {
+            width: min-content !important;
+        }
+        .title-home-filter {
+            .title-produits {
+                font-size: 1.6rem;
+            }
+            
+        }
+        .underlining {
+            margin: 0;
+        }
+        .Nvh-filter {
+            position: relative;
+            display: contents;
+        }
+        .Nvh-post-content {
+            width: auto;
+        }
+        .text-home {
+            width: 100vw;
+            .text-prez {
+                .Nvh-textqsj {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    //page qui suis je
+    .page-template-page-qui-suis-je {
+        .container-fluid {
+            --bs-gutter-x:0 !important;
+        }
+        .Nvh-coiffure-title {
+            margin: 1rem;
+        }
+        .Nvhqsj-text{
+            padding: 1rem;
+            .Nvh-qsj-img {
+                padding-right: 0;
+                padding-left: 0;
+                
+            }
+        }
+            
+    }
+    // page tous les produits
+    .blog {
+        .container-fluid {
+            --bs-gutter-x: 0; 
+        }
+        .Nvh-archive {
+            border-radius: 2%;
+        }
+    }
+    // Page coiffure
+    .page-template-archive-coiffure {
+        .flip-box {
+            width: 100vw !important;
+            height: 22rem;
+            margin: 0 !important;
+        }
+    }
+    // page capillaire
+    .page-template-page-capillaire {
+
+        .Nvh-decript-capillaire {
+            //font-size: large;
+            padding: 0;
+            .Nvh-capillaire-texte {
+                padding: 0;
+                font-size: inherit;
+                span {
+                    padding: 0 !important;
+                    font-size: inherit;
+                }
+
+            }
+        }
+        .Nvh-img-descirpt-capillaire {
+            margin: 0 20px !important;
+        }
+        .Nvh-capillaire-ttt {
+            .Nvh-ttt-Capillaire {
+                width: 100vw !important;
+                margin: 0;
+                border-radius: 10px !important;
+                box-shadow: none;
+                &:before {
+                    border-radius: 10px !important;
+                }
+                p {
+                    padding: 1rem;
+                }
+                
+            }
+            .Nvh-ttt-capillaire2, .Nvh-ttt-capillaire3{
+                display: none !important;
+            }
+        }
+       .Nvh-cure {
+            display: block !important;
+       }
+    }
+    .page-template-page-cote-massage {
+        .container-fluid {
+            --bs-gutter-x: 0 !important;
+        }
+        
+        .Nvh-news {
+            width: 100vw;
+
+        }
+    }
+    .page-template-contact {
+        .container-fluid {
+            --bs-gutter-x:0 !important;
+        }
+        .Nvh-contact-hours, .Nvh-contact-conges, .Nvh-contact-info, .Nvh-lunaire{
+            width: 100vw;
+            img {
+                width: 100vw;
+            }
+               
+            
         }
     }
 }

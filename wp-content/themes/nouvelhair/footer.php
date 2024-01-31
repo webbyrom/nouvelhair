@@ -26,10 +26,7 @@ defined('ABSPATH') or die('');
             <i class="dashicons dashicons-arrow-up-alt"></i>
         </a>
     </div>
-    <div class="Nvh-color-footer container">
-
-        <!-------ajouter sidebar---->
-    </div>
+    
 </footer>
 <?php wp_footer() ?>
 </body>

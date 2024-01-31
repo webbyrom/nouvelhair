@@ -82,7 +82,7 @@ home-post
 }
 
 .Nvh-news {
-  background-image: url(http://localhost/Nouvelhair/wp-content/uploads/2023/10/Bglierrefloute.png);
+  background-image: url(https://nouvelhair.web-byrom.com/wp-content/uploads/2023/10/Bglierrefloute.png);
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -536,7 +536,7 @@ button filter
 
 /* scss de la page contact*/
 .page-template-contact .Nvh-secondary-content {
-  background-image: url(http://localhost/Nouvelhair/wp-content/uploads/2023/10/Bglierrefloute.png);
+  background-image: url(https://nouvelhair.web-byrom.com/wp-content/uploads/2023/10/Bglierrefloute.png);
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -911,11 +911,12 @@ Page Côté massage
   border-radius: 10px;
 }
 .archive .Nvh-post-archive .Nvh-archive-content .Nvh-single-archive-img {
-  margin: 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   width: auto;
 }
 .archive .Nvh-post-archive .Nvh-archive-content .Nvh-single-archive-img .Nvh-img-post-archive {
-  width: 40rem;
+  width: 30rem;
   height: auto;
   -webkit-box-shadow: 10px 5px 20px black;
           box-shadow: 10px 5px 20px black;
@@ -993,7 +994,7 @@ Page Côté massage
 
 /* page qui suis-je */
 .page-template-page-qui-suis-je .Nvh-secondary-content {
-  background-image: url(http://localhost/Nouvelhair/wp-content/uploads/2023/10/Bglierrefloute.png);
+  background-image: url(https://nouvelhair.web-byrom.com/wp-content/uploads/2023/10/Bglierrefloute.png);
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -1330,7 +1331,7 @@ single massage
   margin-bottom: 2rem;
 }
 .single-ayurvedique .Nvh-main .Nvh-article-ayur, .archive.tax-massage .Nvh-main .Nvh-article-ayur {
-  background-image: url(http://localhost/Nouvelhair/wp-content/uploads/2023/10/Bglierrefloute.png);
+  background-image: url(https://nouvelhair.web-byrom.com/wp-content/uploads/2023/10/Bglierrefloute.png);
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -1782,7 +1783,7 @@ fichier Css de la page index/ tous les Produits
   left: 0;
   z-index: -1;
   background-attachment: fixed;
-  background-image: url(http://localhost/nouvelhair/wp-content/uploads/2024/01/AdobeStock_467514218-scaled.jpeg);
+  background-image: url(https://nouvelhair.web-byrom.com/wp-content/uploads/2024/01/AdobeStock_467514218-scaled.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.4;
@@ -2055,7 +2056,7 @@ fichier Css de la page index/ tous les Produits
       -ms-flex-align: start;
           align-items: flex-start;
   background-attachment: fixed;
-  background-image: url(http://localhost/nouvelhair/wp-content/uploads/2024/01/AdobeStock_596727286-scaled.jpeg);
+  background-image: url(https://nouvelhair.web-byrom.com/wp-content/uploads/2024/01/AdobeStock_596727286-scaled.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.6rem;
@@ -2127,7 +2128,7 @@ fichier Css de la page index/ tous les Produits
   opacity: 0;
   font-style: oblique;
   font-weight: 800;
-  font-size: larger;
+  font-size: x-large;
   width: 100%;
   height: 6rem;
   background-color: #71b2cd;
@@ -2652,6 +2653,146 @@ mixin breakpoint
     margin: 1rem 0 1rem 0 !important;
   }
 }
+/******* Responsive Tèl***/
+@media screen and (max-width: 768px) {
+  .Nvh-nav-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Nvh-nav-menu .Nvh-icon-responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .Nvh-nav-menu .Nvh-collapse {
+    position: relative;
+    right: 0 !important;
+  }
+  .home .Nvh-coiffure-title {
+    font-size: 2.5rem;
+  }
+  .home .Nvh-col-prez-text {
+    width: -webkit-min-content !important;
+    width: -moz-min-content !important;
+    width: min-content !important;
+  }
+  .home .title-home-filter .title-produits {
+    font-size: 1.6rem;
+  }
+  .home .underlining {
+    margin: 0;
+  }
+  .home .Nvh-filter {
+    position: relative;
+    display: contents;
+  }
+  .home .Nvh-post-content {
+    width: auto;
+  }
+  .home .text-home {
+    width: 100vw;
+  }
+  .home .text-home .text-prez .Nvh-textqsj {
+    padding: 0;
+  }
+  .page-template-page-qui-suis-je .container-fluid {
+    --bs-gutter-x:0 !important;
+  }
+  .page-template-page-qui-suis-je .Nvh-coiffure-title {
+    margin: 1rem;
+  }
+  .page-template-page-qui-suis-je .Nvhqsj-text {
+    padding: 1rem;
+  }
+  .page-template-page-qui-suis-je .Nvhqsj-text .Nvh-qsj-img {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .blog .container-fluid {
+    --bs-gutter-x: 0;
+  }
+  .blog .Nvh-archive {
+    border-radius: 2%;
+  }
+  .page-template-archive-coiffure .flip-box {
+    width: 100vw !important;
+    height: 22rem;
+    margin: 0 !important;
+  }
+  .page-template-page-capillaire .Nvh-decript-capillaire {
+    padding: 0;
+  }
+  .page-template-page-capillaire .Nvh-decript-capillaire .Nvh-capillaire-texte {
+    padding: 0;
+    font-size: inherit;
+  }
+  .page-template-page-capillaire .Nvh-decript-capillaire .Nvh-capillaire-texte span {
+    padding: 0 !important;
+    font-size: inherit;
+  }
+  .page-template-page-capillaire .Nvh-img-descirpt-capillaire {
+    margin: 0 20px !important;
+  }
+  .page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-Capillaire {
+    width: 100vw !important;
+    margin: 0;
+    border-radius: 10px !important;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-Capillaire:before {
+    border-radius: 10px !important;
+  }
+  .page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-Capillaire p {
+    padding: 1rem;
+  }
+  .page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-capillaire2, .page-template-page-capillaire .Nvh-capillaire-ttt .Nvh-ttt-capillaire3 {
+    display: none !important;
+  }
+  .page-template-page-capillaire .Nvh-cure {
+    display: block !important;
+  }
+  .page-template-page-cote-massage .container-fluid {
+    --bs-gutter-x: 0 !important;
+  }
+  .page-template-page-cote-massage .Nvh-news {
+    width: 100vw;
+  }
+  .page-template-contact .container-fluid {
+    --bs-gutter-x:0 !important;
+  }
+  .page-template-contact .Nvh-contact-hours, .page-template-contact .Nvh-contact-conges, .page-template-contact .Nvh-contact-info, .page-template-contact .Nvh-lunaire {
+    width: 100vw;
+  }
+  .page-template-contact .Nvh-contact-hours img, .page-template-contact .Nvh-contact-conges img, .page-template-contact .Nvh-contact-info img, .page-template-contact .Nvh-lunaire img {
+    width: 100vw;
+  }
+}
 *,
 *::before,
 *::after {
@@ -2697,11 +2838,11 @@ nav {
   vertical-align: baseline;
   list-style: none;
   text-align: center;
+  letter-spacing: normal;
 }
 
 html,
 body {
-  height: 100%;
   margin: 0;
 }
 
@@ -2749,13 +2890,13 @@ nav {
 .nvh-header .nav_logo,
 nav .nav_logo {
   position: relative;
-  width: 225px;
+  width: 175px;
   -webkit-transform-origin: center center;
           transform-origin: center center;
 }
 .nvh-header .nav_logo .logo-img-header,
 nav .nav_logo .logo-img-header {
-  width: 200px;
+  width: 175px;
   height: auto;
   position: relative;
   -webkit-transition: width 4s, height 4s, -webkit-transform 4s;
@@ -2765,7 +2906,7 @@ nav .nav_logo .logo-img-header {
 }
 .nvh-header .nav_logo .logo-img-header:hover,
 nav .nav_logo .logo-img-header:hover {
-  width: 260px;
+  width: 250px;
   z-index: 10;
   height: auto;
   opacity: 1;
@@ -2802,14 +2943,14 @@ nav .Nvh-nav-menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   text-transform: capitalize;
-  font-size: 1.5rem;
 }
 .nvh-header .Nvh-nav-menu .collapse.Nvh-collapse,
 nav .Nvh-nav-menu .collapse.Nvh-collapse {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2825,6 +2966,8 @@ nav .Nvh-nav-menu .collapse.Nvh-collapse {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 1.3rem;
+  right: 3rem;
 }
 .nvh-header .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav,
 nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-primary-nav {
@@ -2903,7 +3046,7 @@ nav .Nvh-nav-menu .collapse.Nvh-collapse .Nvh-submenu-ul {
   position: absolute;
   opacity: 0;
   visibility: hidden;
-  font-size: large;
+  font-size: 1rem;
   padding-left: 5px;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -3095,13 +3238,12 @@ Footer
   height: -moz-min-content;
   height: min-content;
   min-height: 30vh;
-  width: 100vw;
   position: relative;
   overflow: hidden;
   background-attachment: fixed;
-  background-image: url(http://localhost/nouvelhair/wp-content/uploads/2024/01/AdobeStock_621848612_Preview.jpeg);
+  background-image: url(https://nouvelhair.web-byrom.com/wp-content/uploads/2024/01/AdobeStock_621848612_Preview.jpeg);
   background-size: cover;
-  background-position-y: 35em;
+  background-position-y: 15em;
   background-repeat: no-repeat;
   /*
       .Nvh-color-footer {

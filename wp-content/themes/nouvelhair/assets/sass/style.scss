@@ -70,13 +70,14 @@ nav {
     vertical-align: baseline;
     list-style: none;
     text-align: center;
+    letter-spacing: normal;
     //--bs-gutter-x: 0!important;
 
 }
 
 html,
 body {
-    height: 100%;
+   // height: 100%;
     margin: 0;
 }
 
@@ -109,13 +110,13 @@ nav {
 
     .nav_logo {
         position: relative;
-        width: 225px;
+        width: 175px;
         transform-origin: center center;
         //left: calc(-1% - 100px);
         //left: -20rem;
 
         .logo-img-header {
-            width: 200px;
+            width: 175px;
             height: auto;
             position: relative;
             
@@ -126,7 +127,7 @@ nav {
                 transform 4s;
 
             &:hover {
-                width: 260px;
+                width: 250px;
                 z-index: 10;
                 height: auto;
                 opacity: 1;
@@ -154,16 +155,19 @@ nav {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
         text-transform: capitalize;
-        font-size: 1.5rem;
+        //font-size: 1.2rem;
 
         .collapse.Nvh-collapse {
+            position: relative;
             display: flex;
             flex-direction: row;
             align-content: center;
             justify-content: center;
             align-items: center;
+            font-size: 1.3rem;
+            right: 3rem;
 
             .Nvh-primary-nav {
                 display: inline-flex;
@@ -234,7 +238,7 @@ nav {
                 position: absolute;
                 opacity: 0;
                 visibility: hidden;
-                font-size: large;
+                font-size: 1rem;
                 padding-left: 5px;
                 width: max-content;
                 background-color: #f8f8ffef;
@@ -401,14 +405,16 @@ Footer
     border: 1px solid $bordfootclr;
     height: min-content;
     min-height: 30vh;
-    width: 100vw;
+    //width: 100vw;
     position: relative;
     overflow: hidden;
     background-attachment: fixed;
     background-image: $bgIimgFooter;
     background-size: cover;
-    background-position-y: 35em;
+    background-position-y: 15em;
     background-repeat: no-repeat;
+    //margin-left: 0;
+    //background-color: blue;
     //background-color: transparent;
     //background-color: floralwhite;
     &::before {

@@ -28,7 +28,7 @@ $tempo-bg-icon: 0.5s;
 // trait sous le titre
 $Nvhtrtitle: linear-gradient(to left, $UnderLineFirst, $UnderLineSec, $UnderLineThi, $UnderLineFour);
 // image de fond du circle au niveau de la présentation
-$NvhimgNews: url(http://localhost/Nouvelhair/wp-content/uploads/2023/10/Bglierrefloute.png);
+$NvhimgNews: url(https://nouvelhair.web-byrom.com/wp-content/uploads/2023/10/Bglierrefloute.png);
 
 // Bordure texte de présentation et linear gradient du background du texte
 $TextPrezbord: lightgray;
@@ -93,7 +93,7 @@ $sintimpbg: linear-gradient(295deg, rgba(113, 166, 209, 0.9019607843) 50%, white
 //archive texte pairs
 $siintpbg:linear-gradient(295deg, rgb(166, 247, 208) 50%, white 77%);
 //page archive(tous les articles)
-$bgarchlierre: url(http://localhost/Nouvelhair/wp-content/uploads/2023/10/Bglierrefloute.png);
+$bgarchlierre: url(https://nouvelhair.web-byrom.com/wp-content/uploads/2023/10/Bglierrefloute.png);
 //Footer couleur
 $bordfootclr: lightgray;
 $footlinbg: linear-gradient(295deg, rgb(166, 247, 208) 50%, white 77%);
@@ -116,9 +116,12 @@ $AyurFontcolor: rgb(28 143 133);
 //background-color button plus d'infos
 $bgplusInfo: linear-gradient(295deg, rgba(127, 183, 229, 0.902) 50%, white 77%); 
 $bgplushover: linear-gradient(295deg,white 50%, rgba(127, 183, 229, 0.902) 77%);
-
+// background-image cure capillaire
+$bgcureCapilaire : url(https://nouvelhair.web-byrom.com/wp-content/uploads/2024/01/AdobeStock_596727286-scaled.jpeg);
+//background-image description capillaire
+$bgDescriptCapillair : url(https://nouvelhair.web-byrom.com/wp-content/uploads/2024/01/AdobeStock_467514218-scaled.jpeg);
 // image de fond du footer 
-$bgIimgFooter : url(http://localhost/nouvelhair/wp-content/uploads/2024/01/AdobeStock_621848612_Preview.jpeg);
+$bgIimgFooter : url(https://nouvelhair.web-byrom.com/wp-content/uploads/2024/01/AdobeStock_621848612_Preview.jpeg);
 // police du site
 $Greatv : "Great Vibes";
 $dancings: "Dancing Script";

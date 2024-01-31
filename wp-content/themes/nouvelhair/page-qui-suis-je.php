@@ -21,7 +21,7 @@ defined('ABSPATH') or exit;
 <div class="underlining">
         <span class="Nvh-border-bottom"></span>
     </div>
-<section class="Nvh-qsj-img container">
+<section class="Nvh-qsj-img container-fluid">
     <div class="Nvhqsj-text Nvh-col-qsjz-text">
         <?php
         $textqsj = get_field('texte_de_presentation_de_la_page_qui_suis-je');
