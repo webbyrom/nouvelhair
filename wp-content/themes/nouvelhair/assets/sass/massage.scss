@@ -28,6 +28,12 @@ Page Côté massage
                 border-radius: 1rem;
                 box-shadow: 10px 5px 20px grey;
                 transition: box-shadow .8s ease-in-out;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-content: space-around;
+                justify-content: center;
+                align-items: center;
 
                 &:hover {
                     box-shadow: none;

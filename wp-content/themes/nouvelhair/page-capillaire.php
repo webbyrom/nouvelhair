@@ -29,23 +29,30 @@ get_header() ?>
         <div class="Nvh-decript-capillaire container-fluid">
             <?php
             $DescriptCapillaire = get_post_meta($post->ID, 'description_microscopie_capillaaire', true);
-            // Extraire le texte et l'image de la variable.
+            // Extraire le texte et les images de la variable.
             $texte = wp_strip_all_tags($DescriptCapillaire); // Supprimer les balises pour obtenir seulement le texte.
-            $image = preg_match('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $DescriptCapillaire, $matches) ? $matches[1] : '';
-            if (!empty($texte)) {
 
+            preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $DescriptCapillaire, $matches);
+            $images = $matches[1];
+
+            if (!empty($texte)) {
                 // Afficher le texte sécurisé dans une balise <p>.
                 echo '<p class="Nvh-capillaire-texte container">' . '<span>' . wp_kses_post($texte) . '</span>' . '</p>';
             }
-            if (!empty($image)) {
-                // Afficher l'image dans une balise <div>.
-                echo '<div class="Nvh-img-capillaire container-fluid"><img src="' . esc_url($image) . '" class="Nvh-capillaire-imgdescp img-fluid" alt="Description de l\'image"></div>';
+
+            // Afficher les images dans une balise <div>.
+            echo '<div class="Nvh-cpaillaire-2img container-fluid">';
+            if (!empty($images)) {
+               
+                foreach ($images as $img) {
+                    echo '<div class="Nvh-img-capillaire container-fluid"><img src="' . esc_url($img) . '" class="Nvh-capillaire-imgdescp img-fluid" alt="Description de l\'image"></div>';
+                }
+                
             }
-
+            echo '</div>';
             ?>
-
-
         </div>
+
         <div class="Nvh-img-descirpt-capillaire container-fluid">
             <h2 class="Nvh-capillaire-default">Les problèmatiques rencontrées peuvent être:</h2>
 
@@ -131,7 +138,7 @@ get_header() ?>
                     if (!empty($cure_home) && !empty($sold_parts)) {
                         echo '<div class="Nvh-homet-cure">';
                         echo '<p class="Nvh-cure-homet">' . strip_tags($cure_home) . '</p>';
-                        echo '<p class="Nvh-parts-sold">' . 'pour un coût de ' .'<span class="Nvh-pdt-home">' . $sold_parts . '€ttc'. '</span>' . '</p>';
+                        echo '<p class="Nvh-parts-sold">' . 'pour un coût de ' . '<span class="Nvh-pdt-home">' . $sold_parts . '€ttc' . '</span>' . '</p>';
                         echo '</div>';
                     }
 
@@ -158,7 +165,7 @@ get_header() ?>
                     if (!empty($cure_salon) && !empty($total_pdt_salon)) {
                         echo '<div class="Nvh-cure-salont container-fluid">';
                         echo '<p class="Nvh-cure-salonp">' . strip_tags($cure_salon) . '</p>';
-                        echo '<p class"= Nvh-total-pdt-cure-salon">'. "pour un coût de " .'<span class="Nvh-total-pdt-salon">'. $total_pdt_salon . "€ttc". '</span>'.  '</p>';
+                        echo '<p class"= Nvh-total-pdt-cure-salon">' . "pour un coût de " . '<span class="Nvh-total-pdt-salon">' . $total_pdt_salon . "€ttc" . '</span>' .  '</p>';
                         echo '</div>';
                     }
 

@@ -50,9 +50,10 @@ single massage
                     .Nvh-single-texte-ayur {
                         display: flex;
                         flex-direction: row;
-                        flex-wrap: wrap;
+                        flex-wrap: nowrap;
                         align-content: center;
                         justify-content: center;
+                        align-items: flex-start;
 
                         // align-items: center;
                         .underlining-ayurv {

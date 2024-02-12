@@ -230,10 +230,15 @@ home-post
           transform: scale(1.2);
 }
 
+.Nvh-facebook {
+  display: none;
+}
+
 /******
 button filter
 */
 .filter-button {
+  width: 10rem !important;
   line-height: 1rem !important;
   background-color: rgba(113, 166, 209, 0.9019607843);
   border: none;
@@ -256,6 +261,23 @@ button filter
   height: 2rem;
   margin-bottom: 6rem;
   padding-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .Nvh-filter .active {
   background-color: white;
@@ -469,6 +491,10 @@ button filter
           transform: translateY(-18px);
   -webkit-box-shadow: 1px 2px 11px lightgrey;
           box-shadow: 1px 2px 11px lightgrey;
+}
+.Nvh-home .Nvh-post-content .Nvh-card-home .Nvh-post-text .Nvh-card-price {
+  font-size: larger;
+  color: rgb(28, 143, 133);
 }
 .Nvh-home .Nvh-post-content .Nvh-card-home a.btn-Nvh-color {
   display: inline-block;
@@ -739,6 +765,23 @@ Page Côté massage
   transition: -webkit-box-shadow 0.8s ease-in-out;
   transition: box-shadow 0.8s ease-in-out;
   transition: box-shadow 0.8s ease-in-out, -webkit-box-shadow 0.8s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .page-template-page-cote-massage .Nvh-ayur-massage .Nvh-type-massage .Nvh-ayr-texte:hover {
   -webkit-box-shadow: none;
@@ -1146,6 +1189,19 @@ single coiffure
 .archive.tax-coupe .Nvh-coiffures .flip-box .front .Nvh-cote-coif, .archive.tax-coupe .Nvh-coiffure-post .flip-box .back .Nvh-cote-coif,
 .archive.tax-coupe .Nvh-coiffure-post .flip-box .front .Nvh-cote-coif {
   width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .single-coiffure .Nvh-coiffures .flip-box .back .Nvh-cote-coif a,
 .single-coiffure .Nvh-coiffures .flip-box .front .Nvh-cote-coif a, .single-coiffure .Nvh-coiffure-post .flip-box .back .Nvh-cote-coif a,
@@ -1393,13 +1449,16 @@ single massage
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 .single-ayurvedique .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .underlining-ayurv, .archive.tax-massage .Nvh-main .Nvh-article-ayur .Nvh-sing-ayur .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .underlining-ayurv {
   height: 2px;
@@ -1768,8 +1827,41 @@ fichier Css de la page index/ tous les Produits
             transform: rotate(360deg);
   }
 }
-.page-template-page-capillaire .Nvh-descript-capillaire .Nvh-decript-capillaire .Nvh-capillaire-imgdescp {
+.page-template-page-capillaire .Nvh-descript-capillaire .Nvh-decript-capillaire .Nvh-cpaillaire-2img {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  opacity: 0;
+}
+.page-template-page-capillaire .Nvh-descript-capillaire .Nvh-decript-capillaire .Nvh-cpaillaire-2img .Nvh-img-capillaire {
+  width: auto;
+  margin: 0;
+}
+.page-template-page-capillaire .Nvh-descript-capillaire .Nvh-decript-capillaire .Nvh-cpaillaire-2img .Nvh-img-capillaire .Nvh-capillaire-imgdescp {
   border-radius: 1rem;
+}
+.page-template-page-capillaire .Nvh-descript-capillaire .Nvh-decript-capillaire .Nvh-cpaillaire-2img .Nvh-img-capillaire:nth-child(odd) {
+  margin-right: 1rem;
+}
+.page-template-page-capillaire .Nvh-descript-capillaire .Nvh-anime-img {
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity: 1 !important;
 }
 .page-template-page-capillaire .Nvh-descript-capillaire .Nvh-img-descirpt-capillaire {
   position: relative;
@@ -2159,7 +2251,8 @@ fichier Css de la page index/ tous les Produits
   padding: 1rem;
   margin: 2rem 0;
 }
-.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-total-cure-home, .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-total-cure-salon,
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-total-cure-home,
+.page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-maison .Nvh-total-cure-salon,
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon .Nvh-total-cure-home,
 .page-template-page-capillaire .Nvh-capillaire-tarif .Nvh-tarf-microcapillaire .Nvh-cure .Nvh-cure-salon .Nvh-total-cure-salon {
   opacity: 0;
@@ -2693,31 +2786,88 @@ mixin breakpoint
     position: relative;
     right: 0 !important;
   }
+  .Nvh-nav-menu .Nvh-collapse .Nvh-primary-nav .sub-menu {
+    display: none !important;
+  }
   .home .Nvh-coiffure-title {
     font-size: 2.5rem;
+  }
+  .home .Nvh-cadre {
+    margin-bottom: 2rem;
   }
   .home .Nvh-col-prez-text {
     width: -webkit-min-content !important;
     width: -moz-min-content !important;
     width: min-content !important;
   }
-  .home .title-home-filter .title-produits {
+  .home .Nvh-facebook {
+    display: none;
+  }
+  .home .Nvh-section-parts {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home .Nvh-section-parts .title-home-filter {
+    position: relative;
+    top: -4rem;
+    margin-bottom: 3rem;
+  }
+  .home .Nvh-section-parts .title-home-filter .title-produits {
     font-size: 1.6rem;
   }
-  .home .underlining {
+  .home .Nvh-section-parts .underlining {
+    top: -7rem;
     margin: 0;
   }
-  .home .Nvh-filter {
+  .home .Nvh-section-parts .Nvh-filter {
     position: relative;
-    display: contents;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .home .Nvh-post-content {
+  .home .Nvh-section-parts .Nvh-filter .filter-button {
+    width: auto;
+    margin-bottom: 1rem;
+  }
+  .home .Nvh-section-parts .Nvh-post-content {
     width: auto;
   }
-  .home .text-home {
+  .home .Nvh-section-parts .text-home {
     width: 100vw;
   }
-  .home .text-home .text-prez .Nvh-textqsj {
+  .home .Nvh-section-parts .text-home .text-prez .Nvh-textqsj {
     padding: 0;
   }
   .page-template-page-qui-suis-je .container-fluid {
@@ -2783,6 +2933,99 @@ mixin breakpoint
   .page-template-page-cote-massage .Nvh-news {
     width: 100vw;
   }
+  .single-post .container-fluid {
+    --bs-gutter-x: 0 !important;
+  }
+  .single-post .Nvh-coiffure-title {
+    font-size: xx-large;
+  }
+  .page-template-page-cote-massage .container-fluid {
+    --bs-gutter-x: 0 !important;
+  }
+  /******
+  page single-ayurvédique
+  ***/
+  .single-ayurvedique .container-fluid {
+    --bs-gutter-x: 0 !important;
+  }
+  .single-ayurvedique .Nvh-title-single-ayur {
+    font-size: xx-large;
+  }
+  .single-ayurvedique .Nvh-ayur-sing-prez {
+    /*  display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;*/
+  }
+  .single-ayurvedique .Nvh-ayur-sing-prez .Nvh-single-texte-ayur {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .single-ayurvedique .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-desc-ayurv-single, .single-ayurvedique .Nvh-ayur-sing-prez .Nvh-single-texte-ayur .Nvh-ayurvbf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: auto !important;
+  }
+  .single-ayurvedique .Nvh-single-ayur-video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .single-ayurvedique .Nvh-single-ayur-video .Nvh-title-ayurv-video {
+    padding: 1rem;
+    text-align: center;
+  }
+  .single-ayurvedique .Nvh-single-ayur-video .youtube-video iframe {
+    width: 395px !important;
+  }
+  .single-ayurvedique .Nvh-single-ayur-video .Nvh-content-ayur-vide {
+    width: 100vw;
+  }
+  .single-ayurvedique .Nvh_pagination_single .Nvh-paginate-snpp .Nvh-paginate-link-single img, .single-ayurvedique .Nvh_pagination_single .Nvh-pagiante-snnp .Nvh-paginate-link-single img {
+    width: 55px !important;
+  }
   .page-template-contact .container-fluid {
     --bs-gutter-x:0 !important;
   }
@@ -2791,6 +3034,25 @@ mixin breakpoint
   }
   .page-template-contact .Nvh-contact-hours img, .page-template-contact .Nvh-contact-conges img, .page-template-contact .Nvh-contact-info img, .page-template-contact .Nvh-lunaire img {
     width: 100vw;
+  }
+  .Nvh_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Nvh_footer .footer_col {
+    width: 50%;
   }
 }
 *,

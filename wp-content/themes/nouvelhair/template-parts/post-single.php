@@ -19,9 +19,15 @@
             <div class="Nvh-single-price container">
                 <?php
                 $PriceProduct = get_field('prix');
-                if (!empty($PriceProduct)) {
+                $PricePartMax = get_field('prix_maximum');
+                if (!empty($PriceProduct) && empty($PricePartMax)) {
                     echo '<span class="Nvh-single-product-price">' . $PriceProduct . ' €ttc' . '</span>';
-                }
+                }else {
+                    if(!empty($PriceProduct) && !empty($PricePartMax)) {
+                        //var_dump($PricePartMax);
+                        echo '<span class="Nvh-single-product-price">'. 'de ' . $PriceProduct . '€'. ' à '. $PricePartMax. '€'. ''. 'TTC'. '</span>';
+                }else echo ' Les prix vont être mis à jour';
+            }
                 ?>
             </div>
     </article>

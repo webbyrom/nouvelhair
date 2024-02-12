@@ -13,6 +13,8 @@
     <meta property="og:description" content="salon de coiffure, salon de coiffure naturel, salon de coiffure végétal, coupe homme, coupe femme, coupe enfant, massage ayurvedique, salon coiffure 69590, salon de coiffure Saint Symphorien sur Coise">
     <meta name="robots" content="follow, index, max-immage-preview:-1, max-video-preview:-1">
     <meta name="googlebot" content="follow, index, max-image-preview:-1, max-video-preview:-1">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v19.0" nonce="JUVkvkUu"></script>
     <title content="coiffure naturelle et végétale à Saint-Symphorien-sur-Coise"><?php the_title() ?> <?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 </head>

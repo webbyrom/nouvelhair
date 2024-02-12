@@ -39,8 +39,13 @@
             <div class="Nvh-single-price container">
                 <?php
                 $PriceProduct = get_field('prix');
-                if (!empty($PriceProduct)) {
+                $PricePartMax = get_field('prix_maximum');
+                if (!empty($PriceProduct) && empty($PricePartMax)) {
                     echo '<span class="Nvh-single-product-price">' . $PriceProduct . ' €' . ' TTC' . '</span>';
+                }else{
+                    if (!empty($PriceProduct)&& !empty($PricePartMax)) {
+                        echo '<span class="Nvh-card-price">'. 'de ' . $PriceProduct . '€'. ' à '. $PricePartMax. '€'. ''. 'TTC'. '</span>';
+                    }
                 }
                 ?>
             </div>

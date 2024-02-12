@@ -251,6 +251,7 @@ mixin breakpoint
             }
         }
     }//animation navbar avec le burger
+    
     // page d'accueil 
     .home {
         .Nvh-cadre {
@@ -402,6 +403,12 @@ mixin breakpoint
         .Nvh-collapse {
             position: relative;
             right: 0 !important;
+            .Nvh-primary-nav {
+                .sub-menu {
+                    display: none !important;
+                }
+            }
+            
         }
     }
     //page Accueil
@@ -410,33 +417,66 @@ mixin breakpoint
         .Nvh-coiffure-title {
             font-size: 2.5rem;
         }
+        .Nvh-cadre {
+            margin-bottom: 2rem;
+        }
         .Nvh-col-prez-text {
             width: min-content !important;
         }
-        .title-home-filter {
-            .title-produits {
-                font-size: 1.6rem;
-            }
+        .Nvh-facebook {
+            display: none;
+        }
+        .Nvh-section-parts {
+            width: min-content;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
             
-        }
-        .underlining {
-            margin: 0;
-        }
-        .Nvh-filter {
-            position: relative;
-            display: contents;
-        }
-        .Nvh-post-content {
-            width: auto;
-        }
-        .text-home {
-            width: 100vw;
-            .text-prez {
-                .Nvh-textqsj {
-                    padding: 0;
+            .title-home-filter {
+                position: relative;
+                top: -4rem;
+                margin-bottom: 3rem;
+                .title-produits {
+                    font-size: 1.6rem;
+                }
+                
+            }
+            .underlining {
+                top: -7rem;
+                margin: 0;
+            }
+            .Nvh-filter {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+    
+                .filter-button {
+                    width: auto;
+                    margin-bottom: 1rem;
+                    
+                }
+                
+            }
+            .Nvh-post-content {
+                width: auto;
+            }
+            .text-home {
+                width: 100vw;
+                .text-prez {
+                    .Nvh-textqsj {
+                        padding: 0;
+                    }
                 }
             }
         }
+        
     }
 
     //page qui suis je
@@ -525,6 +565,90 @@ mixin breakpoint
 
         }
     }
+    .single-post {
+        .container-fluid {
+            --bs-gutter-x: 0 !important;
+        }
+        
+        .Nvh-coiffure-title {
+            font-size: xx-large;
+        }
+    }
+    .page-template-page-cote-massage {
+        .container-fluid {
+            --bs-gutter-x: 0 !important;
+        }
+    
+
+    }
+    /******
+    page single-ayurvédique
+    ***/
+    .single-ayurvedique {
+        .container-fluid {
+            --bs-gutter-x: 0 !important;
+        }
+        .Nvh-title-single-ayur {
+            font-size: xx-large;
+        }
+        .Nvh-ayur-sing-prez {
+          /*  display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;*/
+            .Nvh-single-texte-ayur {
+                width: auto;
+                display: flex;
+                flex-direction: column!important;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                .Nvh-desc-ayurv-single, .Nvh-ayurvbf {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    width: auto !important;
+                }
+                
+            }
+        }
+        
+        .Nvh-single-ayur-video {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            .Nvh-title-ayurv-video {
+                padding: 1rem;
+                text-align: center;
+            }
+            .youtube-video {
+                //width: auto;
+                iframe {
+                    width: 395px !important;
+                }
+            }
+            .Nvh-content-ayur-vide {
+                width: 100vw;
+            }
+        }
+        .Nvh_pagination_single {
+            .Nvh-paginate-snpp, .Nvh-pagiante-snnp {
+                .Nvh-paginate-link-single{
+                    img {
+                        width: 55px !important;
+                    }
+                }
+                
+            }
+            
+        }
+    }
     .page-template-contact {
         .container-fluid {
             --bs-gutter-x:0 !important;
@@ -537,5 +661,16 @@ mixin breakpoint
                
             
         }
+    }
+    .Nvh_footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        .footer_col {
+            width: 50%;
+        }
+
     }
 }

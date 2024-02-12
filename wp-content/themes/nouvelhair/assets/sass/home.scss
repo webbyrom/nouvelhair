@@ -144,11 +144,14 @@ home-post
         transform: scale(1.2); // Agrandir l'image au survol
     }
 }
-
+.Nvh-facebook {
+    display: none;
+}
 /******
 button filter
 */
 .filter-button {
+    width: 10rem !important;
     //width: 120px !important;
     line-height: 1rem !important;
     background-color: $bgfilter;
@@ -174,6 +177,12 @@ button filter
     height: 2rem;
     margin-bottom: 6rem;
     padding-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 
     .active {
         background-color: $filterActbg;
@@ -347,6 +356,11 @@ button filter
                 &:hover {
                     transform: translateY(-18px);
                     box-shadow: 1px 2px 11px $bstextcard;
+
+                }
+                .Nvh-card-price {
+                    font-size: larger;
+                    color: $AyurFontcolor;
 
                 }
             }

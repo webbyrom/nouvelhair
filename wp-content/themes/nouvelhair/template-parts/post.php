@@ -35,12 +35,17 @@
             <?php
             $produitdescription = get_field('description_du_produit');// récupération du champ text
             $prodPrice = get_field('prix');//récupération du champ pour le tarif
+            $prodPricMax = get_field('prix_maximum');
             if (!empty($produitdescription)) {
                 $Nvh_excerpt = Nvh_custom_excerpt_length($produitdescription, 20);// Limite l'extrait à 30 mots
                 //var_dump($Nvh_excerpt); die;
                 echo '<p class="Nvh-product-description container">'. $Nvh_excerpt . '</p>';
-                if (!empty($prodPrice)) {
+                if (!empty($prodPrice) && empty($prodPricMax)) {
                     echo '<span class="Nvh-card-price">' . $prodPrice . ' €' .''. ' TTC'. '</span>';
+                }else {
+                    if (!empty($prodPrice)&& !empty($prodPricMax)) {
+                        echo '<span class="Nvh-card-price">'. 'de ' . $prodPrice . '€'. ' à '. $prodPricMax. '€'. ''. 'TTC'. '</span>';
+                    }
                 }
             } else {
                 the_excerpt();

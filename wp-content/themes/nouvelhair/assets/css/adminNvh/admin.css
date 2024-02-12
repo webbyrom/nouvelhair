@@ -78,3 +78,13 @@ dashboard partenaires
     color: white;
     background-color: rgb(240, 120, 120);
 }
+/*******
+Dashboard Vidéo 
+*/
+.wp-admin #toplevel_page_page-admin-videos a.toplevel_page_page-admin-videos .dashicons-video-alt:before {
+    color: rgb(243, 57, 57);
+}
+.wp-admin #toplevel_page_page-admin-videos a.toplevel_page_page-admin-videos:hover {
+    color: rgb(255, 253, 253);
+    background-color: darkred;
+}

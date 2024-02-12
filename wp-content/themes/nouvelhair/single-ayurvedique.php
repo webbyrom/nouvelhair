@@ -79,7 +79,9 @@ get_header();
                     $VideAyur = get_field('texte_et_ou_video_');
                     if (!empty($VideAyur)):
                     ?>
-                    <h3 class="Nvh-title-ayurv-video">titre a n'afficher que si une vidéo est disponible</h3>
+                    <div class="Nvh-title-singAyurVideo container-fluid">
+                       <h3 class="Nvh-title-ayurv-video"><?php the_title(); ?></h3>
+                    </div>
                     <div class="Nvh-content-ayur-vide container-fluid">
                         <?php echo $VideAyur;?>
                     </div>

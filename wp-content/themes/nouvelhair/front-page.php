@@ -62,52 +62,60 @@ get_header() ?>
                     <div id="Nvh_part_anchor"></div>
                 </div>
             </div>
-            <div class="title-home-filter">
-                <h2 class="title-produits" id="produits_anchor">Les Produits disponibles en Salon</h2>
-            </div>
-            <div class="underlining">
-                <span class="Nvh-border-bottom"></span>
-            </div>
-            <div class="Nvh-filter container-fluid">
-                <!---------début filtre------>
-                <button class="filter-button show-all-button" data-filter="all">Tout Afficher</button>
-                <?php
-                $categories = get_categories(); // Récupère toutes les catégories
-                foreach ($categories as $category) {
-                    echo '<button class="filter-button" data-filter="' . $category->slug . '">' . $category->name . '</button>';
-                }
-                ?>
-                <!---------fin filtre------>
+            <section class="Nvh-facebook">
+                <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100084378414552" data-tabs="timeline,events" data-width="550px" data-height="550px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/profile.php?id=100084378414552" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100084378414552">Nouvel Hair</a></blockquote>
+                </div>
+            </section>
+            <section class="Nvh-section-parts container-fluid">
+                <div class="title-home-filter">
+                    <h2 class="title-produits" id="produits_anchor">Les Produits disponibles en Salon</h2>
+                </div>
+                <div class="underlining">
+                    <span class="Nvh-border-bottom"></span>
+                </div>
+                <div class="Nvh-filter container-fluid">
+                    <!---------début filtre------>
+                    <button class="filter-button col-xl-2 col-sm-6 show-all-button" data-filter="all">Tout Afficher</button>
+                    <?php
+                    $categories = get_categories(); // Récupère toutes les catégories
+                    foreach ($categories as $category) {
+                        echo '<button class="filter-button col-xl-2 col-sm-6" data-filter="' . $category->slug . '">' . $category->name . '</button>';
+                    }
+                    ?>
+                    <!---------fin filtre------>
 
-            </div>
-            <div class="Nvh-post-content overflow-hidden filtered-articles container-fluid" id="Nvh_post_content">
-                <?php
-                // $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+                </div>
+                <div class="Nvh-post-content overflow-hidden filtered-articles container-fluid" id="Nvh_post_content">
+                    <?php
+                    // $paged = get_query_var('paged') ? get_query_var('paged') : 1;
 
-                $args = array(
-                    'post_type' => 'post', // Type de contenu (articles)
-                    //'posts_per_page' => 4, // Nombre d'articles à afficher (-1 pour tous)
-                    'post_status' => 'publish',
-                    // 'orderby'    => 'post_date',
-                    //  'order'  => 'ASC',
-                    'paged' => get_query_var('paged'),
+                    $args = array(
+                        'post_type' => 'post', // Type de contenu (articles)
+                        //'posts_per_page' => 4, // Nombre d'articles à afficher (-1 pour tous)
+                        'post_status' => 'publish',
+                        // 'orderby'    => 'post_date',
+                        //  'order'  => 'ASC',
+                        'paged' => get_query_var('paged'),
 
-                );
-                $query = new WP_Query($args);
+                    );
+                    $query = new WP_Query($args);
 
-                if (have_posts()) :
-                    ob_start();
-                    while ($query->have_posts()) : $query->the_post();
-                        // Affichez ici le contenu des articles 
-                        get_template_part('template-parts/post');
-                    endwhile;
-                endif;
-                // Ajoutez la pagination
-                ob_end_flush();
-                wp_reset_postdata();
-                ?>
-            </div>
+                    if (have_posts()) :
+                        ob_start();
+                        while ($query->have_posts()) : $query->the_post();
+                            // Affichez ici le contenu des articles 
+                            get_template_part('template-parts/post');
+                        endwhile;
+                    endif;
+                    // Ajoutez la pagination
+                    ob_end_flush();
+                    wp_reset_postdata();
+                    ?>
+                </div>
+            </section>
         </div>
+
     </div>
     <div class="Nvh-espacement container-fluid"></div>
 </div>
